@@ -1,0 +1,898 @@
+{
+  "id": "stage30",
+  "source_id": "S15",
+  "title": "そっくりな他人",
+  "chapter": "第4章",
+  "stage": 15,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "show_draft_notice": false,
+  "composite_mode": 0,
+  "background_a": "res://art/adv/diorama_ch3_review/paper_road_stage_v2.png",
+  "staging": "res://data/adv/diorama_ch4_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/chapter4_stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "arachne": {
+      "name": "アラクネ"
+    },
+    "slime": {
+      "name": "スライム"
+    },
+    "flare": {
+      "name": "フレア"
+    },
+    "soldier": {
+      "name": "王国兵"
+    },
+    "bishop": {
+      "name": "大司教"
+    },
+    "priest": {
+      "name": "司祭"
+    },
+    "priests": {
+      "name": "司祭たち"
+    },
+    "child": {
+      "name": "子供"
+    },
+    "narrator": {
+      "name": ""
+    },
+    "bell": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "soldier",
+      "text": "止まれ！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "S15_C01",
+      "accents": {
+        "soldier": "exclaim"
+      },
+      "music": "comic",
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 2,
+      "speaker": "hinata",
+      "text": "止まってるっす！　そっちから来てるんすよ！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S15_C02",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 3,
+      "speaker": "soldier",
+      "text": "返せ！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "S15_C03",
+      "accents": {
+        "soldier": "grumble"
+      },
+      "music": "comic",
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 4,
+      "speaker": "kraken",
+      "text": "振り回すから預かってるのよ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S15_C04",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 5,
+      "speaker": "hinata",
+      "text": "保護者みたいになってるっすね。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S15_C05",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 6,
+      "speaker": "kraken",
+      "text": "もう振り回さない？",
+      "cast": [
+        "kraken",
+        "soldier"
+      ],
+      "cut": "S15_C06",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 7,
+      "speaker": "soldier",
+      "text": "振り回す！",
+      "cast": [
+        "kraken",
+        "soldier"
+      ],
+      "cut": "S15_C06",
+      "accents": {
+        "soldier": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 8,
+      "speaker": "kraken",
+      "text": "じゃあダメねえ。",
+      "cast": [
+        "kraken",
+        "soldier"
+      ],
+      "cut": "S15_C06",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 9,
+      "speaker": "slime",
+      "text": "通るねー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S15_C07",
+      "accents": {
+        "slime": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "comic"
+    },
+    {
+      "source_line": 10,
+      "speaker": "soldier",
+      "text": "通るな！",
+      "cast": [
+        "slime",
+        "soldier"
+      ],
+      "cut": "S15_C08",
+      "accents": {
+        "soldier": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 11,
+      "speaker": "flare",
+      "text": "――そこまでです。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C09",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 12,
+      "speaker": "soldier",
+      "text": "フレア殿下……！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "S15_C10",
+      "accents": {
+        "soldier": "sweat"
+      },
+      "music": "comic",
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 13,
+      "speaker": "flare",
+      "text": "武器を下ろしてください。私が話します。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C11",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 14,
+      "speaker": "flare",
+      "text": "私はフレア。この国の王女です。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C11",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 15,
+      "speaker": "hinata",
+      "text": "……あたし？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C12",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "comic"
+    },
+    {
+      "source_line": 16,
+      "speaker": "flare",
+      "text": "……私？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C12",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "comic"
+    },
+    {
+      "source_line": 17,
+      "speaker": "slime",
+      "text": "ヒナタがふたりいるー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S15_C13",
+      "accents": {
+        "slime": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 18,
+      "speaker": "hinata",
+      "text": "増えてないっす！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S15_C14",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 19,
+      "speaker": "kraken",
+      "text": "でも、よく似てるわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S15_C15",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 20,
+      "speaker": "flare",
+      "text": "その角と尾……あなたは？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C16",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 21,
+      "speaker": "hinata",
+      "text": "サラマンダーっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C16",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 22,
+      "speaker": "flare",
+      "text": "……その炎。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C17",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 23,
+      "speaker": "hinata",
+      "text": "おお。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C17",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 24,
+      "speaker": "slime",
+      "text": "火もいっしょー。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C17",
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1,
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 25,
+      "speaker": "flare",
+      "text": "これは、王家に代々伝わる炎です。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C17",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 26,
+      "speaker": "hinata",
+      "text": "へえ。あたしはサラマンダーなんで、火なら普通に出るっすけど。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S15_C17",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 27,
+      "speaker": "arachne",
+      "text": "顔だけならまだしも、炎まで似ているのは妙ですね。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S15_C19",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 28,
+      "speaker": "hinata",
+      "text": "地上に出てから分かんないこと増えてくっすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S15_C20",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 29,
+      "speaker": "flare",
+      "text": "……それで、あなたたちは何をしに来たのです？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C21",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 30,
+      "speaker": "hinata",
+      "text": "引っ越しっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C21",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 31,
+      "speaker": "flare",
+      "text": "……引っ越し？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C21",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1,
+      "music": "comic"
+    },
+    {
+      "source_line": 32,
+      "speaker": "arachne",
+      "text": "住民全員で、新しい住処を探しています。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S15_C22",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 33,
+      "speaker": "flare",
+      "text": "この人数で……。",
+      "cast": [],
+      "cut": "S15_C23",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 34,
+      "speaker": "kraken",
+      "text": "大所帯なのよねえ。",
+      "cast": [],
+      "cut": "S15_C23",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 35,
+      "speaker": "flare",
+      "text": "……分かりました。話を聞きます。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C24",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 36,
+      "speaker": "hinata",
+      "text": "助かるっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C24",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 37,
+      "speaker": "flare",
+      "text": "あなたのことも、その炎のことも気になります。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C24",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 38,
+      "speaker": "flare",
+      "text": "この人たちへの攻撃を止めてください。私が同行します。",
+      "cast": [
+        "flare",
+        "soldier"
+      ],
+      "cut": "S15_C25",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 39,
+      "speaker": "soldier",
+      "text": "……はっ。",
+      "cast": [
+        "flare",
+        "soldier"
+      ],
+      "cut": "S15_C25",
+      "accents": {},
+      "music": "comic"
+    },
+    {
+      "source_line": 40,
+      "speaker": "hinata",
+      "text": "おお。話が早いっす。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S15_C26",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "music": "comic",
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 0,
+      "speaker": "bell",
+      "text": "ゴォン――。",
+      "cast": [],
+      "cut": "S15_E40",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 41,
+      "speaker": "soldier",
+      "text": "……。",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "S15_C27",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 42,
+      "speaker": "soldier",
+      "text": "魔物は、ダンジョンにいるものです。",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "S15_C27",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 43,
+      "speaker": "flare",
+      "text": "……何をしているのです。武器を下ろしなさい。",
+      "cast": [
+        "flare",
+        "soldier"
+      ],
+      "cut": "S15_C28",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 44,
+      "speaker": "soldier",
+      "text": "魔物は、ダンジョンにいるものです。",
+      "cast": [
+        "flare",
+        "soldier"
+      ],
+      "cut": "S15_C28",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": -401,
+      "speaker": "kraken",
+      "text": "……ここにいるべきじゃ、ないのかしら。",
+      "recovery_insert": "bell_recovery_20260930",
+      "cut": "S15_RECOVERY",
+      "cast": [
+        "kraken",
+        "hinata",
+        "slime"
+      ],
+      "music": "mystery"
+    },
+    {
+      "source_line": 45,
+      "speaker": "slime",
+      "text": "……帰る？",
+      "cast": [
+        "kraken",
+        "hinata",
+        "slime"
+      ],
+      "cut": "S15_RECOVERY",
+      "music": "mystery",
+      "recovery_base": {
+        "source_line": 45,
+        "speaker": "slime",
+        "text": "……帰る？",
+        "cast": [
+          "slime",
+          "hinata"
+        ],
+        "cut": "S15_C29",
+        "accents": {
+          "slime": "question"
+        },
+        "accent_duration": 1.5,
+        "accent_delay": 0.06,
+        "music": "mystery"
+      }
+    },
+    {
+      "source_line": 46,
+      "speaker": "hinata",
+      "text": "帰らないっすよ。今から王女様に話を聞いてもらうんすから。",
+      "cast": [
+        "kraken",
+        "hinata",
+        "slime"
+      ],
+      "cut": "S15_RECOVERY",
+      "music": "mystery",
+      "recovery_base": {
+        "source_line": 46,
+        "speaker": "hinata",
+        "text": "え？",
+        "cast": [
+          "slime",
+          "hinata"
+        ],
+        "cut": "S15_C29",
+        "accents": {
+          "hinata": "question"
+        },
+        "music": "mystery",
+        "accent_duration": 1.5,
+        "accent_delay": 0.06
+      }
+    },
+    {
+      "source_line": -402,
+      "speaker": "kraken",
+      "text": "……そうね。まだ話の途中だったわ。",
+      "recovery_insert": "bell_recovery_20260930",
+      "cut": "S15_RECOVERY",
+      "cast": [
+        "kraken",
+        "hinata",
+        "slime"
+      ],
+      "music": "mystery"
+    },
+    {
+      "source_line": 47,
+      "speaker": "slime",
+      "text": "そっかー。まだ帰らないー。",
+      "cast": [
+        "kraken",
+        "hinata",
+        "slime"
+      ],
+      "cut": "S15_RECOVERY",
+      "music": "mystery",
+      "recovery_base": {
+        "source_line": 47,
+        "speaker": "slime",
+        "text": "……なんでもないー。",
+        "cast": [
+          "slime",
+          "hinata"
+        ],
+        "cut": "S15_C29",
+        "accents": {},
+        "music": "mystery"
+      }
+    },
+    {
+      "source_line": 48,
+      "speaker": "hinata",
+      "text": "……またこれっすね。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S15_C30",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 49,
+      "speaker": "kraken",
+      "text": "……あの兵士さん、さっきまで素直だったのにねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S15_C30",
+      "accents": {},
+      "music": "mystery",
+      "recovery_base": {
+        "source_line": 49,
+        "speaker": "kraken",
+        "text": "さっきまで素直だったのにねえ。",
+        "cast": [
+          "kraken",
+          "hinata"
+        ],
+        "cut": "S15_C30",
+        "accents": {},
+        "music": "mystery"
+      }
+    },
+    {
+      "source_line": 50,
+      "speaker": "flare",
+      "text": "……少し、心当たりがあります。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C31",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 51,
+      "speaker": "hinata",
+      "text": "心当たり？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C31",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "mystery"
+    },
+    {
+      "source_line": 52,
+      "speaker": "flare",
+      "text": "ええ。王都へ戻れば、何かわかるかもしれません。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C31",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 53,
+      "speaker": "hinata",
+      "text": "じゃあ、行ってみるっすか。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C31",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 54,
+      "speaker": "flare",
+      "text": "ええ。私が案内します。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S15_C31",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 55,
+      "speaker": "kraken",
+      "text": "これは、もう少し預かっておくわねえ。",
+      "cast": [
+        "kraken",
+        "soldier"
+      ],
+      "cut": "S15_C32",
+      "accents": {},
+      "music": "mystery"
+    },
+    {
+      "source_line": 56,
+      "speaker": "soldier",
+      "text": "返せ！",
+      "cast": [
+        "kraken",
+        "soldier"
+      ],
+      "cut": "S15_C32",
+      "accents": {
+        "soldier": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "mystery"
+    },
+    {
+      "source_line": 57,
+      "speaker": "hinata",
+      "text": "魔王様、行きましょう！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S15_C33",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "music": "mystery",
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 58,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S15_C34",
+      "accents": {},
+      "music": "mystery"
+    }
+  ],
+  "presentation_version": 2,
+  "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
+  "scenario_revision": "bell_recovery_20260930"
+}

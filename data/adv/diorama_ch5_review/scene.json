@@ -1,0 +1,881 @@
+{
+  "id": "stage40",
+  "source_id": "S20",
+  "title": "鐘の役目",
+  "chapter": "第5章",
+  "stage": 20,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "show_draft_notice": false,
+  "composite_mode": 0,
+  "background_a": "res://art/adv/diorama_ch5_review/paper_capital_v1.png",
+  "staging": "res://data/adv/diorama_ch5_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/chapter5_stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "arachne": {
+      "name": "アラクネ"
+    },
+    "slime": {
+      "name": "スライム"
+    },
+    "flare": {
+      "name": "フレア"
+    },
+    "soldier": {
+      "name": "王国兵"
+    },
+    "bishop": {
+      "name": "大司教"
+    },
+    "priest": {
+      "name": "司祭"
+    },
+    "priests": {
+      "name": "司祭たち"
+    },
+    "child": {
+      "name": "子供"
+    },
+    "narrator": {
+      "name": ""
+    },
+    "bell": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "slime",
+      "text": "人いっぱいー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C01",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "comic"
+    },
+    {
+      "source_line": 2,
+      "speaker": "hinata",
+      "text": "さすが王都っすねえ。",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "S20_C02",
+      "music": "comic"
+    },
+    {
+      "source_line": 3,
+      "speaker": "kraken",
+      "text": "見事に見られてるわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C03",
+      "music": "comic"
+    },
+    {
+      "source_line": 4,
+      "speaker": "child",
+      "text": "……さわっていい？",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C04",
+      "music": "comic",
+      "accents": {
+        "child": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 5,
+      "speaker": "slime",
+      "text": "いいよー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C04",
+      "music": "comic"
+    },
+    {
+      "source_line": 6,
+      "speaker": "child",
+      "text": "やわらかい！",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C04",
+      "music": "comic",
+      "accents": {
+        "child": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 7,
+      "speaker": "slime",
+      "text": "やわらかいー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C04",
+      "music": "comic",
+      "accents": {
+        "slime": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 8,
+      "speaker": "hinata",
+      "text": "……普通なんすね。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C05",
+      "music": "comic",
+      "accents": {
+        "hinata": "sweat"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 9,
+      "speaker": "flare",
+      "text": "ええ。最初から敵意があるわけではないんです。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C05",
+      "music": "comic"
+    },
+    {
+      "source_line": 10,
+      "speaker": "kraken",
+      "text": "なのに、鐘が鳴ると話が変わる。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C06",
+      "music": "comic"
+    },
+    {
+      "source_line": 11,
+      "speaker": "hinata",
+      "text": "心当たりって、あの鐘のことっすか？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C07",
+      "music": "comic",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 12,
+      "speaker": "flare",
+      "text": "正確には、鐘を管理している教会です。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C07",
+      "music": "comic"
+    },
+    {
+      "source_line": 13,
+      "speaker": "flare",
+      "text": "あれが王都の大聖堂です。国内の鐘は、教会が管理しています。",
+      "cast": [],
+      "cut": "S20_C08",
+      "music": "comic"
+    },
+    {
+      "source_line": 14,
+      "speaker": "hinata",
+      "text": "じゃあ、行ってみるっすか。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C09",
+      "music": "comic"
+    },
+    {
+      "source_line": 15,
+      "speaker": "flare",
+      "text": "ええ。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C09",
+      "music": "comic"
+    },
+    {
+      "source_line": 16,
+      "speaker": "hinata",
+      "text": "でっかい教会っすねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S20_C10",
+      "music": "sacred",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 17,
+      "speaker": "kraken",
+      "text": "引っ越し先には向かなそうねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S20_C10",
+      "music": "sacred"
+    },
+    {
+      "source_line": 18,
+      "speaker": "hinata",
+      "text": "候補に入れてないっすよ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S20_C10",
+      "music": "sacred",
+      "accents": {
+        "hinata": "grumble"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 19,
+      "speaker": "priests",
+      "text": "聖冠の加護を、この地の隅々まで。",
+      "cast": [],
+      "cut": "S20_C11",
+      "music": "sacred"
+    },
+    {
+      "source_line": 20,
+      "speaker": "flare",
+      "text": "……儀式が始まっています。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S20_C12",
+      "music": "sacred"
+    },
+    {
+      "source_line": 21,
+      "speaker": "priest",
+      "text": "人は地上に。",
+      "cast": [],
+      "cut": "S20_C13",
+      "music": "sacred"
+    },
+    {
+      "source_line": 22,
+      "speaker": "priests",
+      "text": "人は地上に。",
+      "cast": [],
+      "cut": "S20_C13",
+      "music": "sacred"
+    },
+    {
+      "source_line": 23,
+      "speaker": "priest",
+      "text": "魔はダンジョンに。",
+      "cast": [],
+      "cut": "S20_C13",
+      "music": "sacred"
+    },
+    {
+      "source_line": 24,
+      "speaker": "priests",
+      "text": "魔はダンジョンに。",
+      "cast": [],
+      "cut": "S20_C13",
+      "music": "sacred"
+    },
+    {
+      "source_line": 0,
+      "speaker": "bell",
+      "text": "ゴォン――。",
+      "cast": [],
+      "cut": "S20_E24",
+      "music": "mystery"
+    },
+    {
+      "source_line": 25,
+      "speaker": "kraken",
+      "text": "……。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 26,
+      "speaker": "arachne",
+      "text": "……。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S20_C15",
+      "music": "mystery"
+    },
+    {
+      "source_line": 27,
+      "speaker": "slime",
+      "text": "……。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C16",
+      "music": "mystery"
+    },
+    {
+      "source_line": 28,
+      "speaker": "hinata",
+      "text": "みんな？",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S20_C17",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06,
+      "music": "mystery"
+    },
+    {
+      "source_line": 29,
+      "speaker": "kraken",
+      "text": "……もう、帰った方がいい気がするわねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S20_C17",
+      "music": "mystery"
+    },
+    {
+      "source_line": 30,
+      "speaker": "arachne",
+      "text": "ええ。私たちは……ダンジョンにいるべきです。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S20_C18",
+      "music": "mystery"
+    },
+    {
+      "source_line": 31,
+      "speaker": "slime",
+      "text": "かえろー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C19",
+      "music": "mystery"
+    },
+    {
+      "source_line": 32,
+      "speaker": "hinata",
+      "text": "ええ！？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C20",
+      "music": "mystery",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 33,
+      "speaker": "hinata",
+      "text": "いやいや、ここまで引っ越してきたじゃないっすか！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C20",
+      "music": "mystery",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 34,
+      "speaker": "kraken",
+      "text": "……そうだったわね。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C21",
+      "music": "mystery"
+    },
+    {
+      "source_line": 35,
+      "speaker": "arachne",
+      "text": "今のは……私の考えではありませんでした。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S20_C22",
+      "music": "mystery"
+    },
+    {
+      "source_line": 36,
+      "speaker": "slime",
+      "text": "なんで帰ろうとしたんだっけー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S20_C23",
+      "music": "mystery",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 37,
+      "speaker": "flare",
+      "text": "……人間だけではなかった。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C24",
+      "music": "mystery"
+    },
+    {
+      "source_line": 38,
+      "speaker": "hinata",
+      "text": "え？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C24",
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 39,
+      "speaker": "flare",
+      "text": "鐘が鳴った時、魔物の皆さんにも同じような異変が起きている。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C24",
+      "music": "mystery"
+    },
+    {
+      "source_line": 40,
+      "speaker": "arachne",
+      "text": "だから今まで、誰も地上へ出ようとは……。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S20_C25",
+      "music": "mystery"
+    },
+    {
+      "source_line": 41,
+      "speaker": "kraken",
+      "text": "考える前から、“そういうもの”だったのねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C26",
+      "music": "mystery"
+    },
+    {
+      "source_line": 42,
+      "speaker": "hinata",
+      "text": "……だから、あたしが引っ越そうって言った時も。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C27",
+      "music": "mystery"
+    },
+    {
+      "source_line": 43,
+      "speaker": "hinata",
+      "text": "みんな、地上に住むって発想自体なかったんすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C27",
+      "music": "mystery"
+    },
+    {
+      "source_line": 44,
+      "speaker": "hinata",
+      "text": "……魔王様は？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C27",
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 45,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S20_C28",
+      "music": "mystery"
+    },
+    {
+      "source_line": 46,
+      "speaker": "kraken",
+      "text": "……いつも通りすぎて、効いてるのか分からないわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C29",
+      "music": "mystery",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 47,
+      "speaker": "hinata",
+      "text": "いや、たぶん大丈夫っす。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C30",
+      "music": "mystery"
+    },
+    {
+      "source_line": 48,
+      "speaker": "priest",
+      "text": "なぜ魔物がここに！",
+      "cast": [],
+      "cut": "S20_C31",
+      "music": "mystery",
+      "accents": {
+        "priest": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 49,
+      "speaker": "priest",
+      "text": "今、鐘は鳴ったはずだ……！",
+      "cast": [],
+      "cut": "S20_C31",
+      "music": "mystery",
+      "accents": {
+        "priest": "sweat"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 50,
+      "speaker": "priest",
+      "text": "なぜ、お前たちはまだここにいる……？",
+      "cast": [],
+      "cut": "S20_C31",
+      "music": "mystery"
+    },
+    {
+      "source_line": 51,
+      "speaker": "priest",
+      "text": "あり得ない……。",
+      "cast": [],
+      "cut": "S20_C31",
+      "music": "mystery",
+      "accents": {
+        "priest": "sweat"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 52,
+      "speaker": "priest",
+      "text": "聖冠の御力を受けた鐘が鳴ったというのに……！",
+      "cast": [],
+      "cut": "S20_C31",
+      "music": "mystery",
+      "accents": {
+        "priest": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 53,
+      "speaker": "hinata",
+      "text": "……せいかん？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C32",
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 54,
+      "speaker": "flare",
+      "text": "王家に伝わるものです。この国を守るものだと、私は教わっていました。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C32",
+      "music": "mystery"
+    },
+    {
+      "source_line": 55,
+      "speaker": "kraken",
+      "text": "今のを見る限り、ずいぶん変わった守り方ねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 56,
+      "speaker": "hinata",
+      "text": "じゃあ、この鐘がおかしいのって……それと関係あるんすか？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C34",
+      "music": "mystery"
+    },
+    {
+      "source_line": 57,
+      "speaker": "flare",
+      "text": "……分かりません。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C34",
+      "music": "mystery"
+    },
+    {
+      "source_line": 58,
+      "speaker": "flare",
+      "text": "でも、知らないままにはできません。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C34",
+      "music": "mystery"
+    },
+    {
+      "source_line": 59,
+      "speaker": "priest",
+      "text": "これ以上、聖冠について知る必要はない！",
+      "cast": [],
+      "cut": "S20_C35",
+      "music": "mystery",
+      "accents": {
+        "priest": "exclaim"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 60,
+      "speaker": "hinata",
+      "text": "そう言われると、余計聞きたくなるっすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C36",
+      "music": "mystery",
+      "accents": {
+        "hinata": "grumble"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 61,
+      "speaker": "kraken",
+      "text": "隠し事には向いてないわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C37",
+      "music": "mystery"
+    },
+    {
+      "source_line": 62,
+      "speaker": "flare",
+      "text": "……大司教なら知っているはずです。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C38",
+      "music": "mystery"
+    },
+    {
+      "source_line": 63,
+      "speaker": "hinata",
+      "text": "じゃあ、その人に聞きに行くっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C38",
+      "music": "mystery"
+    },
+    {
+      "source_line": 64,
+      "speaker": "flare",
+      "text": "ええ。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S20_C38",
+      "music": "mystery"
+    },
+    {
+      "source_line": 65,
+      "speaker": "slime",
+      "text": "もう鐘ならさない？",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "S20_C39",
+      "music": "mystery",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 66,
+      "speaker": "hinata",
+      "text": "できればやめてほしいっすね。",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "S20_C39",
+      "music": "mystery"
+    },
+    {
+      "source_line": 67,
+      "speaker": "kraken",
+      "text": "次は荷物ごと帰りかねないものねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S20_C40",
+      "music": "mystery"
+    },
+    {
+      "source_line": 68,
+      "speaker": "hinata",
+      "text": "魔王様、行きましょう！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S20_C41",
+      "music": "mystery",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.5,
+      "accent_delay": 0.06
+    },
+    {
+      "source_line": 69,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S20_C42",
+      "music": "mystery"
+    }
+  ],
+  "presentation_version": 2,
+  "bgm": "res://audio/adv/candidates_20260928/comic.mp3"
+}

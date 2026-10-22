@@ -1,0 +1,1710 @@
+{
+  "version": 1,
+  "source": "docs/story/2048_scenario_full_final.txt#S30",
+  "status": "user-authorized full route; final visual review pending",
+  "actor_order": [
+    "hinata",
+    "maou",
+    "kraken",
+    "arachne",
+    "slime",
+    "flare",
+    "soldier",
+    "bishop"
+  ],
+  "assets": {
+    "arachne_room": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_room.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false
+    },
+    "bishop_down": {
+      "image": "res://art/adv/clean_cel_20260928/bishop_down_crisp.png",
+      "anchor": [
+        0.53,
+        0.315
+      ],
+      "face_width": 0.15,
+      "chroma": false,
+      "face_scale": 0.85
+    },
+    "flare_listen": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "listen"
+    },
+    "flare_talk": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "talk"
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "hinata_composed_talk_reverse": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "maou_lift_angle": {
+      "image": "res://art/adv/clean_cel_20260930/maou_lift_angle_cutout.png",
+      "anchor": [
+        0.598,
+        0.123
+      ],
+      "face_width": 0.15,
+      "chroma": false
+    },
+    "maou_reply": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false
+    },
+    "maou_reply_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "flip_h": true
+    },
+    "slime_current_outfit": {
+      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
+      "anchor": [
+        0.551,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    }
+  },
+  "frames": [
+    {
+      "source_line": 1,
+      "cut": "S30_C01",
+      "actors": {},
+      "effect": "shards",
+      "cue": "shatter",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 1
+    },
+    {
+      "source_line": 2,
+      "cut": "S30_C01",
+      "actors": {},
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 2
+    },
+    {
+      "source_line": 3,
+      "cut": "S30_C01",
+      "actors": {},
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 3
+    },
+    {
+      "source_line": 4,
+      "cut": "S30_C02",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "bells_end",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 4
+    },
+    {
+      "source_line": 5,
+      "cut": "S30_C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 5
+    },
+    {
+      "source_line": 6,
+      "cut": "S30_C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 6
+    },
+    {
+      "source_line": 7,
+      "cut": "S30_C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 7
+    },
+    {
+      "source_line": 8,
+      "cut": "S30_C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 8
+    },
+    {
+      "source_line": 9,
+      "cut": "S30_C04",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 9
+    },
+    {
+      "source_line": 10,
+      "cut": "S30_C05",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "shards",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 10
+    },
+    {
+      "source_line": 11,
+      "cut": "S30_C06",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "last_shard",
+      "cue": "last_shard",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 11
+    },
+    {
+      "source_line": 12,
+      "cut": "S30_C06",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "last_shard",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 12
+    },
+    {
+      "source_line": 13,
+      "cut": "S30_C07",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "last_shard",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 13
+    },
+    {
+      "source_line": 14,
+      "cut": "S30_C08",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "last_shard",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 14
+    },
+    {
+      "source_line": 15,
+      "cut": "S30_C08",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "last_shard",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 15
+    },
+    {
+      "source_line": 16,
+      "cut": "S30_C09",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "rift",
+      "cue": "rift",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 16
+    },
+    {
+      "source_line": 17,
+      "cut": "S30_C10",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 17
+    },
+    {
+      "source_line": 18,
+      "cut": "S30_C11",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 18
+    },
+    {
+      "source_line": 19,
+      "cut": "S30_C11",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 19
+    },
+    {
+      "source_line": 0,
+      "actors": {},
+      "cut": "S30_E19",
+      "cue": "rupture",
+      "effect": "rift",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 20
+    },
+    {
+      "source_line": 20,
+      "cut": "S30_C12",
+      "actors": {},
+      "effect": "separation",
+      "cue": "separation",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 21
+    },
+    {
+      "source_line": 21,
+      "cut": "S30_C12",
+      "actors": {},
+      "effect": "separation",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 22
+    },
+    {
+      "source_line": 22,
+      "cut": "S30_C12",
+      "actors": {},
+      "effect": "separation",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 23
+    },
+    {
+      "source_line": 23,
+      "cut": "S30_C13",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 24
+    },
+    {
+      "source_line": 24,
+      "cut": "S30_C13",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 25
+    },
+    {
+      "source_line": 25,
+      "cut": "S30_C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 26
+    },
+    {
+      "source_line": 26,
+      "cut": "S30_C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 27
+    },
+    {
+      "source_line": 27,
+      "cut": "S30_C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 28
+    },
+    {
+      "source_line": 28,
+      "cut": "S30_C15",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 29
+    },
+    {
+      "source_line": 29,
+      "cut": "S30_C15",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 30
+    },
+    {
+      "source_line": 30,
+      "cut": "S30_C16",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 31
+    },
+    {
+      "source_line": 31,
+      "cut": "S30_C17",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 32
+    },
+    {
+      "source_line": 32,
+      "cut": "S30_C18",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 33
+    },
+    {
+      "source_line": 33,
+      "cut": "S30_C19",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_down",
+          "x": 0.5,
+          "y": 0.45
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 34
+    },
+    {
+      "source_line": 34,
+      "cut": "S30_C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 35
+    },
+    {
+      "source_line": 35,
+      "cut": "S30_C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 36
+    },
+    {
+      "source_line": 36,
+      "cut": "S30_C21",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 37
+    },
+    {
+      "source_line": 37,
+      "cut": "S30_C21",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "rift",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 38
+    },
+    {
+      "source_line": 38,
+      "cut": "S30_C22",
+      "actors": {
+        "maou": {
+          "pose": "maou_lift_angle",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "relocate",
+      "cue": "relocate",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 39
+    },
+    {
+      "source_line": 39,
+      "cut": "S30_C22",
+      "actors": {
+        "maou": {
+          "pose": "maou_lift_angle",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "relocate",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 40
+    },
+    {
+      "source_line": 40,
+      "cut": "S30_C22",
+      "actors": {
+        "maou": {
+          "pose": "maou_lift_angle",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "relocate",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 41
+    },
+    {
+      "source_line": 41,
+      "cut": "S30_C23",
+      "actors": {},
+      "effect": "new_home",
+      "cue": "arrival",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 42
+    },
+    {
+      "source_line": 42,
+      "cut": "S30_C23",
+      "actors": {},
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 43
+    },
+    {
+      "source_line": 43,
+      "cut": "S30_C23",
+      "actors": {},
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 44
+    },
+    {
+      "source_line": 44,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 45
+    },
+    {
+      "source_line": 45,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 46
+    },
+    {
+      "source_line": 46,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 47
+    },
+    {
+      "source_line": 47,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 48
+    },
+    {
+      "source_line": 48,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 49
+    },
+    {
+      "source_line": 49,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 50
+    },
+    {
+      "source_line": 50,
+      "cut": "S30_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 51
+    },
+    {
+      "source_line": 51,
+      "cut": "S30_C26",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 52
+    },
+    {
+      "source_line": 52,
+      "cut": "S30_C27",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 53
+    },
+    {
+      "source_line": 53,
+      "cut": "S30_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 54
+    },
+    {
+      "source_line": 54,
+      "cut": "S30_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 55
+    },
+    {
+      "source_line": 55,
+      "cut": "S30_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 56
+    },
+    {
+      "source_line": 56,
+      "cut": "S30_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 57
+    },
+    {
+      "source_line": 57,
+      "cut": "S30_C29",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 58
+    },
+    {
+      "source_line": 58,
+      "cut": "S30_C30",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 59
+    },
+    {
+      "source_line": 59,
+      "cut": "S30_C31",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 60
+    },
+    {
+      "source_line": 60,
+      "cut": "S30_C31",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 61
+    },
+    {
+      "source_line": 61,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 62
+    },
+    {
+      "source_line": 62,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 63
+    },
+    {
+      "source_line": 63,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 64
+    },
+    {
+      "source_line": 64,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 65
+    },
+    {
+      "source_line": 65,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 66
+    },
+    {
+      "source_line": 66,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 67
+    },
+    {
+      "source_line": 67,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 68
+    },
+    {
+      "source_line": 68,
+      "cut": "S30_C33",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 69
+    },
+    {
+      "source_line": 69,
+      "cut": "S30_C33",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 70
+    },
+    {
+      "source_line": 70,
+      "cut": "S30_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 71
+    },
+    {
+      "source_line": 71,
+      "cut": "S30_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 72
+    },
+    {
+      "source_line": 72,
+      "cut": "S30_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 73
+    },
+    {
+      "source_line": 73,
+      "cut": "S30_C35",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 74
+    },
+    {
+      "source_line": 74,
+      "cut": "S30_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 75
+    },
+    {
+      "source_line": 75,
+      "cut": "S30_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 76
+    },
+    {
+      "source_line": 76,
+      "cut": "S30_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 77
+    },
+    {
+      "source_line": 77,
+      "cut": "S30_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 78
+    },
+    {
+      "source_line": 78,
+      "cut": "S30_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 79
+    },
+    {
+      "source_line": 79,
+      "cut": "S30_C37",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 80
+    },
+    {
+      "source_line": 80,
+      "cut": "S30_C38",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 81
+    },
+    {
+      "source_line": 81,
+      "cut": "S30_C39",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 82
+    }
+  ],
+  "cuts": {
+    "S30_C01": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C02": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C03": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C04": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C05": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C06": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C07": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C08": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C09": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C10": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C11": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C12": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C13": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C14": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C15": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S30_C16": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C17": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C18": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C19": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C20": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C21": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S30_C22": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C23": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C24": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C25": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C26": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C27": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C28": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C29": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C30": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C31": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C32": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C33": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C34": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C35": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C36": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C37": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C38": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_C39": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S30_E19": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    }
+  }
+}

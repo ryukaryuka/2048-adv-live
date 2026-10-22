@@ -1,0 +1,2361 @@
+{
+  "version": 1,
+  "source": "docs/story/2048_scenario_full_final.txt#S20",
+  "status": "2026-09-28 user-approved presentation and BGM; production",
+  "actor_order": [
+    "hinata",
+    "maou",
+    "kraken",
+    "arachne",
+    "slime",
+    "flare",
+    "soldier",
+    "bishop"
+  ],
+  "assets": {
+    "arachne_listen": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_listen.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false
+    },
+    "arachne_room": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_room.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false
+    },
+    "flare_listen": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "listen"
+    },
+    "flare_talk": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "talk"
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "hinata_composed_talk_reverse": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "expression_group": "kraken_composed",
+      "expression_state": "listen"
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "maou_reply_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "flip_h": true
+    },
+    "slime_current_outfit": {
+      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
+      "anchor": [
+        0.551,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    },
+    "slime_homesick": {
+      "image": "res://art/adv/clean_cel_20260930/slime_homesick.png",
+      "anchor": [
+        0.55,
+        0.147
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    }
+  },
+  "frames": [
+    {
+      "source_line": 1,
+      "cut": "S20_C01",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 1,
+      "beat": {
+        "actor": "slime",
+        "kind": "settle",
+        "amount": 3,
+        "duration": 0.85,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 2,
+      "cut": "S20_C02",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 2,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 3,
+      "cut": "S20_C03",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 3,
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 4,
+      "cut": "S20_C04",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "pat",
+      "cue": "pat",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 4,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 5,
+      "cut": "S20_C04",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "pat",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 5,
+      "beat": {
+        "actor": "slime",
+        "kind": "settle",
+        "amount": 3,
+        "duration": 0.85,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 6,
+      "cut": "S20_C04",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "pat",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 6,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 7,
+      "cut": "S20_C04",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "pat",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 7,
+      "beat": {
+        "actor": "slime",
+        "kind": "settle",
+        "amount": 3,
+        "duration": 0.85,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 8,
+      "cut": "S20_C05",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 8,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 9,
+      "cut": "S20_C05",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 9,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 10,
+      "cut": "S20_C06",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 10,
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 11,
+      "cut": "S20_C07",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 11,
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 12,
+      "cut": "S20_C07",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 12,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 13,
+      "cut": "S20_C08",
+      "actors": {},
+      "effect": "cathedral_view",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 13,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 14,
+      "cut": "S20_C09",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 14,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 15,
+      "cut": "S20_C09",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/05_barrier_city.png",
+      "line": 15,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 16,
+      "cut": "S20_C10",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "enter",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 16,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 17,
+      "cut": "S20_C10",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 17,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 18,
+      "cut": "S20_C10",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 18,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 19,
+      "cut": "S20_C11",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 19,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 20,
+      "cut": "S20_C12",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 20,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 21,
+      "cut": "S20_C13",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 21,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 22,
+      "cut": "S20_C13",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 22,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 23,
+      "cut": "S20_C13",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 23,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 24,
+      "cut": "S20_C13",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 24,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 0,
+      "actors": {},
+      "cut": "S20_E24",
+      "cue": "bell",
+      "effect": "ritual",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 25,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 25,
+      "cut": "S20_C14",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 26,
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 26,
+      "cut": "S20_C15",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 27,
+      "beat": {
+        "actor": "arachne",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 27,
+      "cut": "S20_C16",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 28,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 28,
+      "cut": "S20_C17",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 29,
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 29,
+      "cut": "S20_C17",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 30,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 30,
+      "cut": "S20_C18",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 31,
+      "beat": {
+        "actor": "arachne",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 31,
+      "cut": "S20_C19",
+      "actors": {
+        "slime": {
+          "pose": "slime_homesick",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "compulsion",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 32,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 32,
+      "cut": "S20_C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 33,
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 33,
+      "cut": "S20_C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 34,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 34,
+      "cut": "S20_C21",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 35,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 35,
+      "cut": "S20_C22",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 36,
+      "beat": {
+        "actor": "arachne",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 36,
+      "cut": "S20_C23",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 37,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 37,
+      "cut": "S20_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 38,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 38,
+      "cut": "S20_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 39,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 39,
+      "cut": "S20_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 40,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 40,
+      "cut": "S20_C25",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 41,
+      "beat": {
+        "actor": "arachne",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 41,
+      "cut": "S20_C26",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 42,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 42,
+      "cut": "S20_C27",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 43,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 43,
+      "cut": "S20_C27",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 44,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 44,
+      "cut": "S20_C27",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 45,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 45,
+      "cut": "S20_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 46,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 46,
+      "cut": "S20_C29",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 47,
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 47,
+      "cut": "S20_C30",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 48,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 48,
+      "cut": "S20_C31",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 49,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 49,
+      "cut": "S20_C31",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 50,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 50,
+      "cut": "S20_C31",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 51,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 51,
+      "cut": "S20_C31",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 52,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 52,
+      "cut": "S20_C31",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 53,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 53,
+      "cut": "S20_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 54,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 54,
+      "cut": "S20_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 55,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 55,
+      "cut": "S20_C33",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 56,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 56,
+      "cut": "S20_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 57,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 57,
+      "cut": "S20_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 58,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 58,
+      "cut": "S20_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 59,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 59,
+      "cut": "S20_C35",
+      "actors": {},
+      "effect": "ritual",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 60,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 60,
+      "cut": "S20_C36",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 61,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 61,
+      "cut": "S20_C37",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 62,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 62,
+      "cut": "S20_C38",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 63,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 63,
+      "cut": "S20_C38",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 64,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 64,
+      "cut": "S20_C38",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 65,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 65,
+      "cut": "S20_C39",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 66,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 66,
+      "cut": "S20_C39",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 67,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 67,
+      "cut": "S20_C40",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 68,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 68,
+      "cut": "S20_C41",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 69,
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    },
+    {
+      "source_line": 69,
+      "cut": "S20_C42",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/cathedral.png",
+      "line": 70,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "sacred",
+      "mood": "sacred"
+    }
+  ],
+  "cuts": {
+    "S20_C01": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C02": {
+      "kind": "expand",
+      "duration": 0.58,
+      "delay": 0
+    },
+    "S20_C03": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C04": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C05": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C06": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C07": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C08": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C09": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C10": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C11": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C12": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C13": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C14": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C15": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C16": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C17": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C18": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C19": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C20": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C21": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C22": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C23": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C24": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C25": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C26": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C27": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C28": {
+      "kind": "expand",
+      "duration": 0.58,
+      "delay": 0
+    },
+    "S20_C29": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C30": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C31": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C32": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C33": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C34": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C35": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C36": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C37": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C38": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C39": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C40": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C41": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    },
+    "S20_C42": {
+      "kind": "expand",
+      "duration": 0.58,
+      "delay": 0
+    },
+    "S20_E24": {
+      "kind": "cut",
+      "duration": 0.38,
+      "delay": 0
+    }
+  }
+}

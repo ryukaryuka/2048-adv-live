@@ -1,0 +1,361 @@
+{
+  "id": "white_s10_review",
+  "title": "第三章　話せそうだったのに",
+  "stage": 10,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "background_a": "res://art/ui/stages/areas_v1/03_grassland.png",
+  "staging": "res://data/adv/chapter3_staging_review.json",
+  "staging_renderer": "res://tools/chapter3_review_stage.gd",
+  "characters": {
+    "soldier": {
+      "name": "王国兵"
+    },
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "bell": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "soldier",
+      "text": "止まれ！　これ以上、町へ近づくな！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C01"
+    },
+    {
+      "source_line": 2,
+      "speaker": "hinata",
+      "text": "だから、引っ越しなんすって。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C02"
+    },
+    {
+      "source_line": 3,
+      "speaker": "soldier",
+      "text": "……本当に、町を襲うつもりはないのか？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C03"
+    },
+    {
+      "source_line": 4,
+      "speaker": "hinata",
+      "text": "ないっすよ。住める場所を探してるだけっす。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C03"
+    },
+    {
+      "source_line": 5,
+      "speaker": "soldier",
+      "text": "魔物が……地上に住む場所を？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C03"
+    },
+    {
+      "source_line": 6,
+      "speaker": "hinata",
+      "text": "そうっす。空いてる家とか土地とか、知らないです？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C03"
+    },
+    {
+      "source_line": 7,
+      "speaker": "soldier",
+      "text": "……。",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C04"
+    },
+    {
+      "source_line": 8,
+      "speaker": "soldier",
+      "text": "町の外れなら、使われていない建物が――",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C04"
+    },
+    {
+      "source_line": 0,
+      "speaker": "bell",
+      "text": "ゴォン――。",
+      "cast": [],
+      "cut": "E01"
+    },
+    {
+      "source_line": 9,
+      "speaker": "hinata",
+      "text": "？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C05"
+    },
+    {
+      "source_line": 10,
+      "speaker": "kraken",
+      "text": "……。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "C06"
+    },
+    {
+      "source_line": 11,
+      "speaker": "soldier",
+      "text": "……魔物は、ダンジョンにいるものだ。",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C07"
+    },
+    {
+      "source_line": 12,
+      "speaker": "hinata",
+      "text": "……え？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C08"
+    },
+    {
+      "source_line": 13,
+      "speaker": "soldier",
+      "text": "地上へ出てきてはならない。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C08"
+    },
+    {
+      "source_line": 14,
+      "speaker": "kraken",
+      "text": "ずいぶん厳しいドレスコードねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "C09"
+    },
+    {
+      "source_line": 15,
+      "speaker": "hinata",
+      "text": "角としっぽで入店拒否っすか。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C10"
+    },
+    {
+      "source_line": 16,
+      "speaker": "soldier",
+      "text": "魔物は、ダンジョンにいるものだ。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C10"
+    },
+    {
+      "source_line": 17,
+      "speaker": "hinata",
+      "text": "……やっぱ変っすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C12"
+    },
+    {
+      "source_line": 18,
+      "speaker": "hinata",
+      "text": "さっきまで普通に話せてたのに。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C12"
+    },
+    {
+      "source_line": 19,
+      "speaker": "kraken",
+      "text": "鐘が鳴ってから、ね。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "C13"
+    },
+    {
+      "source_line": 20,
+      "speaker": "soldier",
+      "text": "引き返せ！　これ以上進むなら、敵とみなす！",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 21,
+      "speaker": "hinata",
+      "text": "理由も分かんないまま帰れって言われても困るっすよ。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 22,
+      "speaker": "soldier",
+      "text": "この先にはフレア殿下がいる！　近づかせるものか！",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 23,
+      "speaker": "hinata",
+      "text": "フレア殿下……王女様っすか？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 24,
+      "speaker": "soldier",
+      "text": "そうだ！",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 25,
+      "speaker": "hinata",
+      "text": "じゃあ、その人なら話を聞いてくれるかもしれないっすね。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 26,
+      "speaker": "soldier",
+      "text": "話を聞いていなかったのか！？",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 27,
+      "speaker": "hinata",
+      "text": "聞いてたから、その人に聞きに行くんすよ。",
+      "cast": [
+        "hinata",
+        "soldier"
+      ],
+      "cut": "C14"
+    },
+    {
+      "source_line": 28,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "C15"
+    },
+    {
+      "source_line": 29,
+      "speaker": "soldier",
+      "text": "これ以上進むなら――！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C16"
+    },
+    {
+      "source_line": 30,
+      "speaker": "kraken",
+      "text": "なるほど。王女様はこの先、と。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "C17"
+    },
+    {
+      "source_line": 31,
+      "speaker": "soldier",
+      "text": "そういう意味ではない！",
+      "cast": [
+        "soldier"
+      ],
+      "cut": "C18"
+    },
+    {
+      "source_line": 32,
+      "speaker": "hinata",
+      "text": "親切な道案内っすね！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "source_line": 33,
+      "speaker": "hinata",
+      "text": "魔王様、行きましょう！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "source_line": 34,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "C20"
+    }
+  ]
+}

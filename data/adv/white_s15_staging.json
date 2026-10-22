@@ -1,0 +1,1419 @@
+{
+  "version": 1,
+  "source": "docs/story/2048_scenario_full_final.txt#S15",
+  "status": "user-authorized full route; final visual review pending",
+  "actor_order": [
+    "hinata",
+    "maou",
+    "kraken",
+    "arachne",
+    "slime",
+    "flare",
+    "soldier",
+    "bishop"
+  ],
+  "assets": {
+    "arachne_room": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_room.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false
+    },
+    "flare_listen": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "listen"
+    },
+    "flare_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "flare_standing",
+      "expression_state": "listen"
+    },
+    "flare_talk": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "talk"
+    },
+    "flare_talk_reverse": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "flare_standing",
+      "expression_state": "talk"
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "hinata_composed_talk_reverse": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "knight_disarmed": {
+      "image": "res://art/adv/clean_cel_20260928/knight_disarmed_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "expression_group": "knight_disarmed",
+      "expression_state": "talk"
+    },
+    "knight_disarmed_listen": {
+      "image": "res://art/adv/clean_cel_20260928/knight_disarmed_listen_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "expression_group": "knight_disarmed",
+      "expression_state": "listen"
+    },
+    "knight_listen": {
+      "image": "res://art/adv/clean_cel_20260928/knight_listen_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "expression_group": "knight_standing",
+      "expression_state": "listen"
+    },
+    "knight_talk": {
+      "image": "res://art/adv/clean_cel_20260928/knight_talk_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "expression_group": "knight_standing",
+      "expression_state": "talk"
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "expression_group": "kraken_composed",
+      "expression_state": "listen"
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "maou_reply_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "flip_h": true
+    },
+    "slime_current_outfit": {
+      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
+      "anchor": [
+        0.551,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    }
+  },
+  "frames": [
+    {
+      "source_line": 1,
+      "cut": "S15_C01",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 1
+    },
+    {
+      "source_line": 2,
+      "cut": "S15_C02",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 2
+    },
+    {
+      "source_line": 3,
+      "cut": "S15_C03",
+      "actors": {
+        "soldier": {
+          "pose": "knight_disarmed",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "take_spear",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 3
+    },
+    {
+      "source_line": 4,
+      "cut": "S15_C04",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 4
+    },
+    {
+      "source_line": 5,
+      "cut": "S15_C05",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 5
+    },
+    {
+      "source_line": 6,
+      "cut": "S15_C06",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_disarmed_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 6
+    },
+    {
+      "source_line": 7,
+      "cut": "S15_C06",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_disarmed",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 7
+    },
+    {
+      "source_line": 8,
+      "cut": "S15_C06",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_disarmed_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 8
+    },
+    {
+      "source_line": 9,
+      "cut": "S15_C07",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 9
+    },
+    {
+      "source_line": 10,
+      "cut": "S15_C08",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "soldier": {
+          "pose": "knight_disarmed",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 10
+    },
+    {
+      "source_line": 11,
+      "cut": "S15_C09",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 11
+    },
+    {
+      "source_line": 12,
+      "cut": "S15_C10",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 12
+    },
+    {
+      "source_line": 13,
+      "cut": "S15_C11",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 13
+    },
+    {
+      "source_line": 14,
+      "cut": "S15_C11",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 14
+    },
+    {
+      "source_line": 15,
+      "cut": "S15_C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 15
+    },
+    {
+      "source_line": 16,
+      "cut": "S15_C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 16
+    },
+    {
+      "source_line": 17,
+      "cut": "S15_C13",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 17
+    },
+    {
+      "source_line": 18,
+      "cut": "S15_C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 18
+    },
+    {
+      "source_line": 19,
+      "cut": "S15_C15",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 19
+    },
+    {
+      "source_line": 20,
+      "cut": "S15_C16",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 20
+    },
+    {
+      "source_line": 21,
+      "cut": "S15_C16",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 21
+    },
+    {
+      "source_line": 22,
+      "cut": "S15_C17",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "flame",
+      "cue": "flame",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 22
+    },
+    {
+      "source_line": 23,
+      "cut": "S15_C17",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "flame",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 23
+    },
+    {
+      "source_line": 24,
+      "cut": "S15_C17",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "flame",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 24
+    },
+    {
+      "source_line": 25,
+      "cut": "S15_C17",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "flame",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 25
+    },
+    {
+      "source_line": 26,
+      "cut": "S15_C18",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "flame",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 26
+    },
+    {
+      "source_line": 27,
+      "cut": "S15_C19",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 27
+    },
+    {
+      "source_line": 28,
+      "cut": "S15_C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 28
+    },
+    {
+      "source_line": 29,
+      "cut": "S15_C21",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 29
+    },
+    {
+      "source_line": 30,
+      "cut": "S15_C21",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 30
+    },
+    {
+      "source_line": 31,
+      "cut": "S15_C21",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 31
+    },
+    {
+      "source_line": 32,
+      "cut": "S15_C22",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_room",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 32
+    },
+    {
+      "source_line": 33,
+      "cut": "S15_C23",
+      "actors": {},
+      "effect": "baggage",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 33
+    },
+    {
+      "source_line": 34,
+      "cut": "S15_C23",
+      "actors": {},
+      "effect": "baggage",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 34
+    },
+    {
+      "source_line": 35,
+      "cut": "S15_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 35
+    },
+    {
+      "source_line": 36,
+      "cut": "S15_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 36
+    },
+    {
+      "source_line": 37,
+      "cut": "S15_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 37
+    },
+    {
+      "source_line": 38,
+      "cut": "S15_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 38
+    },
+    {
+      "source_line": 39,
+      "cut": "S15_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 39
+    },
+    {
+      "source_line": 40,
+      "cut": "S15_C26",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 40
+    },
+    {
+      "source_line": 0,
+      "actors": {},
+      "cut": "S15_E40",
+      "cue": "bell",
+      "effect": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 41
+    },
+    {
+      "source_line": 41,
+      "cut": "S15_C27",
+      "actors": {
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 42
+    },
+    {
+      "source_line": 42,
+      "cut": "S15_C27",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 43
+    },
+    {
+      "source_line": 43,
+      "cut": "S15_C28",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 44
+    },
+    {
+      "source_line": 44,
+      "cut": "S15_C28",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 45
+    },
+    {
+      "source_line": 45,
+      "cut": "S15_C29",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 46
+    },
+    {
+      "source_line": 46,
+      "cut": "S15_C29",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 47
+    },
+    {
+      "source_line": 47,
+      "cut": "S15_C29",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 48
+    },
+    {
+      "source_line": 48,
+      "cut": "S15_C30",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 49
+    },
+    {
+      "source_line": 49,
+      "cut": "S15_C30",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 50
+    },
+    {
+      "source_line": 50,
+      "cut": "S15_C31",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 51
+    },
+    {
+      "source_line": 51,
+      "cut": "S15_C31",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 52
+    },
+    {
+      "source_line": 52,
+      "cut": "S15_C31",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 53
+    },
+    {
+      "source_line": 53,
+      "cut": "S15_C31",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 54
+    },
+    {
+      "source_line": 54,
+      "cut": "S15_C31",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 55
+    },
+    {
+      "source_line": 55,
+      "cut": "S15_C32",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_disarmed_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 56
+    },
+    {
+      "source_line": 56,
+      "cut": "S15_C32",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "soldier": {
+          "pose": "knight_disarmed",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "spear",
+      "cue": "spear_raise",
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "lift",
+        "amount": 12,
+        "duration": 0.5
+      },
+      "line": 57
+    },
+    {
+      "source_line": 57,
+      "cut": "S15_C33",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 58
+    },
+    {
+      "source_line": 58,
+      "cut": "S15_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/white_final/road.png",
+      "line": 59
+    }
+  ],
+  "cuts": {
+    "S15_C01": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C02": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C03": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C04": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C05": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C06": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C07": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C08": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C09": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C10": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C11": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C12": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C13": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C14": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C15": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C16": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C17": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C18": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C19": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C20": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C21": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C22": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C23": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C24": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C25": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C26": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C27": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C28": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_C29": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C30": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C31": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C32": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C33": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    },
+    "S15_C34": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0
+    },
+    "S15_E40": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0
+    }
+  }
+}

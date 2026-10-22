@@ -1,0 +1,520 @@
+{
+  "id": "stage10",
+  "title": "はじめての地上",
+  "chapter": "第2章",
+  "stage": 5,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "background": "forest",
+  "background_a": "res://art/adv/diorama_ch2_review/paper_forest_stage_v1.png",
+  "staging": "res://data/adv/diorama_ch2_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）",
+      "color": "#826a76"
+    },
+    "maou": {
+      "name": "魔王",
+      "color": "#826a76"
+    },
+    "kraken": {
+      "name": "クラーケン",
+      "color": "#826a76"
+    },
+    "slime": {
+      "name": "スライム",
+      "color": "#826a76"
+    },
+    "scout": {
+      "name": "斥候",
+      "color": "#826a76"
+    },
+    "bell": {
+      "name": "鐘の音",
+      "color": "#826a76"
+    },
+    "narrator": {
+      "name": "",
+      "color": "#826a76"
+    }
+  },
+  "lines": [
+    {
+      "speaker": "hinata",
+      "text": "うっ......。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C01"
+    },
+    {
+      "speaker": "hinata",
+      "text": "明るっ！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C01",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_delay": 0.06,
+      "accent_duration": 1.7,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.12
+    },
+    {
+      "speaker": "hinata",
+      "text": "風も通るし……なんか、すごい開放感あるっすね！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C01",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "kraken",
+      "text": "空がこんなに広いと、ちょっと落ち着かないわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "C02",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "slime",
+      "text": "あったかいー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "C03"
+    },
+    {
+      "speaker": "hinata",
+      "text": "地上って、こんな感じなんすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C04",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "C05"
+    },
+    {
+      "speaker": "hinata",
+      "text": "とりあえず、このまま進んでみるっす。いい場所があったら、その時考えましょう！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "C06"
+    },
+    {
+      "speaker": "bell",
+      "text": "カーン……。",
+      "cast": [],
+      "cut": "C_BELL"
+    },
+    {
+      "speaker": "slime",
+      "text": "ちょっとダンジョンに帰りたいかも…。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "C07",
+      "accents": {
+        "slime": "sigh"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "hinata",
+      "text": "もうホームシックっすか？",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "C08",
+      "accents": {
+        "hinata": "sweat"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "slime",
+      "text": "わかんなーい。",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "C08",
+      "accents": {
+        "slime": "ellipsis"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "scout",
+      "text": "……魔物？",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C09"
+    },
+    {
+      "speaker": "scout",
+      "text": "一体、何匹いる……。",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C09"
+    },
+    {
+      "speaker": "narrator",
+      "text": "それから、しばらく森の中を進むと――。",
+      "cast": [],
+      "cut": "C_TIME"
+    },
+    {
+      "speaker": "hinata",
+      "text": "あー……これは、さすがに通れないっすね。",
+      "cast": [],
+      "cut": "C10"
+    },
+    {
+      "speaker": "hinata",
+      "text": "ここをまっすぐ進みたいのになぁ……。",
+      "cast": [],
+      "cut": "C10"
+    },
+    {
+      "speaker": "hinata",
+      "text": "魔王様、あの木と岩、どうにかならないっすか？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C11b"
+    },
+    {
+      "speaker": "maou",
+      "text": "よかろう。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "C11c"
+    },
+    {
+      "speaker": "hinata",
+      "text": "……。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C12"
+    },
+    {
+      "speaker": "hinata",
+      "text": "相変わらず、とんでもないっすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C12"
+    },
+    {
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "C13"
+    },
+    {
+      "speaker": "kraken",
+      "text": "道、広くなったわねえ。",
+      "cast": [],
+      "cut": "C14"
+    },
+    {
+      "speaker": "slime",
+      "text": "広ーい。",
+      "cast": [],
+      "cut": "C14"
+    },
+    {
+      "speaker": "hinata",
+      "text": "じゃ、行くっすよー！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C15"
+    },
+    {
+      "speaker": "scout",
+      "text": "……なんだ、今の……。",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C16"
+    },
+    {
+      "speaker": "scout",
+      "text": "詠唱もなしに……あれだけのものを……。",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C16"
+    },
+    {
+      "speaker": "scout",
+      "text": "そしてこの数……。",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C16"
+    },
+    {
+      "speaker": "scout",
+      "text": "まさか……地上への侵攻か？",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C16",
+      "accents": {
+        "scout": "exclaim"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "scout",
+      "text": "止まれ！",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C17",
+      "accents": {
+        "scout": "exclaim"
+      },
+      "accent_delay": 0.06,
+      "accent_duration": 1.7,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.12
+    },
+    {
+      "speaker": "hinata",
+      "text": "ん？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C18"
+    },
+    {
+      "speaker": "scout",
+      "text": "お前たち、どこへ向かっている。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "hinata",
+      "text": "どこって……まだ決めてないっすけど。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "scout",
+      "text": "決めていない？",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19",
+      "accents": {
+        "scout": "sweat"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "hinata",
+      "text": "引っ越し先、探してる途中なんで。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "scout",
+      "text": "……引っ越し？",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "hinata",
+      "text": "そうっす。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "scout",
+      "text": "その数で？",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19",
+      "accents": {
+        "scout": "grumble"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "hinata",
+      "text": "みんなで引っ越してるんで。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C19"
+    },
+    {
+      "speaker": "scout",
+      "text": "……。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C20"
+    },
+    {
+      "speaker": "scout",
+      "text": "それを、信じろと？",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C20"
+    },
+    {
+      "speaker": "hinata",
+      "text": "いや、ほんとなんすけど……。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C20",
+      "accents": {
+        "hinata": "sweat"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "kraken",
+      "text": "まあ、向こうからしたら怖いでしょうねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "C21"
+    },
+    {
+      "speaker": "hinata",
+      "text": "いまそれを言わないでくださいっす！",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "C22",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "scout",
+      "text": "これ以上は進ませない。",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C23"
+    },
+    {
+      "speaker": "hinata",
+      "text": "ちょ、待ってくださいって！　別に争うつもりは――",
+      "cast": [
+        "scout",
+        "hinata"
+      ],
+      "cut": "C23",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.7,
+      "accent_delay": 0.06
+    },
+    {
+      "speaker": "scout",
+      "text": "問答無用。",
+      "cast": [
+        "scout"
+      ],
+      "cut": "C24a"
+    },
+    {
+      "speaker": "hinata",
+      "text": "話、通じなさそうっすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C24b"
+    },
+    {
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "C25a"
+    }
+  ],
+  "composite_mode": 0,
+  "show_draft_notice": false,
+  "bgm": "res://audio/adv/candidates_20260928/comic.mp3"
+}
