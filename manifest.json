@@ -1,15 +1,15 @@
 {
  "schema": 1,
  "contract": "party2048-adv-live-v1",
- "revision": 1792668991,
+ "revision": 1792670603,
  "files": {
   "data/adv/chapter1_staging.json": {
    "sha256": "6c2505f69a8170c7181513de549651ec6f84b3d302bd72804cf4f6353449ef0d",
    "bytes": 28454
   },
   "data/adv/chapter2_review.json": {
-   "sha256": "28023798ed9d2bcc0b97cf67b1d9f6a890e93fbda648168ae9e40359eb542597",
-   "bytes": 8593
+   "sha256": "3cd8a7256dc315260179f208414eaf28452ac40cc2b724616fe5093c638de811",
+   "bytes": 8602
   },
   "data/adv/chapter2_staging.json": {
    "sha256": "0d86bebc98aeed577e3c05c48ee215650cebda85d7ce016858bfcb7a7e151135",
@@ -36,8 +36,8 @@
    "bytes": 40888
   },
   "data/adv/diorama_ch2_review/scene.json": {
-   "sha256": "0899f32841b20c21a8b39e15fab5feb4ae9436c0ee9bf862d6a9d3b0754e4389",
-   "bytes": 10472
+   "sha256": "db4fedb2e11a5c0ce35b4f185e30cc6c94c3f6b8694c8871fd9c41575f838d1f",
+   "bytes": 10481
   },
   "data/adv/diorama_ch2_review/staging.json": {
    "sha256": "3abb326692e425b8678a8977c894e01bd095d8a4ba57f04c29ab46868aae5fe1",
@@ -156,8 +156,8 @@
    "bytes": 178523
   },
   "data/adv/story.json": {
-   "sha256": "9b316cc792e382c281231bcd0d1595cf92ef968a1b2212efa9f7e048d7485ef5",
-   "bytes": 312286
+   "sha256": "b271fad0e29ac0740bb1c8d5bf04a5d1d1ba98f721f9692d9f2d2ced66a22932",
+   "bytes": 312295
   },
   "data/adv/white_s10_staging.json": {
    "sha256": "c7c3863fb388695907636e56df803d819e33fa389625dcbf852a71f627a51474",
