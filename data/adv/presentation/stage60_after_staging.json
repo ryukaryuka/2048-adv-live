@@ -942,43 +942,6 @@
       "mood": "unease"
     },
     {
-      "source_line": 29,
-      "cut": "S30_C15",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.26,
-          "y": 0.47
-        },
-        "maou": {
-          "pose": "maou_reply_reverse",
-          "x": 0.754,
-          "y": 0.34
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 30,
-      "beat": {
-        "actor": "hinata",
-        "kind": "tilt",
-        "amount": 1.1,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.09,
-        "pan": [
-          -0.043,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
       "source_line": 30,
       "cut": "S30_C16",
       "actors": {
@@ -991,73 +954,9 @@
       "effect": "rift",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 31,
+      "line": 30,
       "beat": {
         "actor": "flare",
-        "kind": "tilt",
-        "amount": 1.1,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
-      "source_line": 31,
-      "cut": "S30_C17",
-      "actors": {
-        "arachne": {
-          "pose": "arachne_room",
-          "x": 0.5,
-          "y": 0.4
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 32,
-      "beat": {
-        "actor": "arachne",
-        "kind": "tilt",
-        "amount": 1.1,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
-      "source_line": 32,
-      "cut": "S30_C18",
-      "actors": {
-        "kraken": {
-          "pose": "kraken_solo_talk_v16",
-          "x": 0.5,
-          "y": 0.4
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 33,
-      "beat": {
-        "actor": "kraken",
         "kind": "tilt",
         "amount": 1.1,
         "duration": 0.58,
@@ -1087,7 +986,7 @@
       "effect": "rift",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 34,
+      "line": 31,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1098,144 +997,6 @@
       },
       "music": "mystery",
       "mood": "aftermath"
-    },
-    {
-      "source_line": 34,
-      "cut": "S30_C20",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.5,
-          "y": 0.47
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 35,
-      "beat": {
-        "actor": "hinata",
-        "kind": "tilt",
-        "amount": 1.1,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
-      "source_line": 35,
-      "cut": "S30_C20",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.5,
-          "y": 0.47
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 36,
-      "beat": {
-        "actor": "hinata",
-        "kind": "nod",
-        "amount": 3,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
-      "source_line": 36,
-      "cut": "S30_C21",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_listen_reverse",
-          "x": 0.26,
-          "y": 0.47
-        },
-        "maou": {
-          "pose": "maou_reply_reverse",
-          "x": 0.754,
-          "y": 0.34
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 37,
-      "beat": {
-        "actor": "maou",
-        "kind": "nod",
-        "amount": 3,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.09,
-        "pan": [
-          0.046,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
-    },
-    {
-      "source_line": 37,
-      "cut": "S30_C21",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.26,
-          "y": 0.47
-        },
-        "maou": {
-          "pose": "maou_reply_reverse",
-          "x": 0.754,
-          "y": 0.34
-        }
-      },
-      "effect": "rift",
-      "cue": "",
-      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 38,
-      "beat": {
-        "actor": "hinata",
-        "kind": "retort",
-        "amount": 5,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.09,
-        "pan": [
-          -0.043,
-          -0.01
-        ],
-        "blur": 1.4
-      },
-      "music": "mystery",
-      "mood": "unease"
     },
     {
       "source_line": 38,
@@ -1250,7 +1011,7 @@
       "effect": "relocate",
       "cue": "relocate",
       "background": "res://art/adv/presentation_20260928/separation_view.png",
-      "line": 39,
+      "line": 32,
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1275,7 +1036,7 @@
       "effect": "relocate",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/separation_view.png",
-      "line": 40,
+      "line": 33,
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1300,7 +1061,7 @@
       "effect": "relocate",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/separation_view.png",
-      "line": 41,
+      "line": 34,
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1319,7 +1080,76 @@
       "effect": "new_home",
       "cue": "arrival",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 42,
+      "line": 35,
+      "camera": {
+        "zoom": 1.0,
+        "pan": [
+          0,
+          0
+        ],
+        "blur": 0
+      },
+      "music": "hope",
+      "mood": "hope"
+    },
+    {
+      "source_line": -3001,
+      "cut": "S30_C24",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/presentation_20260928/arrival_view.png",
+      "line": 36,
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.0,
+        "pan": [
+          0,
+          0
+        ],
+        "blur": 0
+      },
+      "music": "hope",
+      "mood": "hope"
+    },
+    {
+      "source_line": -3002,
+      "cut": "S30_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/presentation_20260928/arrival_view.png",
+      "line": 37,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1338,7 +1168,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 43,
+      "line": 38,
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1357,7 +1187,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 44,
+      "line": 39,
       "camera": {
         "zoom": 1.0,
         "pan": [
@@ -1387,7 +1217,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 45,
+      "line": 40,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -1424,7 +1254,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 46,
+      "line": 41,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -1461,7 +1291,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 47,
+      "line": 42,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -1498,7 +1328,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 48,
+      "line": 43,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -1535,7 +1365,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 49,
+      "line": 44,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -1572,7 +1402,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 50,
+      "line": 45,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -1604,7 +1434,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 51,
+      "line": 46,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -1636,7 +1466,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 52,
+      "line": 47,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -1668,7 +1498,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 53,
+      "line": 48,
       "beat": {
         "actor": "slime",
         "kind": "settle",
@@ -1705,7 +1535,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 54,
+      "line": 49,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -1742,7 +1572,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 55,
+      "line": 50,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -1779,7 +1609,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 56,
+      "line": 51,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -1816,7 +1646,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 57,
+      "line": 52,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -1848,7 +1678,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 58,
+      "line": 53,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -1880,7 +1710,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 59,
+      "line": 54,
       "beat": {
         "actor": "arachne",
         "kind": "nod",
@@ -1917,7 +1747,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 60,
+      "line": 55,
       "beat": {
         "actor": "slime",
         "kind": "tilt",
@@ -1954,7 +1784,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 61,
+      "line": 56,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -1991,7 +1821,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 62,
+      "line": 57,
       "beat": {
         "actor": "flare",
         "kind": "tilt",
@@ -2028,7 +1858,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 63,
+      "line": 58,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2065,7 +1895,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 64,
+      "line": 59,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2102,7 +1932,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 65,
+      "line": 60,
       "beat": {
         "actor": "flare",
         "kind": "tilt",
@@ -2139,7 +1969,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 66,
+      "line": 61,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2176,7 +2006,44 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 67,
+      "line": 62,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.0,
+        "pan": [
+          0,
+          0
+        ],
+        "blur": 0
+      },
+      "music": "hope",
+      "mood": "hope"
+    },
+    {
+      "source_line": -3003,
+      "cut": "S30_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "new_home",
+      "cue": "",
+      "background": "res://art/adv/presentation_20260928/arrival_view.png",
+      "line": 63,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2213,7 +2080,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 68,
+      "line": 64,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -2250,7 +2117,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 69,
+      "line": 65,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -2287,7 +2154,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 70,
+      "line": 66,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2324,7 +2191,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 71,
+      "line": 67,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2361,7 +2228,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 72,
+      "line": 68,
       "beat": {
         "actor": "flare",
         "kind": "tilt",
@@ -2398,7 +2265,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 73,
+      "line": 69,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2430,7 +2297,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 74,
+      "line": 70,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -2467,7 +2334,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 75,
+      "line": 71,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2504,7 +2371,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 76,
+      "line": 72,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2541,7 +2408,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 77,
+      "line": 73,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2578,7 +2445,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 78,
+      "line": 74,
       "beat": {
         "actor": "hinata",
         "kind": "tilt",
@@ -2615,7 +2482,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 79,
+      "line": 75,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2647,7 +2514,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 80,
+      "line": 76,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -2679,7 +2546,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 81,
+      "line": 77,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -2711,7 +2578,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/presentation_20260928/arrival_view.png",
-      "line": 82,
+      "line": 78,
       "beat": {
         "actor": "maou",
         "kind": "nod",

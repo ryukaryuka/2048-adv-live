@@ -55,7 +55,9 @@
       "source_line": 1,
       "speaker": "hinata",
       "text": "……。",
-      "cast": [],
+      "cast": [
+        "hinata"
+      ],
       "cut": "S30_C01",
       "music": "mystery"
     },
@@ -63,22 +65,31 @@
       "source_line": 2,
       "speaker": "slime",
       "text": "おわったー？",
-      "cast": [],
+      "cast": [
+        "slime"
+      ],
       "cut": "S30_C01",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 3,
       "speaker": "kraken",
       "text": "静かにはなったわねえ。",
-      "cast": [],
+      "cast": [
+        "kraken"
+      ],
       "cut": "S30_C01",
       "music": "mystery"
     },
     {
       "source_line": 4,
       "speaker": "flare",
-      "text": "……鐘の力が、消えていく。",
+      "text": "……聖冠の力が、消えていく。",
       "cast": [
         "flare"
       ],
@@ -147,7 +158,12 @@
         "flare"
       ],
       "cut": "S30_C05",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 11,
@@ -177,7 +193,14 @@
         "hinata"
       ],
       "cut": "S30_C07",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 14,
@@ -207,7 +230,14 @@
         "flare"
       ],
       "cut": "S30_C09",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 17,
@@ -217,7 +247,12 @@
         "arachne"
       ],
       "cut": "S30_C10",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "arachne": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 18,
@@ -250,7 +285,7 @@
     {
       "source_line": 20,
       "speaker": "slime",
-      "text": "おうち、遠くなるー。",
+      "text": "おうちと町、わかれちゃうー。",
       "cast": [],
       "cut": "S30_C12",
       "music": "mystery"
@@ -261,7 +296,12 @@
       "text": "ずいぶん力技に出たわねえ。",
       "cast": [],
       "cut": "S30_C12",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 22,
@@ -304,7 +344,7 @@
     {
       "source_line": 26,
       "speaker": "hinata",
-      "text": "いや。",
+      "text": "大丈夫っす。",
       "cast": [
         "hinata"
       ],
@@ -314,7 +354,7 @@
     {
       "source_line": 27,
       "speaker": "hinata",
-      "text": "魔王様。",
+      "text": "魔王様なら、なんとかできますから。",
       "cast": [
         "hinata"
       ],
@@ -333,17 +373,6 @@
       "music": "mystery"
     },
     {
-      "source_line": 29,
-      "speaker": "hinata",
-      "text": "ダンジョン……こっちに持ってこれます？",
-      "cast": [
-        "hinata",
-        "maou"
-      ],
-      "cut": "S30_C15",
-      "music": "mystery"
-    },
-    {
       "source_line": 30,
       "speaker": "flare",
       "text": "……え？",
@@ -354,38 +383,8 @@
       "accents": {
         "flare": "question"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "music": "mystery"
-    },
-    {
-      "source_line": 31,
-      "speaker": "arachne",
-      "text": "ダンジョンを……？",
-      "cast": [
-        "arachne"
-      ],
-      "cut": "S30_C17",
-      "accents": {
-        "arachne": "question"
-      },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "music": "mystery"
-    },
-    {
-      "source_line": 32,
-      "speaker": "kraken",
-      "text": "丸ごと？",
-      "cast": [
-        "kraken"
-      ],
-      "cut": "S30_C18",
-      "accents": {
-        "kraken": "question"
-      },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
       "music": "mystery"
     },
     {
@@ -396,56 +395,12 @@
         "bishop"
       ],
       "cut": "S30_C19",
-      "music": "mystery"
-    },
-    {
-      "source_line": 34,
-      "speaker": "hinata",
-      "text": "だって、離されるのが問題なんすよね？",
-      "cast": [
-        "hinata"
-      ],
-      "cut": "S30_C20",
-      "music": "mystery"
-    },
-    {
-      "source_line": 35,
-      "speaker": "hinata",
-      "text": "だったら町の近くに引っ越せばいいじゃないっすか。",
-      "cast": [
-        "hinata"
-      ],
-      "cut": "S30_C20",
-      "music": "mystery"
-    },
-    {
-      "source_line": 36,
-      "speaker": "maou",
-      "text": "うむ。",
-      "cast": [
-        "hinata",
-        "maou"
-      ],
-      "cut": "S30_C21",
-      "music": "mystery"
-    },
-    {
-      "source_line": 37,
-      "speaker": "hinata",
-      "text": "できるんすね！？",
-      "cast": [
-        "hinata",
-        "maou"
-      ],
-      "cut": "S30_C21",
+      "music": "mystery",
       "accents": {
-        "hinata": "exclaim"
+        "bishop": "question"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "sfx": "res://audio/adv/lab/decision22.wav",
-      "sfx_delay": 0.1,
-      "music": "mystery"
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 38,
@@ -488,6 +443,31 @@
       "music": "hope"
     },
     {
+      "source_line": -3001,
+      "speaker": "maou",
+      "text": "ダンジョンを、持ってきた。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "music": "hope"
+    },
+    {
+      "source_line": -3002,
+      "speaker": "flare",
+      "text": "……持って、きた……。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C25",
+      "music": "hope",
+      "accents": {
+        "flare": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
+    },
+    {
       "source_line": 42,
       "speaker": "arachne",
       "text": "……本当に移しましたね。",
@@ -501,7 +481,12 @@
       "text": "引っ越しって、そういう意味だったかしら。",
       "cast": [],
       "cut": "S30_C23",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 44,
@@ -534,7 +519,14 @@
         "maou"
       ],
       "cut": "S30_C24",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 47,
@@ -577,8 +569,8 @@
       "accents": {
         "hinata": "anger"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
       "sfx": "res://audio/adv/lab/decision22.wav",
       "sfx_delay": 0.1,
       "music": "hope"
@@ -611,7 +603,12 @@
         "slime"
       ],
       "cut": "S30_C27",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "slime": "joy_rays"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 53,
@@ -696,18 +693,18 @@
     {
       "source_line": 60,
       "speaker": "hinata",
-      "text": "引っ越して早々、商売始めないでください！",
+      "text": "気が早いっすね！",
       "cast": [
         "slime",
         "hinata"
       ],
       "cut": "S30_C31",
       "accents": {
-        "hinata": "exclaim"
+        "hinata": "sweat"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "sfx": "res://audio/adv/lab/decision22.wav",
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
       "sfx_delay": 0.1,
       "music": "hope"
     },
@@ -774,7 +771,18 @@
     {
       "source_line": 66,
       "speaker": "hinata",
-      "text": "今度は、みんなで自由に選べるんで。",
+      "text": "どっちに住むかは、ひとりひとりが自分で選べばいいし。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": -3003,
+      "speaker": "hinata",
+      "text": "迷ったら、みんなで相談して決めればいいっす。",
       "cast": [
         "hinata",
         "flare"
@@ -824,7 +832,12 @@
         "flare"
       ],
       "cut": "S30_C34",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 71,
@@ -846,7 +859,12 @@
         "flare"
       ],
       "cut": "S30_C34",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 73,
@@ -921,7 +939,12 @@
         "kraken"
       ],
       "cut": "S30_C37",
-      "music": "hope"
+      "music": "hope",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 80,
@@ -934,9 +957,9 @@
       "accents": {
         "hinata": "exclaim"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "sfx": "res://audio/adv/lab/decision22.wav",
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
       "sfx_delay": 0.1,
       "music": "hope"
     },
