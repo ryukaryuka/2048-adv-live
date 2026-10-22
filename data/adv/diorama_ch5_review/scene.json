@@ -83,7 +83,7 @@
     {
       "source_line": 3,
       "speaker": "kraken",
-      "text": "見事に見られてるわねえ。",
+      "text": "……ずいぶん注目されてるわねえ。",
       "cast": [
         "kraken"
       ],
@@ -148,7 +148,7 @@
     {
       "source_line": 8,
       "speaker": "hinata",
-      "text": "……普通なんすね。",
+      "text": "……王都の人たち、魔物を見ても普通に接してくれるんすね。",
       "cast": [
         "hinata",
         "flare"
@@ -174,10 +174,10 @@
     },
     {
       "source_line": 10,
-      "speaker": "kraken",
-      "text": "なのに、鐘が鳴ると話が変わる。",
+      "speaker": "arachne",
+      "text": "それなのに、鐘が鳴ると態度が変わるのですね。",
       "cast": [
-        "kraken"
+        "arachne"
       ],
       "cut": "S20_C06",
       "music": "comic"
@@ -293,7 +293,7 @@
     {
       "source_line": 20,
       "speaker": "flare",
-      "text": "……儀式が始まっています。",
+      "text": "……鐘を鳴らす前の祈りです。もうすぐ、鐘が鳴ります。",
       "cast": [
         "flare"
       ],
@@ -460,7 +460,7 @@
     {
       "source_line": 35,
       "speaker": "arachne",
-      "text": "今のは……私の考えではありませんでした。",
+      "text": "……どうして、あんなことを口にしたのでしょう。",
       "cast": [
         "arachne"
       ],
@@ -543,7 +543,7 @@
     {
       "source_line": 42,
       "speaker": "hinata",
-      "text": "……だから、あたしが引っ越そうって言った時も。",
+      "text": "……だから、あたしが引っ越そうって言うまで。",
       "cast": [
         "hinata"
       ],
@@ -600,16 +600,6 @@
       },
       "accent_duration": 1.5,
       "accent_delay": 0.06
-    },
-    {
-      "source_line": 47,
-      "speaker": "hinata",
-      "text": "いや、たぶん大丈夫っす。",
-      "cast": [
-        "hinata"
-      ],
-      "cut": "S20_C30",
-      "music": "mystery"
     },
     {
       "source_line": 48,
@@ -701,7 +691,7 @@
     {
       "source_line": 55,
       "speaker": "kraken",
-      "text": "今のを見る限り、ずいぶん変わった守り方ねえ。",
+      "text": "人も魔物も言いなりにするのが、国を守るってことなのかしら。",
       "cast": [
         "kraken"
       ],
@@ -772,7 +762,7 @@
     {
       "source_line": 61,
       "speaker": "kraken",
-      "text": "隠し事には向いてないわねえ。",
+      "text": "あの司祭さん、隠したいことがあるって自分で言ってるようなものねえ。",
       "cast": [
         "kraken"
       ],
@@ -815,7 +805,7 @@
     {
       "source_line": 65,
       "speaker": "slime",
-      "text": "もう鐘ならさない？",
+      "text": "また鐘が鳴ったら、どうするー？",
       "cast": [
         "slime",
         "hinata"
@@ -831,7 +821,7 @@
     {
       "source_line": 66,
       "speaker": "hinata",
-      "text": "できればやめてほしいっすね。",
+      "text": "そのときは、あたしが何回でも呼び戻すっす。",
       "cast": [
         "slime",
         "hinata"
@@ -842,7 +832,7 @@
     {
       "source_line": 67,
       "speaker": "kraken",
-      "text": "次は荷物ごと帰りかねないものねえ。",
+      "text": "頼もしいわねえ。でも、その前に鐘を止めたいところね。",
       "cast": [
         "kraken"
       ],
@@ -852,7 +842,7 @@
     {
       "source_line": 68,
       "speaker": "hinata",
-      "text": "魔王様、行きましょう！",
+      "text": "っすね。魔王様、行きましょう！",
       "cast": [
         "hinata"
       ],

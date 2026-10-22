@@ -1505,38 +1505,13 @@
       "mood": "sacred"
     },
     {
-      "source_line": 47,
-      "cut": "S20_C30",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.5,
-          "y": 0.47
-        }
-      },
-      "effect": "",
-      "cue": "",
-      "background": "res://art/adv/white_final/cathedral.png",
-      "line": 48,
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 3.5
-      },
-      "music": "sacred",
-      "mood": "sacred"
-    },
-    {
       "source_line": 48,
       "cut": "S20_C31",
       "actors": {},
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 49,
+      "line": 48,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1555,7 +1530,7 @@
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 50,
+      "line": 49,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1574,7 +1549,7 @@
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 51,
+      "line": 50,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1593,7 +1568,7 @@
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 52,
+      "line": 51,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1612,7 +1587,7 @@
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 53,
+      "line": 52,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1642,7 +1617,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 54,
+      "line": 53,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -1672,7 +1647,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 55,
+      "line": 54,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -1704,7 +1679,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 56,
+      "line": 55,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1734,7 +1709,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 57,
+      "line": 56,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -1764,7 +1739,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 58,
+      "line": 57,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -1801,7 +1776,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 59,
+      "line": 58,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -1820,7 +1795,7 @@
       "effect": "ritual",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 60,
+      "line": 59,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1845,7 +1820,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 61,
+      "line": 60,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -1877,7 +1852,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 62,
+      "line": 61,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -1907,7 +1882,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 63,
+      "line": 62,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -1937,7 +1912,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 64,
+      "line": 63,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -1974,7 +1949,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 65,
+      "line": 64,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2004,7 +1979,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 66,
+      "line": 65,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2034,7 +2009,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 67,
+      "line": 66,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2066,7 +2041,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 68,
+      "line": 67,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -2091,7 +2066,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 69,
+      "line": 68,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -2128,7 +2103,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/adv/white_final/cathedral.png",
-      "line": 70,
+      "line": 69,
       "camera": {
         "zoom": 1.09,
         "pan": [
