@@ -1,0 +1,957 @@
+{
+  "id": "stage60_after",
+  "source_id": "S30",
+  "title": "引っ越し先",
+  "chapter": "第8章",
+  "stage": 30,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "show_draft_notice": false,
+  "composite_mode": 0,
+  "background_a": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+  "staging": "res://data/adv/diorama_ch8_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/finale_stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "arachne": {
+      "name": "アラクネ"
+    },
+    "slime": {
+      "name": "スライム"
+    },
+    "flare": {
+      "name": "フレア"
+    },
+    "soldier": {
+      "name": "王国兵"
+    },
+    "bishop": {
+      "name": "大司教"
+    },
+    "priest": {
+      "name": "司祭"
+    },
+    "priests": {
+      "name": "司祭たち"
+    },
+    "child": {
+      "name": "子供"
+    },
+    "narrator": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "hinata",
+      "text": "……。",
+      "cast": [],
+      "cut": "S30_C01",
+      "music": "mystery"
+    },
+    {
+      "source_line": 2,
+      "speaker": "slime",
+      "text": "おわったー？",
+      "cast": [],
+      "cut": "S30_C01",
+      "music": "mystery"
+    },
+    {
+      "source_line": 3,
+      "speaker": "kraken",
+      "text": "静かにはなったわねえ。",
+      "cast": [],
+      "cut": "S30_C01",
+      "music": "mystery"
+    },
+    {
+      "source_line": 4,
+      "speaker": "flare",
+      "text": "……鐘の力が、消えていく。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C02",
+      "music": "mystery"
+    },
+    {
+      "source_line": 5,
+      "speaker": "hinata",
+      "text": "じゃあ、これで……。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 6,
+      "speaker": "flare",
+      "text": "ええ。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 7,
+      "speaker": "flare",
+      "text": "もう、誰かに自分の考えを決められることはありません。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 8,
+      "speaker": "hinata",
+      "text": "……よかった。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 9,
+      "speaker": "bishop",
+      "text": "……まだ……。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C04",
+      "music": "mystery"
+    },
+    {
+      "source_line": 10,
+      "speaker": "flare",
+      "text": "大司教？",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 11,
+      "speaker": "bishop",
+      "text": "まだ……残っている。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C06",
+      "music": "mystery"
+    },
+    {
+      "source_line": 12,
+      "speaker": "bishop",
+      "text": "聖冠の……最後の力が。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C06",
+      "music": "mystery"
+    },
+    {
+      "source_line": 13,
+      "speaker": "hinata",
+      "text": "ちょ、まだやるんすか！？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C07",
+      "music": "mystery"
+    },
+    {
+      "source_line": 14,
+      "speaker": "bishop",
+      "text": "心を導くことが……できないのなら……。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C08",
+      "music": "mystery"
+    },
+    {
+      "source_line": 15,
+      "speaker": "bishop",
+      "text": "二度と、交わらぬようにすればいい。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C08",
+      "music": "mystery"
+    },
+    {
+      "source_line": 16,
+      "speaker": "flare",
+      "text": "まさか――",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 17,
+      "speaker": "arachne",
+      "text": "これは……！",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S30_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 18,
+      "speaker": "bishop",
+      "text": "人は地上に……。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 19,
+      "speaker": "bishop",
+      "text": "魔は、ダンジョンに……！",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 0,
+      "speaker": "narrator",
+      "text": "ゴォォォン――！",
+      "cast": [],
+      "cut": "S30_E19",
+      "music": "mystery"
+    },
+    {
+      "source_line": 20,
+      "speaker": "slime",
+      "text": "おうち、遠くなるー。",
+      "cast": [],
+      "cut": "S30_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 21,
+      "speaker": "kraken",
+      "text": "ずいぶん力技に出たわねえ。",
+      "cast": [],
+      "cut": "S30_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 22,
+      "speaker": "flare",
+      "text": "このままでは……ダンジョンへ行くことも、こちらへ来ることもできなくなる。",
+      "cast": [],
+      "cut": "S30_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 23,
+      "speaker": "bishop",
+      "text": "これで……いい。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C13",
+      "music": "mystery"
+    },
+    {
+      "source_line": 24,
+      "speaker": "bishop",
+      "text": "互いに届かなければ……争いは起こらない。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C13",
+      "music": "mystery"
+    },
+    {
+      "source_line": 25,
+      "speaker": "hinata",
+      "text": "……。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 26,
+      "speaker": "hinata",
+      "text": "いや。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 27,
+      "speaker": "hinata",
+      "text": "魔王様。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 28,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C15",
+      "music": "mystery"
+    },
+    {
+      "source_line": 29,
+      "speaker": "hinata",
+      "text": "ダンジョン……こっちに持ってこれます？",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C15",
+      "music": "mystery"
+    },
+    {
+      "source_line": 30,
+      "speaker": "flare",
+      "text": "……え？",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C16",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 31,
+      "speaker": "arachne",
+      "text": "ダンジョンを……？",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S30_C17",
+      "accents": {
+        "arachne": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 32,
+      "speaker": "kraken",
+      "text": "丸ごと？",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S30_C18",
+      "accents": {
+        "kraken": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 33,
+      "speaker": "bishop",
+      "text": "……何を言っている。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S30_C19",
+      "music": "mystery"
+    },
+    {
+      "source_line": 34,
+      "speaker": "hinata",
+      "text": "だって、離されるのが問題なんすよね？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C20",
+      "music": "mystery"
+    },
+    {
+      "source_line": 35,
+      "speaker": "hinata",
+      "text": "だったら町の近くに引っ越せばいいじゃないっすか。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C20",
+      "music": "mystery"
+    },
+    {
+      "source_line": 36,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C21",
+      "music": "mystery"
+    },
+    {
+      "source_line": 37,
+      "speaker": "hinata",
+      "text": "できるんすね！？",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C21",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "mystery"
+    },
+    {
+      "source_line": 38,
+      "speaker": "bishop",
+      "text": "……。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S30_C22",
+      "music": "hope"
+    },
+    {
+      "source_line": 39,
+      "speaker": "flare",
+      "text": "……。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S30_C22",
+      "music": "hope"
+    },
+    {
+      "source_line": 40,
+      "speaker": "kraken",
+      "text": "……。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S30_C22",
+      "music": "hope"
+    },
+    {
+      "source_line": 41,
+      "speaker": "slime",
+      "text": "おうちー。",
+      "cast": [],
+      "cut": "S30_C23",
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1,
+      "music": "hope"
+    },
+    {
+      "source_line": 42,
+      "speaker": "arachne",
+      "text": "……本当に移しましたね。",
+      "cast": [],
+      "cut": "S30_C23",
+      "music": "hope"
+    },
+    {
+      "source_line": 43,
+      "speaker": "kraken",
+      "text": "引っ越しって、そういう意味だったかしら。",
+      "cast": [],
+      "cut": "S30_C23",
+      "music": "hope"
+    },
+    {
+      "source_line": 44,
+      "speaker": "hinata",
+      "text": "魔王様！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "music": "hope"
+    },
+    {
+      "source_line": 45,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "music": "hope"
+    },
+    {
+      "source_line": 46,
+      "speaker": "hinata",
+      "text": "すごいっすけど！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "music": "hope"
+    },
+    {
+      "source_line": 47,
+      "speaker": "hinata",
+      "text": "最初からこれできたんすか！？",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "hope"
+    },
+    {
+      "source_line": 48,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "music": "hope"
+    },
+    {
+      "source_line": 49,
+      "speaker": "hinata",
+      "text": "じゃあ最初に言ってくださいよ！！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C24",
+      "accents": {
+        "hinata": "anger"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "hope"
+    },
+    {
+      "source_line": 50,
+      "speaker": "flare",
+      "text": "……町から歩いて行ける距離ですね。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S30_C25",
+      "music": "hope"
+    },
+    {
+      "source_line": 51,
+      "speaker": "kraken",
+      "text": "便利になったわねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S30_C26",
+      "music": "hope"
+    },
+    {
+      "source_line": 52,
+      "speaker": "slime",
+      "text": "すぐ遊びにいけるー。",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S30_C27",
+      "music": "hope"
+    },
+    {
+      "source_line": 53,
+      "speaker": "hinata",
+      "text": "これなら、ダンジョンが好きな人はそのまま住めるし。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C28",
+      "music": "hope"
+    },
+    {
+      "source_line": 54,
+      "speaker": "hinata",
+      "text": "地上に出たい人は、出てくればいいっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C28",
+      "music": "hope"
+    },
+    {
+      "source_line": 55,
+      "speaker": "flare",
+      "text": "人間も……行っていいのでしょうか。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C28",
+      "music": "hope"
+    },
+    {
+      "source_line": 56,
+      "speaker": "hinata",
+      "text": "もちろんっすよ。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C28",
+      "music": "hope"
+    },
+    {
+      "source_line": 57,
+      "speaker": "kraken",
+      "text": "観光客が増えそうねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S30_C29",
+      "music": "hope"
+    },
+    {
+      "source_line": 58,
+      "speaker": "arachne",
+      "text": "片付けが必要ですね。",
+      "cast": [
+        "arachne"
+      ],
+      "cut": "S30_C30",
+      "music": "hope"
+    },
+    {
+      "source_line": 59,
+      "speaker": "slime",
+      "text": "おみせやるー？",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "S30_C31",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "hope"
+    },
+    {
+      "source_line": 60,
+      "speaker": "hinata",
+      "text": "引っ越して早々、商売始めないでください！",
+      "cast": [
+        "slime",
+        "hinata"
+      ],
+      "cut": "S30_C31",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "hope"
+    },
+    {
+      "source_line": 61,
+      "speaker": "flare",
+      "text": "結局、どちらに住むんです？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 62,
+      "speaker": "hinata",
+      "text": "んー。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 63,
+      "speaker": "hinata",
+      "text": "まだ決めてないっす。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 64,
+      "speaker": "flare",
+      "text": "決めていない？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "hope"
+    },
+    {
+      "source_line": 65,
+      "speaker": "hinata",
+      "text": "はい。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 66,
+      "speaker": "hinata",
+      "text": "今度は、みんなで自由に選べるんで。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 67,
+      "speaker": "flare",
+      "text": "……そうですね。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C32",
+      "music": "hope"
+    },
+    {
+      "source_line": 68,
+      "speaker": "hinata",
+      "text": "魔王様！　とりあえず帰るっすよー！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C33",
+      "music": "hope"
+    },
+    {
+      "source_line": 69,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C33",
+      "music": "hope"
+    },
+    {
+      "source_line": 70,
+      "speaker": "hinata",
+      "text": "……あ。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C34",
+      "music": "hope"
+    },
+    {
+      "source_line": 71,
+      "speaker": "flare",
+      "text": "どうしました？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C34",
+      "music": "hope"
+    },
+    {
+      "source_line": 72,
+      "speaker": "hinata",
+      "text": "そういえば結局、なんで魔王様には鐘が効かなかったんすかね。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S30_C34",
+      "music": "hope"
+    },
+    {
+      "source_line": 73,
+      "speaker": "kraken",
+      "text": "そういえば、それだけ分からないままねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S30_C35",
+      "music": "hope"
+    },
+    {
+      "source_line": 74,
+      "speaker": "hinata",
+      "text": "魔王様。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C36",
+      "music": "hope"
+    },
+    {
+      "source_line": 75,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C36",
+      "music": "hope"
+    },
+    {
+      "source_line": 76,
+      "speaker": "hinata",
+      "text": "あたしが最初に『地上へ引っ越しましょう』って言った時……。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C36",
+      "music": "hope"
+    },
+    {
+      "source_line": 77,
+      "speaker": "hinata",
+      "text": "もしかして、何も考えずに『よかろう』って言いました？",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C36",
+      "music": "hope"
+    },
+    {
+      "source_line": 78,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S30_C36",
+      "music": "hope"
+    },
+    {
+      "source_line": 79,
+      "speaker": "kraken",
+      "text": "……考えを縛る力も、考えてない相手には効かないのねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S30_C37",
+      "music": "hope"
+    },
+    {
+      "source_line": 80,
+      "speaker": "hinata",
+      "text": "そんな抜け道あるんすか！？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S30_C38",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1,
+      "music": "hope"
+    },
+    {
+      "source_line": 81,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S30_C39",
+      "music": "hope"
+    }
+  ],
+  "presentation_version": 2,
+  "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+  "paper_finale_version": 1
+}

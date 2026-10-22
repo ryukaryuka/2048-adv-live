@@ -1,0 +1,891 @@
+{
+  "id": "stage50",
+  "source_id": "S25",
+  "title": "分けた理由",
+  "chapter": "第6章",
+  "stage": 25,
+  "trigger": "after",
+  "mode": "A",
+  "text_only": false,
+  "show_draft_notice": false,
+  "composite_mode": 0,
+  "background_a": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+  "staging": "res://data/adv/diorama_ch6_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/finale_stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "arachne": {
+      "name": "アラクネ"
+    },
+    "slime": {
+      "name": "スライム"
+    },
+    "flare": {
+      "name": "フレア"
+    },
+    "soldier": {
+      "name": "王国兵"
+    },
+    "bishop": {
+      "name": "大司教"
+    },
+    "priest": {
+      "name": "司祭"
+    },
+    "priests": {
+      "name": "司祭たち"
+    },
+    "child": {
+      "name": "子供"
+    },
+    "narrator": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "flare",
+      "text": "大司教。",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S25_C01",
+      "music": "mystery"
+    },
+    {
+      "source_line": 2,
+      "speaker": "bishop",
+      "text": "……フレア殿下。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C02",
+      "music": "mystery"
+    },
+    {
+      "source_line": 3,
+      "speaker": "flare",
+      "text": "聞きたいことがあります。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 4,
+      "speaker": "bishop",
+      "text": "鐘と聖冠のことでしょう。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 5,
+      "speaker": "hinata",
+      "text": "話が早いっすね。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C04",
+      "music": "mystery"
+    },
+    {
+      "source_line": 6,
+      "speaker": "flare",
+      "text": "なぜ、あんな力を使っているのです。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 7,
+      "speaker": "flare",
+      "text": "人間だけではない。魔物まで、自分の意思を曲げられている。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 8,
+      "speaker": "bishop",
+      "text": "――平和を保つためです。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 9,
+      "speaker": "hinata",
+      "text": "人の意思を曲げることが、平和っすか？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C06",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 10,
+      "speaker": "bishop",
+      "text": "かつて、人と魔は同じ土地で暮らしていました。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C07",
+      "music": "mystery"
+    },
+    {
+      "source_line": 11,
+      "speaker": "bishop",
+      "text": "共に暮らし、共に国を築き……そして、争った。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C07",
+      "music": "mystery"
+    },
+    {
+      "source_line": 12,
+      "speaker": "bishop",
+      "text": "土地を奪い、互いを恐れ、幾度も血を流した。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C07",
+      "music": "mystery"
+    },
+    {
+      "source_line": 13,
+      "speaker": "kraken",
+      "text": "それで、別々にしたのねえ。",
+      "cast": [
+        "kraken",
+        "bishop"
+      ],
+      "cut": "S25_C08",
+      "music": "mystery"
+    },
+    {
+      "source_line": 14,
+      "speaker": "bishop",
+      "text": "ええ。",
+      "cast": [
+        "kraken",
+        "bishop"
+      ],
+      "cut": "S25_C08",
+      "music": "mystery"
+    },
+    {
+      "source_line": 15,
+      "speaker": "bishop",
+      "text": "人は地上に。魔はダンジョンに。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 16,
+      "speaker": "bishop",
+      "text": "それぞれが、それぞれの場所で暮らす。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 17,
+      "speaker": "flare",
+      "text": "場所を分けるだけなら、鐘の力は必要ありません。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 18,
+      "speaker": "bishop",
+      "text": "境を作るだけでは、人は越えようとするからです。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 19,
+      "speaker": "bishop",
+      "text": "会いたい者がいれば、会いに行く。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 20,
+      "speaker": "bishop",
+      "text": "知らない場所があれば、行ってみたくなる。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 21,
+      "speaker": "bishop",
+      "text": "ならば最初から、そこへ行こうと思わなければいい。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 22,
+      "speaker": "hinata",
+      "text": "……じゃあ、あたしがじめじめしたダンジョンから『引っ越したい』って思えたのは、鐘が効かなかったから？",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 23,
+      "speaker": "bishop",
+      "text": "そうでしょう。",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 24,
+      "speaker": "bishop",
+      "text": "不満を持つことまでは問題ではありません。",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C11",
+      "accents": {
+        "bishop": "ellipsis"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 25,
+      "speaker": "bishop",
+      "text": "じめじめしている。日が当たらない。もっと違う場所なら、と考える。",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 26,
+      "speaker": "bishop",
+      "text": "しかし、そこで『なら現状を変えよう』と考えられては困るのです。",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 27,
+      "speaker": "flare",
+      "text": "……不満は感じる。でも、その先を考えられないようにした。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 28,
+      "speaker": "bishop",
+      "text": "現状を変えようとしなければ、争いも起こりません。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 29,
+      "speaker": "hinata",
+      "text": "でも、それって平和じゃなくて……。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C13",
+      "music": "mystery"
+    },
+    {
+      "source_line": 30,
+      "speaker": "hinata",
+      "text": "みんなを諦めさせてただけじゃないっすか。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C13",
+      "music": "mystery"
+    },
+    {
+      "source_line": 31,
+      "speaker": "flare",
+      "text": "……もう一つ。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 32,
+      "speaker": "flare",
+      "text": "なぜ私とヒナタには、鐘が効かなかったのです？",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 33,
+      "speaker": "bishop",
+      "text": "それも、理由は単純です。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 34,
+      "speaker": "bishop",
+      "text": "聖冠は、王家の者には作用しません。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 35,
+      "speaker": "flare",
+      "text": "私は分かります。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 36,
+      "speaker": "flare",
+      "text": "でも、ヒナタは――",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 37,
+      "speaker": "bishop",
+      "text": "その者も、王家の血を引いています。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C14",
+      "music": "mystery"
+    },
+    {
+      "source_line": 38,
+      "speaker": "hinata",
+      "text": "……はい？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C15",
+      "music": "mystery"
+    },
+    {
+      "source_line": 39,
+      "speaker": "flare",
+      "text": "どういうことです。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C15",
+      "music": "mystery"
+    },
+    {
+      "source_line": 40,
+      "speaker": "bishop",
+      "text": "お二人は、同じ日に生まれました。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C16",
+      "music": "mystery"
+    },
+    {
+      "source_line": 41,
+      "speaker": "bishop",
+      "text": "同じ母から。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C16",
+      "music": "mystery"
+    },
+    {
+      "source_line": 42,
+      "speaker": "slime",
+      "text": "……姉妹ー？",
+      "cast": [
+        "slime"
+      ],
+      "cut": "S25_C17",
+      "music": "mystery"
+    },
+    {
+      "source_line": 43,
+      "speaker": "bishop",
+      "text": "双子です。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C18",
+      "music": "mystery"
+    },
+    {
+      "source_line": 44,
+      "speaker": "hinata",
+      "text": "ええええっ！？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C19",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 45,
+      "speaker": "flare",
+      "text": "私に……双子の姉妹が？",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C19",
+      "music": "mystery"
+    },
+    {
+      "source_line": 46,
+      "speaker": "hinata",
+      "text": "いや、似てるとは思ってたっすけど！",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C19",
+      "music": "mystery"
+    },
+    {
+      "source_line": 47,
+      "speaker": "maou",
+      "text": "ふむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S25_C20",
+      "music": "mystery"
+    },
+    {
+      "source_line": 48,
+      "speaker": "kraken",
+      "text": "まあ、見れば分かるものねえ。",
+      "cast": [
+        "kraken"
+      ],
+      "cut": "S25_C21",
+      "music": "mystery"
+    },
+    {
+      "source_line": 49,
+      "speaker": "flare",
+      "text": "では、ヒナタの角や尾は……。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C22",
+      "music": "mystery"
+    },
+    {
+      "source_line": 50,
+      "speaker": "bishop",
+      "text": "王家には、古くから魔の血が流れています。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C22",
+      "music": "mystery"
+    },
+    {
+      "source_line": 51,
+      "speaker": "bishop",
+      "text": "かつて共に国を築いた魔物の血です。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C22",
+      "music": "mystery"
+    },
+    {
+      "source_line": 52,
+      "speaker": "bishop",
+      "text": "ヒナタには、それが強く現れた。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C22",
+      "music": "mystery"
+    },
+    {
+      "source_line": 53,
+      "speaker": "hinata",
+      "text": "だから……サラマンダーとして育ったんすか。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C23",
+      "music": "mystery"
+    },
+    {
+      "source_line": 54,
+      "speaker": "bishop",
+      "text": "王家に、魔物の姿を持つ子が生まれた。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C24",
+      "music": "mystery"
+    },
+    {
+      "source_line": 55,
+      "speaker": "bishop",
+      "text": "この国の秩序にとって、あってはならないことでした。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C24",
+      "music": "mystery"
+    },
+    {
+      "source_line": 56,
+      "speaker": "flare",
+      "text": "それで、ヒナタをダンジョンへ？",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C25",
+      "music": "mystery"
+    },
+    {
+      "source_line": 57,
+      "speaker": "bishop",
+      "text": "本来なら、存在そのものを消すべきだった。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C25",
+      "music": "mystery"
+    },
+    {
+      "source_line": 58,
+      "speaker": "bishop",
+      "text": "ですが、陛下にはできなかった。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C25",
+      "music": "mystery"
+    },
+    {
+      "source_line": 59,
+      "speaker": "bishop",
+      "text": "死んだことにして、ダンジョンへ送ったのです。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C25",
+      "music": "mystery"
+    },
+    {
+      "source_line": 60,
+      "speaker": "hinata",
+      "text": "……。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C26",
+      "music": "mystery"
+    },
+    {
+      "source_line": 61,
+      "speaker": "flare",
+      "text": "陛下が……。",
+      "cast": [
+        "hinata",
+        "flare"
+      ],
+      "cut": "S25_C26",
+      "music": "mystery"
+    },
+    {
+      "source_line": 62,
+      "speaker": "bishop",
+      "text": "結果として、今日こうして戻ってきた。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C27",
+      "music": "mystery"
+    },
+    {
+      "source_line": 63,
+      "speaker": "bishop",
+      "text": "陛下が残した例外が、今になって秩序を揺るがしている。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C27",
+      "music": "mystery"
+    },
+    {
+      "source_line": 64,
+      "speaker": "bishop",
+      "text": "ただ……一つだけ、私にも分からないことがあります。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C27",
+      "music": "mystery"
+    },
+    {
+      "source_line": 65,
+      "speaker": "hinata",
+      "text": "？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C28",
+      "music": "mystery"
+    },
+    {
+      "source_line": 66,
+      "speaker": "bishop",
+      "text": "なぜ、魔王まで聖冠の導きを受けない。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C29",
+      "music": "mystery"
+    },
+    {
+      "source_line": 67,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "maou"
+      ],
+      "cut": "S25_C30",
+      "music": "mystery"
+    },
+    {
+      "source_line": 68,
+      "speaker": "bishop",
+      "text": "……。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C31",
+      "music": "mystery"
+    },
+    {
+      "source_line": 69,
+      "speaker": "hinata",
+      "text": "そこは、あたしも分かんないっす。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S25_C32",
+      "music": "mystery"
+    },
+    {
+      "source_line": 70,
+      "speaker": "bishop",
+      "text": "……いずれにせよ。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 71,
+      "speaker": "bishop",
+      "text": "あなた方を、この先へ進ませるわけにはいきません。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 72,
+      "speaker": "flare",
+      "text": "まだ、聖冠の力で人々を縛り続けるつもりですか。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 73,
+      "speaker": "bishop",
+      "text": "当然です。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 74,
+      "speaker": "bishop",
+      "text": "人と魔が再び自由に行き来すれば、いずれ同じ争いが始まる。",
+      "cast": [
+        "flare",
+        "bishop"
+      ],
+      "cut": "S25_C33",
+      "music": "mystery"
+    },
+    {
+      "source_line": 75,
+      "speaker": "hinata",
+      "text": "私たちは、ただ引っ越したいだけっすよ！",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C34",
+      "music": "mystery"
+    },
+    {
+      "source_line": 76,
+      "speaker": "bishop",
+      "text": "ならば、平和のためにその引っ越しを阻止させていただきます。",
+      "cast": [
+        "hinata",
+        "bishop"
+      ],
+      "cut": "S25_C34",
+      "music": "mystery"
+    },
+    {
+      "source_line": 77,
+      "speaker": "bishop",
+      "text": "ここから先へは通しません。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C35",
+      "music": "mystery"
+    }
+  ],
+  "presentation_version": 2,
+  "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+  "paper_finale_version": 1
+}

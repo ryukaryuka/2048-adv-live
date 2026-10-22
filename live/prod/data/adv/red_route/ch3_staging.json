@@ -1,0 +1,1864 @@
+{
+  "version": 3,
+  "status": "2026-10-11 approved opening style extended to eight chapters; full-route visual review pending",
+  "physical_stature": true,
+  "stature_reference": {
+    "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+    "anchor": [
+      0.48,
+      0.128
+    ],
+    "face_width": 0.163,
+    "chroma": false,
+    "face_scale": 0.9,
+    "head_y": 0.006,
+    "foot_y": 0.991,
+    "body_height": 1.0,
+    "facing": "left",
+    "pose_group": "vampire_normal",
+    "sockets": {
+      "heart": [
+        0.48,
+        0.248
+      ],
+      "hand": [
+        0.41,
+        0.18
+      ]
+    },
+    "expression_group": "red:vampire_normal",
+    "expression_state": "listen"
+  },
+  "actor_order": [
+    "red_soldier",
+    "red_broker",
+    "red_golem",
+    "red_wraith",
+    "red_vampire",
+    "red_succubus",
+    "red_maou"
+  ],
+  "assets": {
+    "golem_normal": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "listen"
+    },
+    "golem_normal_mirror": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "listen",
+      "flip_h": true
+    },
+    "golem_normal_talk": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm_talk.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "talk"
+    },
+    "golem_normal_talk_mirror": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm_talk.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "talk",
+      "flip_h": true
+    },
+    "red_maou_grumble": {
+      "image": "res://art/adv/red_revision_20261012/red_maou_grumble.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_grumble",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_grumble",
+      "expression_state": "talk"
+    },
+    "red_maou_grumble_listen": {
+      "image": "res://art/adv/red_opening_20261011/red_maou_expression_candidate_v3.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_grumble",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_grumble",
+      "expression_state": "listen"
+    },
+    "red_maou_normal": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_normal.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_stand",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_normal",
+      "expression_state": "listen"
+    },
+    "red_maou_normal_talk": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_proud_v2.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_stand",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_normal",
+      "expression_state": "talk"
+    },
+    "red_maou_startled": {
+      "image": "res://art/adv/red_opening_20261011/red_maou_startled.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_startled",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_startled",
+      "expression_state": "listen"
+    },
+    "red_maou_vow": {
+      "image": "res://art/adv/red_revision_20261012/red_maou_vow_fangs_only.png",
+      "anchor": [
+        0.534,
+        0.196
+      ],
+      "face_width": 0.192,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.1,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_vow",
+      "sockets": {
+        "heart": [
+          0.534,
+          0.316
+        ]
+      },
+      "expression_group": "red:red_maou_vow",
+      "expression_state": "talk"
+    },
+    "red_maou_vow_listen": {
+      "image": "res://art/adv/red_opening_20261011/red_maou_vow.png",
+      "anchor": [
+        0.534,
+        0.196
+      ],
+      "face_width": 0.192,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.1,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_vow",
+      "sockets": {
+        "heart": [
+          0.534,
+          0.316
+        ]
+      },
+      "expression_group": "red:red_maou_vow",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/red_maou_style_20261003/red_maou_angry.png",
+      "mouth_target": [
+        0.4921875,
+        0.1953125,
+        0.07421875,
+        0.045572916666666664
+      ],
+      "mouth_source": [
+        0.4921875,
+        0.1953125,
+        0.07421875,
+        0.045572916666666664
+      ],
+      "mouth_full_patch": true
+    },
+    "succubus_delighted": {
+      "image": "res://art/adv/red_opening_20261011/succubus_delighted.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_delighted",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_delighted",
+      "expression_state": "talk"
+    },
+    "succubus_delighted_listen_mirror": {
+      "image": "res://art/adv/red_opening_20261011/succubus_delighted.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_delighted",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_delighted",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "mouth_target": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_source": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_full_patch": true,
+      "flip_h": true
+    },
+    "succubus_delighted_mirror": {
+      "image": "res://art/adv/red_opening_20261011/succubus_delighted.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_delighted",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_delighted",
+      "expression_state": "talk",
+      "flip_h": true
+    },
+    "succubus_normal_mirror": {
+      "image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_normal",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_normal",
+      "expression_state": "listen",
+      "flip_h": true
+    },
+    "vampire_dry": {
+      "image": "res://art/adv/red_opening_20261011/vampire_dry.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_dry",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_dry",
+      "expression_state": "talk"
+    },
+    "vampire_dry_listen": {
+      "image": "res://art/adv/red_opening_20261011/vampire_dry.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_dry",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_dry",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "mouth_target": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_source": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_full_patch": true
+    },
+    "vampire_normal": {
+      "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_normal",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_normal",
+      "expression_state": "listen"
+    },
+    "wraith_normal": {
+      "image": "res://art/adv/red_revision_20261012/wraith_normal_front_warm.png",
+      "anchor": [
+        0.494,
+        0.162
+      ],
+      "face_width": 0.168,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.007,
+      "foot_y": 0.993,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "wraith_normal",
+      "sockets": {
+        "heart": [
+          0.494,
+          0.28200000000000003
+        ],
+        "hand": [
+          0.27,
+          0.5
+        ]
+      }
+    }
+  },
+  "cuts": {
+    "R3C01": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C02": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C03": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C04": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C05": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C06": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C07": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C08": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C09": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C10": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C11": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C12": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C13": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C14": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C15": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C16": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R3C17": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    }
+  },
+  "frames": [
+    {
+      "line": 1,
+      "cut": "R3C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 1,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_succubus": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 2,
+      "cut": "R3C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 2,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 3,
+      "cut": "R3C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_delighted_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 3,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 4,
+      "cut": "R3C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_delighted_listen_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 4,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 5,
+      "cut": "R3C02",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 5,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_succubus": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 6,
+      "cut": "R3C02",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 6,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 7,
+      "cut": "R3C02",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry_listen",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 7,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 8,
+      "cut": "R3C02",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow_listen",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 8,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_vampire",
+        "kind": "tilt",
+        "amount": 2.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 9,
+      "cut": "R3C02",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry_listen",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 9,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "hop",
+        "amount": 10,
+        "duration": 0.36
+      },
+      "reaction_sound": "launch"
+    },
+    {
+      "line": 10,
+      "cut": "R3C03",
+      "actors": {},
+      "paper_location": "corridor",
+      "paper_world": "door",
+      "shot": "insert",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 10,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        },
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 11,
+      "cut": "R3C04",
+      "actors": {},
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "insert",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "shelling",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 11,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 12,
+      "cut": "R3C05",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 12,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 13,
+      "cut": "R3C05",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 13,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 14,
+      "cut": "R3C05",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry_listen",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 14,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 15,
+      "cut": "R3C06",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_golem": {
+          "pose": "golem_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 15,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_golem": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 16,
+      "cut": "R3C06",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow_listen",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_trap",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 16,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 17,
+      "cut": "R3C07",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "action",
+      "camera_cut": true,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "punch",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 17,
+      "camera_zoom": 0.8,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 18,
+      "cut": "R3C08",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 18,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_golem": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      },
+      "beat": {
+        "actor": "red_maou",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 19,
+      "cut": "R3C09",
+      "actors": {
+        "red_succubus": {
+          "pose": "succubus_delighted",
+          "x": 0.46,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 19,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_succubus": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 20,
+      "cut": "R3C10",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_dry",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 20,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_succubus": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 21,
+      "cut": "R3C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_golem": {
+          "pose": "golem_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 21,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_golem": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 22,
+      "cut": "R3C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 22,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 23,
+      "cut": "R3C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_startled",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_golem": {
+          "pose": "golem_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 23,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "tilt",
+        "amount": 2.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 24,
+      "cut": "R3C12",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_wraith": {
+          "pose": "wraith_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_wraith",
+      "lead_in": 0.0,
+      "source_line": 24,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 25,
+      "cut": "R3C12",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_talk_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_wraith": {
+          "pose": "wraith_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "door_broken",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 25,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_golem",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 26,
+      "cut": "R3C13",
+      "actors": {},
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "insert",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "cannons",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_castle",
+      "lead_in": 0.0,
+      "source_line": 26,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "visual_delay": 0.65,
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_golem": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        },
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 27,
+      "cut": "R3C14",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 27,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 28,
+      "cut": "R3C14",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_grumble",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_vampire": {
+          "pose": "vampire_dry_listen",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 28,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "hop",
+        "amount": 10,
+        "duration": 0.36
+      },
+      "reaction_sound": "mvp_stamp"
+    },
+    {
+      "line": 29,
+      "cut": "R3C15",
+      "actors": {},
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "insert",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_castle",
+      "lead_in": 0.0,
+      "source_line": 29,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        },
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 30,
+      "cut": "R3C16",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_grumble",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 30,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "hop",
+        "amount": 10,
+        "duration": 0.36
+      },
+      "reaction_sound": "mvp_stamp"
+    },
+    {
+      "line": 31,
+      "cut": "R3C17",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_grumble_listen",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_delighted_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 31,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_succubus": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 32,
+      "cut": "R3C17",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_delighted_listen_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 32,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 33,
+      "cut": "R3C17",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_vow",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_succubus": {
+          "pose": "succubus_delighted_listen_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "corridor",
+      "paper_world": "cannons",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "light",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_corridor.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 33,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "beat": {
+        "actor": "red_maou",
+        "kind": "hop",
+        "amount": 10,
+        "duration": 0.36
+      },
+      "reaction_sound": "launch"
+    }
+  ]
+}

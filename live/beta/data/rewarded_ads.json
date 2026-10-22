@@ -1,0 +1,10 @@
+{
+  "provider": "admob",
+  "mode": "test",
+  "ios": {
+    "app_id": "ca-app-pub-3940256099942544~1458002511",
+    "rewarded_unit_id": "ca-app-pub-3940256099942544/1712485313"
+  },
+  "max_ad_content_rating": "T",
+  "non_personalized": true
+}

@@ -1,0 +1,881 @@
+{
+  "version": 1,
+  "status": "temporary cut review; reused art, scout proxy and drawn props",
+  "actor_order": [
+    "maou",
+    "kraken",
+    "slime",
+    "scout",
+    "hinata"
+  ],
+  "assets": {
+    "hinata_check": {
+      "image": "res://art/adv/cut_poses/hinata_check.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "maou_reply": {
+      "image": "res://art/adv/cut_poses/maou_reply_clean.png",
+      "anchor": [
+        0.573,
+        0.131
+      ],
+      "face_width": 0.18,
+      "chroma": true
+    },
+    "slime_provisional": {
+      "image": "res://art/adv/chapter1_fullbody/slime_membrane_v1.png",
+      "anchor": [
+        0.58,
+        0.151
+      ],
+      "face_width": 0.198,
+      "chroma": true,
+      "status": "provisional_user_hold"
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/composition_review/original_hinata.png",
+      "anchor": [
+        0.597,
+        0.22
+      ],
+      "face_width": 0.15,
+      "chroma": true
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/composition_review/original_hinata_listen.png",
+      "anchor": [
+        0.597,
+        0.22
+      ],
+      "face_width": 0.15,
+      "chroma": true
+    },
+    "hinata_reassure_v16": {
+      "image": "res://art/adv/cut_poses/hinata_reassure_v16.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "hinata_idea_v16": {
+      "image": "res://art/adv/cut_poses/hinata_idea_v16.png",
+      "anchor": [
+        0.464,
+        0.187
+      ],
+      "face_width": 0.194,
+      "chroma": true
+    },
+    "kraken_solo_dubious_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_dubious_v16.png",
+      "anchor": [
+        0.5,
+        0.156
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "scout_proxy": {
+      "image": "res://art/enemies/stage_bosses/knight/wait.png",
+      "anchor": [
+        0.41,
+        0.29
+      ],
+      "face_width": 0.32,
+      "chroma": false
+    },
+    "maou_pair_reply": {
+      "image": "res://art/adv/cut_poses/maou_reply_clean.png",
+      "anchor": [
+        0.573,
+        0.131
+      ],
+      "face_width": 0.135,
+      "chroma": true,
+      "flip_h": true
+    },
+    "hinata_composed_talk_mirrored": {
+      "image": "res://art/adv/composition_review/original_hinata.png",
+      "anchor": [
+        0.597,
+        0.22
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "flip_h": true
+    }
+  },
+  "cuts": {
+    "C01": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C02": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C03": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C04": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C05": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C06": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C07": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C08": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0.0
+    },
+    "C09": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C10": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C11b": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C11c": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C12": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C13": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C14": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C15": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C16": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C17": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0.0
+    },
+    "C18": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C19": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0.0
+    },
+    "C20": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C21": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C22": {
+      "kind": "expand",
+      "duration": 0.42,
+      "delay": 0.0
+    },
+    "C23": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C24a": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C24b": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C25a": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C_BELL": {
+      "kind": "cut",
+      "duration": 0.12,
+      "delay": 0.0
+    },
+    "C_TIME": {
+      "kind": "cut",
+      "duration": 0.4,
+      "delay": 0.0
+    }
+  },
+  "frames": [
+    {
+      "line": 1,
+      "cut": "C01",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 1
+    },
+    {
+      "line": 2,
+      "cut": "C01",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 2
+    },
+    {
+      "line": 3,
+      "cut": "C01",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 3
+    },
+    {
+      "line": 4,
+      "cut": "C02",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_dubious_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 4
+    },
+    {
+      "line": 5,
+      "cut": "C03",
+      "actors": {
+        "slime": {
+          "pose": "slime_provisional",
+          "x": 0.5
+        }
+      },
+      "source_line": 5
+    },
+    {
+      "line": 6,
+      "cut": "C04",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.5
+        }
+      },
+      "source_line": 6
+    },
+    {
+      "line": 7,
+      "cut": "C05",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5
+        }
+      },
+      "source_line": 7
+    },
+    {
+      "line": 8,
+      "cut": "C06",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_pair_reply",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "source_line": 8,
+      "paper_turn": [
+        "hinata"
+      ]
+    },
+    {
+      "line": 9,
+      "source_line": 0,
+      "cut": "C_BELL",
+      "actors": {},
+      "cue": "bell"
+    },
+    {
+      "line": 10,
+      "cut": "C07",
+      "actors": {
+        "slime": {
+          "pose": "slime_provisional",
+          "x": 0.5
+        }
+      },
+      "source_line": 9
+    },
+    {
+      "line": 11,
+      "cut": "C08",
+      "actors": {
+        "slime": {
+          "pose": "slime_provisional",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 10
+    },
+    {
+      "line": 12,
+      "cut": "C08",
+      "actors": {
+        "slime": {
+          "pose": "slime_provisional",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 11
+    },
+    {
+      "line": 13,
+      "cut": "C09",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 12
+    },
+    {
+      "line": 14,
+      "cut": "C09",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 13
+    },
+    {
+      "line": 15,
+      "source_line": -1,
+      "cut": "C_TIME",
+      "actors": {},
+      "cue": "time_passage"
+    },
+    {
+      "line": 16,
+      "cut": "C10",
+      "actors": {},
+      "cue": "blocked",
+      "source_line": 14
+    },
+    {
+      "line": 17,
+      "cut": "C10",
+      "actors": {},
+      "cue": "blocked",
+      "source_line": 15
+    },
+    {
+      "line": 18,
+      "cut": "C11b",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "cue": "blocked",
+      "source_line": 16
+    },
+    {
+      "line": 19,
+      "cut": "C11c",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5
+        }
+      },
+      "cue": "blocked",
+      "source_line": 17
+    },
+    {
+      "line": 20,
+      "cut": "C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "cue": "destroy",
+      "source_line": 18
+    },
+    {
+      "line": 21,
+      "cut": "C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "source_line": 19
+    },
+    {
+      "line": 22,
+      "cut": "C13",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5
+        }
+      },
+      "source_line": 20
+    },
+    {
+      "line": 23,
+      "cut": "C14",
+      "actors": {},
+      "cue": "cleared",
+      "source_line": 21
+    },
+    {
+      "line": 24,
+      "cut": "C14",
+      "actors": {},
+      "cue": "cleared",
+      "source_line": 22
+    },
+    {
+      "line": 25,
+      "cut": "C15",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_idea_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 23
+    },
+    {
+      "line": 26,
+      "cut": "C16",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 24
+    },
+    {
+      "line": 27,
+      "cut": "C16",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 25
+    },
+    {
+      "line": 28,
+      "cut": "C16",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 26
+    },
+    {
+      "line": 29,
+      "cut": "C16",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "scout_hide",
+      "source_line": 27
+    },
+    {
+      "line": 30,
+      "cut": "C17",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "halt",
+      "source_line": 28
+    },
+    {
+      "line": 31,
+      "cut": "C18",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "source_line": 29
+    },
+    {
+      "line": 32,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 30
+    },
+    {
+      "line": 33,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 31
+    },
+    {
+      "line": 34,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 32
+    },
+    {
+      "line": 35,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 33
+    },
+    {
+      "line": 36,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 34
+    },
+    {
+      "line": 37,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 35
+    },
+    {
+      "line": 38,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 36
+    },
+    {
+      "line": 39,
+      "cut": "C19",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 37
+    },
+    {
+      "line": 40,
+      "cut": "C20",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 38
+    },
+    {
+      "line": 41,
+      "cut": "C20",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 39
+    },
+    {
+      "line": 42,
+      "cut": "C20",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 40
+    },
+    {
+      "line": 43,
+      "cut": "C21",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5
+        }
+      },
+      "source_line": 41
+    },
+    {
+      "line": 44,
+      "cut": "C22",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 42
+    },
+    {
+      "line": 45,
+      "cut": "C23",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754
+        }
+      },
+      "source_line": 43
+    },
+    {
+      "line": 46,
+      "cut": "C23",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.26
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.754
+        }
+      },
+      "source_line": 44
+    },
+    {
+      "line": 47,
+      "cut": "C24a",
+      "actors": {
+        "scout": {
+          "pose": "scout_proxy",
+          "x": 0.5
+        }
+      },
+      "cue": "signal",
+      "source_line": 45
+    },
+    {
+      "line": 48,
+      "cut": "C24b",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "source_line": 46
+    },
+    {
+      "line": 49,
+      "cut": "C25a",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5
+        }
+      },
+      "source_line": 47
+    }
+  ]
+}

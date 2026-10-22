@@ -1,0 +1,3583 @@
+{
+  "version": 3,
+  "status": "2026-10-11 approved opening style extended to eight chapters; full-route visual review pending",
+  "physical_stature": true,
+  "stature_reference": {
+    "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+    "anchor": [
+      0.48,
+      0.128
+    ],
+    "face_width": 0.163,
+    "chroma": false,
+    "face_scale": 0.9,
+    "head_y": 0.006,
+    "foot_y": 0.991,
+    "body_height": 1.0,
+    "facing": "left",
+    "pose_group": "vampire_normal",
+    "sockets": {
+      "heart": [
+        0.48,
+        0.248
+      ],
+      "hand": [
+        0.41,
+        0.18
+      ]
+    },
+    "expression_group": "red:vampire_normal",
+    "expression_state": "listen"
+  },
+  "actor_order": [
+    "red_soldier",
+    "red_broker",
+    "red_golem",
+    "red_wraith",
+    "red_vampire",
+    "red_succubus",
+    "red_maou"
+  ],
+  "assets": {
+    "golem_normal_group48": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "listen"
+    },
+    "golem_normal_talk": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm_talk.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "talk"
+    },
+    "golem_normal_talk_mirror": {
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm_talk.png",
+      "anchor": [
+        0.469,
+        0.12
+      ],
+      "face_width": 0.166,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.012,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "golem_normal",
+      "sockets": {
+        "heart": [
+          0.469,
+          0.24
+        ],
+        "hand": [
+          0.15,
+          0.56
+        ]
+      },
+      "expression_group": "red:golem_normal",
+      "expression_state": "talk",
+      "flip_h": true
+    },
+    "red_maou_normal": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_normal.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_stand",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_normal",
+      "expression_state": "listen"
+    },
+    "red_maou_normal_talk": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_proud_v2.png",
+      "anchor": [
+        0.529,
+        0.204
+      ],
+      "face_width": 0.202,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.112,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_stand",
+      "sockets": {
+        "heart": [
+          0.529,
+          0.32399999999999995
+        ]
+      },
+      "expression_group": "red:red_maou_normal",
+      "expression_state": "talk"
+    },
+    "red_maou_pained": {
+      "image": "res://art/adv/red_opening_20261011/red_maou_pained.png",
+      "anchor": [
+        0.536,
+        0.208
+      ],
+      "face_width": 0.194,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.115,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "red_maou_pained",
+      "sockets": {
+        "heart": [
+          0.536,
+          0.32799999999999996
+        ]
+      },
+      "expression_group": "red:red_maou_pained",
+      "expression_state": "listen"
+    },
+    "red_maou_restored": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_restored.png",
+      "anchor": [
+        0.544,
+        0.219
+      ],
+      "face_width": 0.193,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.115,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_restored",
+      "sockets": {
+        "heart": [
+          0.544,
+          0.33899999999999997
+        ]
+      },
+      "expression_group": "red:red_maou_restored",
+      "expression_state": "listen"
+    },
+    "red_maou_restored_angry": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_restored_angry.png",
+      "anchor": [
+        0.53,
+        0.214
+      ],
+      "face_width": 0.196,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.115,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_restored",
+      "sockets": {
+        "heart": [
+          0.53,
+          0.33399999999999996
+        ]
+      },
+      "expression_group": "red:red_maou_restored_angry",
+      "expression_state": "listen"
+    },
+    "red_maou_restored_angry_talk": {
+      "image": "res://art/adv/red_revision_20261012/red_maou_restored_angry_talk.png",
+      "anchor": [
+        0.53,
+        0.214
+      ],
+      "face_width": 0.196,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.115,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_restored",
+      "sockets": {
+        "heart": [
+          0.53,
+          0.33399999999999996
+        ]
+      },
+      "expression_group": "red:red_maou_restored_angry",
+      "expression_state": "talk"
+    },
+    "red_maou_restored_talk": {
+      "image": "res://art/adv/red_revision_20261012/red_maou_restored_talk.png",
+      "anchor": [
+        0.544,
+        0.219
+      ],
+      "face_width": 0.193,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.115,
+      "foot_y": 0.984,
+      "body_height": 0.76,
+      "facing": "right",
+      "pose_group": "queen_restored",
+      "sockets": {
+        "heart": [
+          0.544,
+          0.33899999999999997
+        ]
+      },
+      "expression_group": "red:red_maou_restored",
+      "expression_state": "talk"
+    },
+    "red_maou_weak": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_weak.png",
+      "anchor": [
+        0.604,
+        0.336
+      ],
+      "face_width": 0.212,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.203,
+      "foot_y": 0.938,
+      "body_height": 0.49,
+      "facing": "right",
+      "pose_group": "queen_kneel",
+      "sockets": {
+        "heart": [
+          0.555,
+          0.455
+        ]
+      },
+      "expression_group": "red:red_maou_weak",
+      "expression_state": "listen"
+    },
+    "red_maou_weak_group48": {
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_weak.png",
+      "anchor": [
+        0.604,
+        0.336
+      ],
+      "face_width": 0.212,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.203,
+      "foot_y": 0.938,
+      "body_height": 0.49,
+      "facing": "right",
+      "pose_group": "queen_kneel",
+      "sockets": {
+        "heart": [
+          0.555,
+          0.455
+        ]
+      },
+      "expression_group": "red:red_maou_weak",
+      "expression_state": "listen"
+    },
+    "red_maou_weak_talk": {
+      "image": "res://art/adv/red_revision_20261012/red_maou_weak_talk.png",
+      "anchor": [
+        0.604,
+        0.336
+      ],
+      "face_width": 0.212,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.203,
+      "foot_y": 0.938,
+      "body_height": 0.49,
+      "facing": "right",
+      "pose_group": "queen_kneel",
+      "sockets": {
+        "heart": [
+          0.555,
+          0.455
+        ]
+      },
+      "expression_group": "red:red_maou_weak",
+      "expression_state": "talk"
+    },
+    "succubus_normal_group48": {
+      "image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_normal",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_normal",
+      "expression_state": "listen"
+    },
+    "succubus_normal_talk": {
+      "image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_normal",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_normal",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/succubus_normal_talk_source.png",
+      "mouth_target": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_source": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_full_patch": true
+    },
+    "succubus_normal_talk_mirror": {
+      "image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "anchor": [
+        0.491,
+        0.157
+      ],
+      "face_width": 0.171,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.085,
+      "foot_y": 0.989,
+      "body_height": 1.0,
+      "facing": "right",
+      "pose_group": "succubus_normal",
+      "sockets": {
+        "heart": [
+          0.491,
+          0.277
+        ],
+        "hand": [
+          0.15,
+          0.36
+        ]
+      },
+      "expression_group": "red:succubus_normal",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/succubus_normal_talk_source.png",
+      "mouth_target": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_source": [
+        0.5078125,
+        0.17838541666666666,
+        0.0595703125,
+        0.028645833333333332
+      ],
+      "mouth_full_patch": true,
+      "flip_h": true
+    },
+    "vampire_normal_mirror": {
+      "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_normal",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_normal",
+      "expression_state": "listen",
+      "flip_h": true
+    },
+    "vampire_normal_talk": {
+      "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_normal",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_normal",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/vampire_normal_talk_source.png",
+      "mouth_target": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_source": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_full_patch": true
+    },
+    "vampire_normal_talk_mirror": {
+      "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_normal",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.41,
+          0.18
+        ]
+      },
+      "expression_group": "red:vampire_normal",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/vampire_normal_talk_source.png",
+      "mouth_target": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_source": [
+        0.40234375,
+        0.150390625,
+        0.0419921875,
+        0.022135416666666668
+      ],
+      "mouth_full_patch": true,
+      "flip_h": true
+    },
+    "vampire_offer": {
+      "image": "res://art/adv/red_route_20261002/vampire_offer.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_offer",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.13,
+          0.28
+        ]
+      },
+      "expression_group": "red:vampire_offer",
+      "expression_state": "listen"
+    },
+    "vampire_offer_group48_mirror": {
+      "image": "res://art/adv/red_route_20261002/vampire_offer.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_offer",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.13,
+          0.28
+        ]
+      },
+      "expression_group": "red:vampire_offer",
+      "expression_state": "listen",
+      "flip_h": true
+    },
+    "vampire_offer_mirror": {
+      "image": "res://art/adv/red_route_20261002/vampire_offer.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_offer",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.13,
+          0.28
+        ]
+      },
+      "expression_group": "red:vampire_offer",
+      "expression_state": "listen",
+      "flip_h": true
+    },
+    "vampire_offer_talk": {
+      "image": "res://art/adv/red_route_20261002/vampire_offer.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_offer",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.13,
+          0.28
+        ]
+      },
+      "expression_group": "red:vampire_offer",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/vampire_offer_talk_source.png",
+      "mouth_target": [
+        0.43359375,
+        0.13932291666666666,
+        0.052734375,
+        0.024088541666666668
+      ],
+      "mouth_source": [
+        0.43359375,
+        0.13932291666666666,
+        0.052734375,
+        0.024088541666666668
+      ],
+      "mouth_full_patch": true
+    },
+    "vampire_offer_talk_group48_mirror": {
+      "image": "res://art/adv/red_route_20261002/vampire_offer.png",
+      "anchor": [
+        0.48,
+        0.128
+      ],
+      "face_width": 0.163,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.006,
+      "foot_y": 0.991,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "vampire_offer",
+      "sockets": {
+        "heart": [
+          0.48,
+          0.248
+        ],
+        "hand": [
+          0.13,
+          0.28
+        ]
+      },
+      "expression_group": "red:vampire_offer",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/vampire_offer_talk_source.png",
+      "mouth_target": [
+        0.43359375,
+        0.13932291666666666,
+        0.052734375,
+        0.024088541666666668
+      ],
+      "mouth_source": [
+        0.43359375,
+        0.13932291666666666,
+        0.052734375,
+        0.024088541666666668
+      ],
+      "mouth_full_patch": true,
+      "flip_h": true
+    },
+    "war_broker_command": {
+      "image": "res://art/adv/red_route_20261002/war_broker_command.png",
+      "anchor": [
+        0.51,
+        0.085
+      ],
+      "face_width": 0.144,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.002,
+      "foot_y": 0.99,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "war_broker_command",
+      "sockets": {
+        "heart": [
+          0.51,
+          0.20500000000000002
+        ],
+        "hand": [
+          0.15,
+          0.105
+        ]
+      },
+      "expression_group": "red:war_broker_command",
+      "expression_state": "listen"
+    },
+    "war_broker_command_talk": {
+      "image": "res://art/adv/red_route_20261002/war_broker_command.png",
+      "anchor": [
+        0.51,
+        0.085
+      ],
+      "face_width": 0.144,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.002,
+      "foot_y": 0.99,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "war_broker_command",
+      "sockets": {
+        "heart": [
+          0.51,
+          0.20500000000000002
+        ],
+        "hand": [
+          0.15,
+          0.105
+        ]
+      },
+      "expression_group": "red:war_broker_command",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/war_broker_command_talk_source.png",
+      "mouth_target": [
+        0.455078125,
+        0.08463541666666667,
+        0.0634765625,
+        0.031901041666666664
+      ],
+      "mouth_source": [
+        0.455078125,
+        0.08463541666666667,
+        0.0634765625,
+        0.031901041666666664
+      ],
+      "mouth_full_patch": true
+    },
+    "war_broker_normal": {
+      "image": "res://art/adv/red_route_20261002/war_broker_normal.png",
+      "anchor": [
+        0.51,
+        0.085
+      ],
+      "face_width": 0.144,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.002,
+      "foot_y": 0.99,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "war_broker_normal",
+      "sockets": {
+        "heart": [
+          0.51,
+          0.20500000000000002
+        ],
+        "hand": [
+          0.12,
+          0.31
+        ]
+      },
+      "expression_group": "red:war_broker_normal",
+      "expression_state": "listen"
+    },
+    "war_broker_normal_talk": {
+      "image": "res://art/adv/red_route_20261002/war_broker_normal.png",
+      "anchor": [
+        0.51,
+        0.085
+      ],
+      "face_width": 0.144,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.002,
+      "foot_y": 0.99,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "war_broker_normal",
+      "sockets": {
+        "heart": [
+          0.51,
+          0.20500000000000002
+        ],
+        "hand": [
+          0.12,
+          0.31
+        ]
+      },
+      "expression_group": "red:war_broker_normal",
+      "expression_state": "talk",
+      "mouth_image": "res://art/adv/quality_20261003/war_broker_normal_talk_source.png",
+      "mouth_target": [
+        0.4619140625,
+        0.08854166666666667,
+        0.064453125,
+        0.022135416666666668
+      ],
+      "mouth_source": [
+        0.4619140625,
+        0.08854166666666667,
+        0.064453125,
+        0.022135416666666668
+      ],
+      "mouth_full_patch": true
+    },
+    "wraith_normal_group48": {
+      "image": "res://art/adv/red_revision_20261012/wraith_normal_front_warm.png",
+      "anchor": [
+        0.494,
+        0.162
+      ],
+      "face_width": 0.168,
+      "chroma": false,
+      "face_scale": 0.48,
+      "head_y": 0.007,
+      "foot_y": 0.993,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "wraith_normal",
+      "sockets": {
+        "heart": [
+          0.494,
+          0.28200000000000003
+        ],
+        "hand": [
+          0.27,
+          0.5
+        ]
+      }
+    },
+    "wraith_normal_mirror": {
+      "image": "res://art/adv/red_revision_20261012/wraith_normal_front_warm.png",
+      "anchor": [
+        0.494,
+        0.162
+      ],
+      "face_width": 0.168,
+      "chroma": false,
+      "face_scale": 0.9,
+      "head_y": 0.007,
+      "foot_y": 0.993,
+      "body_height": 1.0,
+      "facing": "left",
+      "pose_group": "wraith_normal",
+      "sockets": {
+        "heart": [
+          0.494,
+          0.28200000000000003
+        ],
+        "hand": [
+          0.27,
+          0.5
+        ]
+      },
+      "flip_h": true
+    }
+  },
+  "cuts": {
+    "R7C01": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C02": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C03": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C04": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C05": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C06": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C07": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C08": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C09": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C10": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C11": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C12": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C13": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C14": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C15": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C16": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C17": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C18": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C19": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C20": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C21": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C22": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C23": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C24": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C25": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C26": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C27": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C28": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C29": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C30": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C31": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C32": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C33": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C34": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C35": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C36": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C37": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C38": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C39": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C40": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "R7C41": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    }
+  },
+  "frames": [
+    {
+      "line": 1,
+      "cut": "R7C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 1,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 2,
+      "cut": "R7C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 2,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 3,
+      "cut": "R7C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 3,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 4,
+      "cut": "R7C01",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "command",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 4,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 5,
+      "cut": "R7C02",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_normal_talk_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 5,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 6,
+      "cut": "R7C02",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_normal_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 6,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 7,
+      "cut": "R7C03",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 7,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 8,
+      "cut": "R7C03",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 8,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 9,
+      "cut": "R7C04",
+      "actors": {},
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "insert",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "fall",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 9,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        },
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 10,
+      "cut": "R7C05",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 10,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 11,
+      "cut": "R7C05",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 11,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 12,
+      "cut": "R7C06",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_normal_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 12,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 13,
+      "cut": "R7C07",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_normal",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 13,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 14,
+      "cut": "R7C08",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.8,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "drain",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 14,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 15,
+      "cut": "R7C09",
+      "actors": {
+        "red_succubus": {
+          "pose": "succubus_normal_talk",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 15,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_succubus": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 16,
+      "cut": "R7C10",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_talk_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 16,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_golem": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_succubus": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 17,
+      "cut": "R7C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 17,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_golem": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 18,
+      "cut": "R7C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 18,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 19,
+      "cut": "R7C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 19,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 20,
+      "cut": "R7C11",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_pained",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 20,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 21,
+      "cut": "R7C12",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.8,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 21,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 22,
+      "cut": "R7C12",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.8,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 22,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 23,
+      "cut": "R7C12",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.8,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 23,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 24,
+      "cut": "R7C12",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.8,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "drain",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 24,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 25,
+      "cut": "R7C13",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "kneel",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 25,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 26,
+      "cut": "R7C14",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 26,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 27,
+      "cut": "R7C15",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "wounded",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "unease",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 27,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 28,
+      "cut": "R7C16",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 28,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 29,
+      "cut": "R7C17",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 29,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      },
+      "beat": {
+        "actor": "red_maou",
+        "kind": "tilt",
+        "amount": 2.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 30,
+      "cut": "R7C18",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_group48",
+          "x": 0.5,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_offer_talk_group48_mirror",
+          "x": 0.1,
+          "y": 0.4
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_group48",
+          "x": 0.29,
+          "y": 0.4
+        },
+        "red_golem": {
+          "pose": "golem_normal_group48",
+          "x": 0.71,
+          "y": 0.4
+        },
+        "red_wraith": {
+          "pose": "wraith_normal_group48",
+          "x": 0.9,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 30,
+      "camera_zoom": 0.68,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_succubus": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.8
+        },
+        "red_golem": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 31,
+      "cut": "R7C19",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 31,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        },
+        "red_succubus": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        },
+        "red_golem": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.68
+        },
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 32,
+      "cut": "R7C20",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 32,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      },
+      "beat": {
+        "actor": "red_maou",
+        "kind": "tilt",
+        "amount": 2.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 33,
+      "cut": "R7C21",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 33,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 34,
+      "cut": "R7C22",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_offer",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 34,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 35,
+      "cut": "R7C23",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 35,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 36,
+      "cut": "R7C24",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_talk_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 36,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_succubus": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 37,
+      "cut": "R7C25",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 37,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_succubus": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      },
+      "beat": {
+        "actor": "red_maou",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 38,
+      "cut": "R7C26",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 38,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_golem": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 39,
+      "cut": "R7C27",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 39,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 40,
+      "cut": "R7C28",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 40,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_golem": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      },
+      "beat": {
+        "actor": "red_maou",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 41,
+      "cut": "R7C29",
+      "actors": {
+        "red_golem": {
+          "pose": "golem_normal_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_golem",
+      "lead_in": 0.0,
+      "source_line": 41,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_golem": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      },
+      "beat": {
+        "actor": "red_golem",
+        "kind": "nod",
+        "amount": 4.0,
+        "duration": 0.55
+      }
+    },
+    {
+      "line": 42,
+      "cut": "R7C30",
+      "actors": {
+        "red_wraith": {
+          "pose": "wraith_normal_mirror",
+          "x": 0.46,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_wraith",
+      "lead_in": 0.0,
+      "source_line": 42,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_wraith": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_golem": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 43,
+      "cut": "R7C31",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_mirror",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 43,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_wraith": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 44,
+      "cut": "R7C32",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 44,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 45,
+      "cut": "R7C33",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 45,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 46,
+      "cut": "R7C34",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 46,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 47,
+      "cut": "R7C35",
+      "actors": {
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 47,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 48,
+      "cut": "R7C36",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak",
+          "x": 0.25,
+          "y": 0.5
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_talk_mirror",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "gift",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_succubus",
+      "lead_in": 0.0,
+      "source_line": 48,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_succubus": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_broker": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 49,
+      "cut": "R7C37",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_group48",
+          "x": 0.5,
+          "y": 0.5
+        },
+        "red_vampire": {
+          "pose": "vampire_offer_group48_mirror",
+          "x": 0.1,
+          "y": 0.4
+        },
+        "red_succubus": {
+          "pose": "succubus_normal_group48",
+          "x": 0.29,
+          "y": 0.4
+        },
+        "red_golem": {
+          "pose": "golem_normal_group48",
+          "x": 0.71,
+          "y": 0.4
+        },
+        "red_wraith": {
+          "pose": "wraith_normal_group48",
+          "x": 0.9,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "group",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 49,
+      "camera_zoom": 0.68,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_golem": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        },
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 50,
+      "cut": "R7C38",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 50,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        },
+        "red_succubus": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.74
+        },
+        "red_golem": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.68
+        },
+        "red_wraith": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 51,
+      "cut": "R7C38",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_weak_talk",
+          "x": 0.5,
+          "y": 0.46
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 51,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 52,
+      "cut": "R7C39",
+      "actors": {
+        "red_vampire": {
+          "pose": "vampire_offer_talk",
+          "x": 0.54,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "gift",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_vampire",
+      "lead_in": 0.0,
+      "source_line": 52,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_vampire": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_maou": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.68
+        }
+      }
+    },
+    {
+      "line": 53,
+      "cut": "R7C40",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "restore",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 53,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_maou": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "red_vampire": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.74
+        }
+      }
+    },
+    {
+      "line": 54,
+      "cut": "R7C40",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "close",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 54,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 55,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 55,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {
+        "red_broker": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {}
+    },
+    {
+      "line": 56,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 56,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 57,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 57,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 58,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 58,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 59,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 59,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 60,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 60,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 61,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 61,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 62,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 62,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 63,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_angry_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_normal",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 63,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 64,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_angry",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_command_talk",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "command",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_broker",
+      "lead_in": 0.0,
+      "source_line": 64,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 65,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 65,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    },
+    {
+      "line": 66,
+      "cut": "R7C41",
+      "actors": {
+        "red_maou": {
+          "pose": "red_maou_restored_angry_talk",
+          "x": 0.25,
+          "y": 0.46
+        },
+        "red_broker": {
+          "pose": "war_broker_command",
+          "x": 0.73,
+          "y": 0.4
+        }
+      },
+      "paper_location": "hall",
+      "paper_world": "restored",
+      "shot": "pair",
+      "camera_cut": false,
+      "paper_acting": "white",
+      "mood": "hope",
+      "cue": "",
+      "background": "res://art/adv/quality_20261003/paper_hall.png",
+      "speaker": "red_maou",
+      "lead_in": 0.0,
+      "source_line": 66,
+      "camera_zoom": 1.1,
+      "paper_turn": [],
+      "puppet_entries": {},
+      "puppet_exits": {}
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "settings": {
+    "party_size": 4,
+    "max_skill_upgrades": 5,
+    "max_character_stacks": 6,
+    "supply_move_bonus": 10,
+    "move_warning_thresholds": [30, 20, 10, 5, 1],
+    "floor_intro_feedback_duration": 1.8,
+    "normal_clear_feedback_duration": 2.2,
+    "boss_clear_feedback_duration": 3.2,
+    "stage_level_feedback_duration": 2.4,
+    "limit_hit_repeat_feedback_duration": 0.7,
+    "board_size": 4,
+    "base_spawn_value": 2,
+    "upgraded_spawn_chance": 0.1,
+    "initial_merge_cap": 256,
+    "limit_hit_total_damage_multiplier": 1.0,
+    "base_growth_merge_xp_multiplier": 0.05,
+    "base_growth_limit_hit_xp_multiplier": 0.5,
+    "base_growth_xp_requirements": [256, 768, 2304, 6912, 20736, 62208, 186624],
+    "base_growth_late_xp_multiplier": 3.0,
+    "base_growth_max_spawn_cap_divisor": 4,
+    "damage_heavy_hp_ratio": 0.06,
+    "damage_heavy_pace_ratio": 3.5,
+    "damage_critical_hp_ratio": 0.12,
+    "damage_critical_pace_ratio": 8.0,
+    "combo_window": 3
+  },
+  "floor_scaling": {
+    "prototype_floor_count": 30,
+    "block_size": 5,
+    "upper_spawn_chance_start": 0.10,
+    "upper_spawn_chance_per_floor": 0.02,
+    "upper_spawn_chance_max": 0.50,
+    "hp_multiplier_per_block": 2.2,
+    "move_limit_multiplier_per_block": 1.05
+  },
+  "floors": [
+    {"name": "GATEKEEPER", "hp": 300, "move_limit": 40, "color": "#776e65", "portrait_index": 0},
+    {"name": "CASTLE GUARD", "hp": 700, "move_limit": 50, "color": "#8d6e63", "portrait_index": 1},
+    {"name": "ELITE MAGE", "hp": 1400, "move_limit": 65, "color": "#7e57c2", "portrait_index": 2},
+    {"name": "HERO", "hp": 2200, "move_limit": 85, "color": "#5c6bc0", "portrait_index": 3},
+    {"name": "DUNGEON BOSS", "hp": 3200, "move_limit": 110, "color": "#c44536", "portrait_index": 4}
+  ],
+  "zone_patterns": {
+    "right_half": {"name": "右2列", "indices": [2, 3, 6, 7, 10, 11, 14, 15]},
+    "left_half": {"name": "左2列", "indices": [0, 1, 4, 5, 8, 9, 12, 13]},
+    "top_half": {"name": "上2列", "indices": [0, 1, 2, 3, 4, 5, 6, 7]},
+    "bottom_half": {"name": "下2列", "indices": [8, 9, 10, 11, 12, 13, 14, 15]},
+    "center_four": {"name": "中央4マス", "indices": [5, 6, 9, 10]},
+    "perimeter": {"name": "外周", "indices": [0, 1, 2, 3, 4, 7, 8, 11, 12, 13, 14, 15]},
+    "top_right_four": {"name": "右上4マス", "indices": [2, 3, 6, 7]},
+    "top_left_four": {"name": "左上4マス", "indices": [0, 1, 4, 5]},
+    "bottom_right_four": {"name": "右下4マス", "indices": [10, 11, 14, 15]},
+    "bottom_left_four": {"name": "左下4マス", "indices": [8, 9, 12, 13]}
+  },
+  "character_order": ["leader", "venom", "vampire", "reaper", "guardian", "tactician", "alchemist"],
+  "characters": {
+    "leader": {
+      "name": "仮リーダー",
+      "portrait_index": 0,
+      "art_key": "01_blue_lightning",
+      "active_skill": "base_surge",
+      "passive_skill": "merge_streak_power"
+    },
+    "venom": {
+      "name": "毒使い（仮）",
+      "portrait_index": 5,
+      "art_key": "09_oni_fork",
+      "active_skill": "poison_tile",
+      "passive_skill": "poison_exploit"
+    },
+    "vampire": {
+      "name": "吸血鬼（仮）",
+      "portrait_index": 2,
+      "art_key": "08_crystal_wing",
+      "active_skill": "overgeneration",
+      "passive_skill": "corner_power"
+    },
+    "reaper": {
+      "name": "処刑人（仮）",
+      "portrait_index": 1,
+      "art_key": "03_ink_brush",
+      "active_skill": "consume_tile_damage",
+      "passive_skill": "inherited_combo"
+    },
+    "guardian": {
+      "name": "守護者（仮）",
+      "portrait_index": 4,
+      "art_key": "06_fan_miko",
+      "active_skill": "pin_tile",
+      "passive_skill": "right_zone_power"
+    },
+    "tactician": {
+      "name": "盤面術師（仮）",
+      "portrait_index": 6,
+      "art_key": "10_astrolabe",
+      "active_skill": "sort_board_descending",
+      "passive_skill": "growth_experience"
+    },
+    "alchemist": {
+      "name": "錬金術師（仮）",
+      "portrait_index": 3,
+      "art_key": "04_fireworks",
+      "active_skill": "quad_generation",
+      "passive_skill": "formation_upgrade"
+    }
+  },
+  "active_skills": {
+    "base_surge": {
+      "name": "基礎加速",
+      "category": "一時成長",
+      "effect": "temporary_base_upgrade",
+      "target": "none",
+      "cooldown": [30, 28, 26, 24, 22, 20],
+      "duration": [5, 5, 6, 6, 7, 8],
+      "grade_bonus": [1, 1, 1, 1, 1, 2],
+      "description": "5手の間、基礎タイルを1段階アップする",
+      "evaluation": {"board": 4, "damage": 3, "defense": 1, "scaling": 5, "complexity": 1, "risk": 2}
+    },
+    "extend_move_limit": {
+      "name": "時間延長",
+      "category": "戦闘介入",
+      "effect": "extend_move_limit",
+      "target": "none",
+      "cooldown": [30, 28, 26, 24, 22, 20],
+      "amount": [5, 6, 7, 8, 9, 10],
+      "description": "この階の残り手数を5手増やす",
+      "evaluation": {"board": 2, "damage": 2, "defense": 1, "scaling": 3, "complexity": 1, "risk": 1}
+    },
+    "pin_tile": {
+      "name": "固定結界",
+      "category": "盤面操作",
+      "effect": "pin_tile",
+      "target": "occupied_tile",
+      "cooldown": [50, 46, 42, 38, 34, 30],
+      "duration": [10, 10, 10, 10, 10, 10],
+      "description": "選んだタイルを10手そのマスに固定。同値タイルとは固定位置で合成する",
+      "evaluation": {"board": 5, "damage": 3, "defense": 3, "scaling": 4, "complexity": 4, "risk": 4}
+    },
+    "poison_tile": {
+      "name": "毒の仕込み",
+      "category": "特殊タイル",
+      "effect": "apply_poison",
+      "target": "occupied_tile",
+      "cooldown": [30, 28, 26, 24, 22, 20],
+      "duration": [5, 6, 7, 8, 9, 10],
+      "description": "選んだタイルへ毒を付与する",
+      "evaluation": {"board": 2, "damage": 4, "defense": 1, "scaling": 4, "complexity": 3, "risk": 5}
+    },
+    "consume_tile_damage": {
+      "name": "魔力処刑",
+      "category": "直接攻撃",
+      "effect": "consume_tile_damage",
+      "target": "occupied_tile",
+      "board_rescue": true,
+      "cooldown": [20, 19, 18, 17, 16, 15],
+      "amount": [2.0, 2.25, 2.5, 2.75, 3.0, 3.5],
+      "description": "選んだタイルを消費し、数値の2倍ダメージ",
+      "evaluation": {"board": 3, "damage": 5, "defense": 1, "scaling": 5, "complexity": 2, "risk": 4}
+    },
+    "shuffle_board": {
+      "name": "盤面シャッフル",
+      "category": "盤面整理",
+      "effect": "shuffle_board",
+      "target": "none",
+      "board_rescue": true,
+      "cooldown": [40, 36, 32, 28, 24, 20],
+      "description": "空きマスを含む盤面全体をランダムに並べ替える",
+      "evaluation": {"board": 4, "damage": 1, "defense": 3, "scaling": 3, "complexity": 1, "risk": 4}
+    },
+    "sort_board_descending": {
+      "name": "整列術",
+      "category": "盤面整理",
+      "effect": "sort_board_descending",
+      "target": "none",
+      "board_rescue": true,
+      "cooldown": [80, 72, 64, 56, 48, 40],
+      "description": "全タイルを左上から大きい順に詰めて並べる",
+      "evaluation": {"board": 5, "damage": 3, "defense": 5, "scaling": 5, "complexity": 1, "risk": 1}
+    },
+    "echo_tile": {
+      "name": "反響付与",
+      "category": "特殊タイル",
+      "effect": "apply_echo",
+      "target": "occupied_tile",
+      "cooldown": [50, 46, 42, 38, 34, 30],
+      "description": "選んだタイルへ反響を付与する",
+      "evaluation": {"board": 4, "damage": 3, "defense": 1, "scaling": 5, "complexity": 3, "risk": 3}
+    },
+    "quad_generation": {
+      "name": "四重生成",
+      "category": "盤面経済",
+      "effect": "quad_generation",
+      "target": "none",
+      "cooldown": [30, 28, 26, 24, 22, 20],
+      "duration": [3, 3, 3, 3, 3, 3],
+      "spawn_count": [4, 4, 4, 4, 4, 4],
+      "description": "3手の間、移動後に新規タイルを毎手4枚出す（空きマス分まで）",
+      "evaluation": {"board": 5, "damage": 2, "defense": 1, "scaling": 4, "complexity": 1, "risk": 5}
+    },
+    "stop_spawns": {
+      "name": "静止領域",
+      "category": "盤面整理",
+      "effect": "stop_spawns",
+      "target": "none",
+      "cooldown": [50, 46, 42, 38, 34, 30],
+      "duration": [5, 6, 7, 8, 9, 10],
+      "description": "5手の間、新規タイルを出現させない",
+      "evaluation": {"board": 5, "damage": 3, "defense": 2, "scaling": 4, "complexity": 2, "risk": 1}
+    },
+    "overgeneration": {
+      "name": "過剰生成",
+      "category": "盤面経済",
+      "effect": "overgeneration",
+      "target": "none",
+      "cooldown": [50, 46, 42, 38, 34, 30],
+      "duration": [5, 6, 7, 8, 9, 10],
+      "spawn_count": [2, 2, 2, 2, 2, 2],
+      "grade_bonus": [1, 1, 1, 1, 1, 2],
+      "description": "5手の間、強い新規タイルを毎手2枚出す",
+      "evaluation": {"board": 4, "damage": 4, "defense": 1, "scaling": 5, "complexity": 3, "risk": 5}
+    }
+  },
+  "passive_skills": {
+    "merge_streak_power": {
+      "name": "連鎖鼓舞",
+      "category": "連続合成",
+      "effect": "merge_streak_power",
+      "amount": [0.08, 0.10, 0.12, 0.14, 0.17, 0.20],
+      "max_chain": [6, 7, 8, 9, 10, 12],
+      "description": "2手連続で合成すると火力+8%。以後1チェインごとに上昇（最大C6）。合成なしの有効手でリセット",
+      "evaluation": {"board": 3, "damage": 5, "defense": 1, "scaling": 5, "complexity": 2, "risk": 3}
+    },
+    "corner_power": {
+      "name": "角の威光",
+      "category": "位置条件",
+      "effect": "corner_power",
+      "amount": [0.25, 0.30, 0.35, 0.40, 0.45, 0.50],
+      "description": "最高タイルが角にある間、与ダメージ+25%",
+      "evaluation": {"board": 3, "damage": 4, "defense": 1, "scaling": 4, "complexity": 2, "risk": 2}
+    },
+    "growth_experience": {
+      "name": "成長解析",
+      "category": "ラン成長",
+      "effect": "growth_xp_multiplier",
+      "amount": [0.25, 0.30, 0.35, 0.40, 0.50, 0.75],
+      "description": "獲得する基礎成長EXP+25%",
+      "evaluation": {"board": 2, "damage": 1, "defense": 1, "scaling": 5, "complexity": 1, "risk": 1}
+    },
+    "poison_exploit": {
+      "name": "毒性変換",
+      "category": "特殊タイル",
+      "effect": "poison_exploit",
+      "amount": [1.0, 1.2, 1.4, 1.6, 1.8, 2.0],
+      "description": "毒タイル合成時、生成値分の追加ダメージ",
+      "evaluation": {"board": 2, "damage": 5, "defense": 1, "scaling": 5, "complexity": 3, "risk": 5}
+    },
+    "multi_merge_bonus": {
+      "name": "連鎖処刑",
+      "category": "合成条件",
+      "effect": "multi_merge_bonus",
+      "amount": [0.25, 0.30, 0.35, 0.40, 0.45, 0.50],
+      "description": "1手で2回以上合成すると追加ダメージ",
+      "evaluation": {"board": 2, "damage": 4, "defense": 1, "scaling": 4, "complexity": 2, "risk": 2}
+    },
+    "right_zone_power": {
+      "name": "右翼陣",
+      "category": "位置条件",
+      "effect": "zone_growth",
+      "zone_pattern": "right_half",
+      "base_multiplier": 1.0,
+      "growth_per_merge": [0.15, 0.20, 0.25, 0.30, 0.40, 0.50],
+      "max_multiplier": 4.0,
+      "zone_color": "#ffd166",
+      "description": "右2列で合成するたび、その戦闘中の領域倍率が上昇",
+      "evaluation": {"board": 4, "damage": 5, "defense": 1, "scaling": 5, "complexity": 3, "risk": 3}
+    },
+    "echo_mastery": {
+      "name": "反響増幅",
+      "category": "特殊タイル",
+      "effect": "echo_mastery",
+      "amount": [1.0, 1.2, 1.4, 1.6, 1.8, 2.0],
+      "description": "反響発動時、複製値に応じた追加ダメージ",
+      "evaluation": {"board": 4, "damage": 3, "defense": 1, "scaling": 5, "complexity": 2, "risk": 3}
+    },
+    "wall_impact": {
+      "name": "壁面衝撃",
+      "category": "位置条件",
+      "effect": "wall_impact",
+      "divisor": [8, 8, 7, 7, 6, 5],
+      "description": "右壁へ到達したタイル合計の1/8ダメージ",
+      "evaluation": {"board": 3, "damage": 3, "defense": 1, "scaling": 4, "complexity": 3, "risk": 2}
+    },
+    "formation_upgrade": {
+      "name": "四連陣",
+      "category": "配置条件",
+      "effect": "formation_upgrade",
+      "quad_steps": [2, 2, 2, 2, 2, 3],
+      "description": "同じ数字を縦か横に4枚並べると全対象を強化",
+      "evaluation": {"board": 5, "damage": 5, "defense": 1, "scaling": 5, "complexity": 4, "risk": 4}
+    },
+    "inherited_combo": {
+      "name": "魔力継承",
+      "category": "系譜コンボ",
+      "effect": "inherited_combo",
+      "window": [3, 3, 4, 4, 5, 5],
+      "multipliers": [
+        [1.0, 1.5, 2.0, 3.0, 4.0],
+        [1.0, 1.6, 2.2, 3.2, 4.2],
+        [1.0, 1.7, 2.4, 3.4, 4.4],
+        [1.0, 1.8, 2.6, 3.6, 4.6],
+        [1.0, 1.9, 2.8, 3.8, 4.8],
+        [1.0, 2.0, 3.0, 4.0, 5.0]
+      ],
+      "description": "合成結果を期限内に再合成すると段階と火力倍率が上昇",
+      "evaluation": {"board": 3, "damage": 5, "defense": 1, "scaling": 5, "complexity": 3, "risk": 4}
+    }
+  },
+  "special_effects": {
+    "poison": {"default_turns": 5, "expiration_effect": "destroy_tile", "spread_count": 1},
+    "echo": {"copy_divisor": 2}
+  }
+}

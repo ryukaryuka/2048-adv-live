@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": "orb_pouch",
+      "name": "成長宝珠のポーチ",
+      "description": "魔王強化とショップに使える成長宝珠。",
+      "type": "consumable",
+      "store_id": "com.ryukaryuka.party2048.orb_pouch",
+      "orbs": 0,
+      "art": "res://art/ui/place_diorama/gem_pouch_v2.png",
+      "registered": false,
+      "visible": false,
+      "enabled": false
+    },
+    {
+      "id": "orb_chest",
+      "name": "成長宝珠の宝箱",
+      "description": "魔王軍の旅じたくを応援する成長宝珠。",
+      "type": "consumable",
+      "store_id": "com.ryukaryuka.party2048.orb_chest",
+      "orbs": 0,
+      "art": "res://art/ui/place_diorama/gem_chest_v2.png",
+      "registered": false,
+      "visible": false,
+      "enabled": false
+    },
+    {
+      "id": "expedition_pass",
+      "name": "おまかせ遠征パス",
+      "description": "パズルのAUTO操作と、戦闘の3倍速を解放します。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.expedition_pass",
+      "entitlements": [
+        "puzzle_autoplay",
+        "battle_speed_3x"
+      ],
+      "art": "res://art/ui/shop_shelf/bundle_thumb.png",
+      "registered": false,
+      "visible": false,
+      "enabled": false
+    },
+    {
+      "id": "ad_skip",
+      "name": "広告スキップ",
+      "description": "遠征報酬の2倍ボーナスを、動画広告なしで受け取れます。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.ad_skip",
+      "entitlements": [
+        "ad_skip"
+      ],
+      "art": "res://art/ui/shop_shelf/adskip.png",
+      "registered": false,
+      "visible": false,
+      "enabled": false
+    },
+    {
+      "id": "additional_lord",
+      "name": "赤の魔王パック",
+      "description": "赤の魔王と固有の編成、全8章の専用ストーリー。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.additional_lord",
+      "enabled": false,
+      "entitlements": [],
+      "art": "res://art/adv/red_maou_style_20261003/red_maou_restored.png",
+      "registered": false,
+      "planned_price_jpy": 1500
+    },
+    {
+      "id": "ad_auto_pack",
+      "name": "広告削除＋AUTO",
+      "description": "遠征報酬の2倍ボーナスを広告なしで受け取り、パズルのAUTO操作を使えます。買い切り・期限なし。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.ad_auto_pack",
+      "entitlements": [
+        "ad_skip",
+        "puzzle_autoplay"
+      ],
+      "art": "res://art/ui/shop_shelf/adskip.png",
+      "registered": false,
+      "planned_price_jpy": 980
+    },
+    {
+      "id": "content_pack_01",
+      "name": "冒険拡張パック 01",
+      "description": "キャラ・スキル・魔道具をセットで追加。収録内容は準備中です。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.content_pack_01",
+      "entitlements": [],
+      "enabled": false,
+      "registered": false,
+      "planned_price_jpy": 980,
+      "art": "res://art/ui/place_diorama/content_pack.svg"
+    },
+    {
+      "id": "content_pack_02",
+      "name": "冒険拡張パック 02",
+      "description": "キャラ・スキル・魔道具をセットで追加。収録内容は準備中です。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.content_pack_02",
+      "entitlements": [],
+      "enabled": false,
+      "registered": false,
+      "planned_price_jpy": 980,
+      "art": "res://art/ui/place_diorama/content_pack.svg"
+    },
+    {
+      "id": "content_pack_03",
+      "name": "冒険拡張パック 03",
+      "description": "キャラ・スキル・魔道具をセットで追加。収録内容は準備中です。",
+      "type": "non_consumable",
+      "store_id": "com.ryukaryuka.party2048.content_pack_03",
+      "entitlements": [],
+      "enabled": false,
+      "registered": false,
+      "planned_price_jpy": 980,
+      "art": "res://art/ui/place_diorama/content_pack.svg"
+    }
+  ],
+  "provider": "storekit2",
+  "mode": "store"
+}

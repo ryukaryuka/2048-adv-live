@@ -1,0 +1,1829 @@
+{
+  "version": 1,
+  "status": "2026-09-30 chapter 3: approved bell influence and recovery; 38 lines",
+  "actor_order": [
+    "maou",
+    "kraken",
+    "soldier",
+    "hinata"
+  ],
+  "assets": {
+    "hinata_check_mirrored": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_check.png",
+      "anchor": [
+        0.416,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.94
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_listen_mirrored": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_talk_mirrored": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "hinata_pleased_mirrored": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_pleased.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.94
+    },
+    "knight_listen": {
+      "image": "res://art/adv/clean_cel_20260928/knight_listen_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "knight_standing",
+      "expression_state": "listen"
+    },
+    "knight_talk": {
+      "image": "res://art/adv/clean_cel_20260928/knight_talk_crisp.png",
+      "anchor": [
+        0.439,
+        0.185
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "knight_standing",
+      "expression_state": "talk"
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "kraken_composed",
+      "expression_state": "listen"
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "talk"
+    },
+    "maou_pair_reply": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.135,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.94
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": false,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "kraken_solo_talk_v16_quiet": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/kraken_solo_listen_source.png",
+      "mouth_target": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_source": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_full_patch": true
+    }
+  },
+  "cuts": {
+    "C01": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C02": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C03": {
+      "kind": "expand",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C04": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C05": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C06": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C07": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C08": {
+      "kind": "expand",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C09": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C10": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C12": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C13": {
+      "kind": "expand",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C14": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C15": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C16": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C17": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C18": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C19": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "C20": {
+      "kind": "expand",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "E01": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
+    "S10_RECOVERY": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    }
+  },
+  "frames": [
+    {
+      "line": 1,
+      "source_line": 1,
+      "cut": "C01",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 1.0,
+          "speech": 0.69
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 2,
+      "source_line": 2,
+      "cut": "C02",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.78,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 3,
+      "source_line": 3,
+      "cut": "C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.82,
+          "speech": 0.4
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 4,
+      "source_line": 4,
+      "cut": "C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 5,
+      "source_line": 5,
+      "cut": "C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 6,
+      "source_line": 6,
+      "cut": "C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 7,
+      "source_line": 7,
+      "cut": "C04",
+      "actors": {},
+      "background": "res://art/adv/white_final/road.png",
+      "effect": "baggage",
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.7
+        },
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 8,
+      "source_line": 8,
+      "cut": "C04",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.93,
+          "speech": 0.4
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 9,
+      "source_line": 0,
+      "cut": "E01",
+      "actors": {},
+      "cue": "bell",
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_exits": {
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "bell",
+      "paper_turn": []
+    },
+    {
+      "line": 10,
+      "source_line": 9,
+      "cut": "C05",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.78,
+          "speech": 0.4
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 11,
+      "source_line": 10,
+      "cut": "C06",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.86,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.7
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 12,
+      "source_line": 11,
+      "cut": "C07",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 13,
+      "source_line": 12,
+      "cut": "C08",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 14,
+      "source_line": 13,
+      "cut": "C08",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 15,
+      "source_line": -301,
+      "cut": "S10_RECOVERY",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.77,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "recovery_insert": "bell_recovery_20260930",
+      "bell_reaction": {
+        "state": "drawn",
+        "actors": [
+          "kraken"
+        ],
+        "duration": 0.72
+      },
+      "lead_in": 0.0,
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 16,
+      "source_line": -302,
+      "cut": "S10_RECOVERY",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.77,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "recovery_insert": "bell_recovery_20260930",
+      "bell_reaction": {
+        "state": "held",
+        "actors": [
+          "kraken"
+        ],
+        "duration": 0.72
+      },
+      "lead_in": 0.0,
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 17,
+      "source_line": -303,
+      "cut": "S10_RECOVERY",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.77,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "recovery_insert": "bell_recovery_20260930",
+      "bell_reaction": {
+        "state": "recover",
+        "actors": [
+          "kraken"
+        ],
+        "duration": 0.72
+      },
+      "lead_in": 0.72,
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 18,
+      "source_line": 14,
+      "cut": "S10_RECOVERY",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.25,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.77,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "recovery_base": {
+        "line": 15,
+        "source_line": 14,
+        "cut": "C09",
+        "actors": {
+          "kraken": {
+            "pose": "kraken_solo_talk_v16",
+            "x": 0.5,
+            "y": 0.4
+          }
+        },
+        "background": "res://art/adv/white_final/road.png",
+        "beat": {
+          "actor": "kraken",
+          "kind": "nod",
+          "amount": 3,
+          "duration": 0.58,
+          "delay": 0.06
+        },
+        "camera": {
+          "zoom": 1.16,
+          "pan": [
+            0.0,
+            -0.01
+          ],
+          "blur": 3.5
+        },
+        "music": "mystery",
+        "mood": "unease",
+        "puppet_entries": {
+          "kraken": {
+            "kind": "glide",
+            "side": -1,
+            "duration": 0.82,
+            "speech": 0.78
+          }
+        },
+        "puppet_exits": {
+          "hinata": {
+            "kind": "shuffle",
+            "side": -1,
+            "duration": 0.7
+          },
+          "soldier": {
+            "kind": "swing",
+            "side": 1,
+            "duration": 0.82
+          }
+        }
+      },
+      "paper_turn": [
+        "kraken"
+      ],
+      "speaker": "kraken"
+    },
+    {
+      "line": 19,
+      "source_line": 15,
+      "cut": "C10",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 20,
+      "source_line": 16,
+      "cut": "C10",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 21,
+      "source_line": 17,
+      "cut": "C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_exits": {
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "paper_turn": [
+        "hinata"
+      ],
+      "speaker": "hinata"
+    },
+    {
+      "line": 22,
+      "source_line": 18,
+      "cut": "C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 23,
+      "source_line": 19,
+      "cut": "C13",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.78
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 24,
+      "source_line": 20,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 0.94,
+          "speech": 0.69
+        }
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 25,
+      "source_line": 21,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 26,
+      "source_line": 22,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 27,
+      "source_line": 23,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 28,
+      "source_line": 24,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 29,
+      "source_line": 25,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 30,
+      "source_line": 26,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 31,
+      "source_line": 27,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "soldier": {
+          "pose": "knight_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 32,
+      "source_line": 28,
+      "cut": "C15",
+      "actors": {
+        "maou": {
+          "pose": "maou_pair_reply",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.86,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.7
+        },
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "line": 33,
+      "source_line": 29,
+      "cut": "C16",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.69
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 34,
+      "source_line": 30,
+      "cut": "C17",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.78,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 35,
+      "source_line": 31,
+      "cut": "C18",
+      "actors": {
+        "soldier": {
+          "pose": "knight_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "soldier",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "soldier": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.69
+        }
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "soldier",
+      "paper_turn": []
+    },
+    {
+      "line": 36,
+      "source_line": 32,
+      "cut": "C19",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_pleased_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "arc",
+          "side": -1,
+          "duration": 0.98,
+          "speech": 0.69
+        }
+      },
+      "puppet_exits": {
+        "soldier": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 37,
+      "source_line": 33,
+      "cut": "C19",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_pleased_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 38,
+      "source_line": 34,
+      "cut": "C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_mirrored",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_pair_reply",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          0.046,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      },
+      "paper_turn": [],
+      "speaker": "maou"
+    }
+  ],
+  "scenario_revision": "bell_recovery_20260930",
+  "paper_bell_focus": true
+}

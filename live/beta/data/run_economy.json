@@ -1,0 +1,1493 @@
+{
+  "_note": "補給所（ラン中のショップ）・装備・ストック品・永続品のデータ。名前・数値・価格はすべて仮（2026-10-07）。出典：Claude Docs「能力の振り分け（新しい仕組み向け・たたき台）」。",
+  "settings": {
+    "stock_items_enabled": false,
+    "mark_gear_enabled": false,
+    "starting_skills": [
+      "purge"
+    ],
+    "starting_gold": 4,
+    "starting_pouch": [
+      "purge"
+    ],
+    "pouch_size": 3,
+    "pouch_size_max": 5,
+    "stage_clear_gold": 6,
+    "stage_clear_gold_per_area": 0,
+    "floor_stage_gold_step": 2,
+    "scout_decline_gold": 0,
+    "scout_count": 3,
+    "offer_count": 3,
+    "pack_count": 2,
+    "reroll_base": 5,
+    "reroll_step": 1,
+    "sell_ratio": 0.5,
+    "stock_level": 3,
+    "rarity_weights": {
+      "C": 60,
+      "R": 30,
+      "E": 10,
+      "L": 15
+    },
+    "rarity_weights_lucky": {
+      "C": 40,
+      "R": 40,
+      "E": 20,
+      "L": 20
+    },
+    "rarity_weights_late": {
+      "C": 30,
+      "R": 35,
+      "E": 25,
+      "L": 30
+    },
+    "rarity_weights_lucky_late": {
+      "C": 20,
+      "R": 35,
+      "E": 30,
+      "L": 40
+    },
+    "rarity_ramp_stages": 16,
+    "character_prices": [
+      6,
+      8,
+      10
+    ],
+    "floor_character_prices": [
+      6,
+      9,
+      12,
+      12
+    ],
+    "interest_step": 5,
+    "interest_cap": 5,
+    "shop_pack_ids": [
+      "gear_pack",
+      "skill_pack"
+    ]
+  },
+  "gear_order": [
+    "soul_lantern",
+    "high_crown",
+    "lucky_coin",
+    "miasma_jar",
+    "chain_recruit",
+    "swarm_banner",
+    "death_ledger",
+    "elite_annals",
+    "chain_abacus",
+    "plague_research",
+    "revival_records",
+    "inheritance_tablet",
+    "royal_retinue",
+    "mark_poison",
+    "mark_vitality",
+    "mark_haste",
+    "mark_might",
+    "mark_guard",
+    "mark_mirror",
+    "mark_leech",
+    "tempo_bell",
+    "blood_ruby",
+    "guard_clasp",
+    "early_seal",
+    "call_flute",
+    "twin_mirror",
+    "secret_book",
+    "power_bracelet",
+    "guard_armor",
+    "gale_feather",
+    "last_stand",
+    "revenge_fang",
+    "coin_purse",
+    "sand_glass",
+    "piggy_chest",
+    "merchant_ledger",
+    "appraiser_glass",
+    "gilded_ring",
+    "manual_sort",
+    "manual_purge",
+    "turtle_shield",
+    "rampart_stone",
+    "thunder_bell",
+    "blood_chalice",
+    "muster_drum",
+    "nomination_writ",
+    "dissolving_flask",
+    "corrosion_seal",
+    "miasma_altar",
+    "swarm_standard",
+    "hero_monument",
+    "unfallen_gate",
+    "gale_almanac",
+    "life_seed",
+    "manual_might_marks",
+    "manual_haste_marks",
+    "manual_vitality_marks",
+    "manual_guard_marks",
+    "manual_mirror_marks",
+    "manual_leech_marks",
+    "feeding_dish",
+    "warrior_lineage",
+    "demon_crown",
+    "mark_scripture",
+    "square_atlas",
+    "regular_card",
+    "stock_book",
+    "apprentice_merchant"
+  ],
+  "gear": {
+    "soul_lantern": {
+      "name": "粗製の軍笛",
+      "kind": "global",
+      "rarity": "C",
+      "price": 6,
+      "text": "T1〜T2の攻撃力とHP+100%",
+      "art": "icon:artifact_soul_lantern",
+      "effect": {
+        "artifact": "soul_lantern",
+        "level": 10
+      }
+    },
+    "high_crown": {
+      "name": "覇軍の冠",
+      "kind": "global",
+      "rarity": "R",
+      "price": 10,
+      "text": "T4〜T5の攻撃力+144%",
+      "art": "icon:artifact_high_crown",
+      "effect": {
+        "artifact": "high_crown",
+        "level": 8
+      }
+    },
+    "lucky_coin": {
+      "name": "魔銀貨",
+      "kind": "global",
+      "rarity": "E",
+      "price": 16,
+      "text": "2倍のタイルが出る確率+32%",
+      "art": "icon:artifact_lucky_coin",
+      "effect": {
+        "artifact": "lucky_coin",
+        "level": 8
+      }
+    },
+    "miasma_jar": {
+      "name": "瘴気の壺",
+      "kind": "global",
+      "rarity": "R",
+      "price": 10,
+      "lord": "white",
+      "text": "盤面から溜まる毒+160%",
+      "art": "icon:artifact_miasma_jar",
+      "effect": {
+        "artifact": "miasma_jar",
+        "level": 8
+      }
+    },
+    "chain_recruit": {
+      "name": "連鎖徴兵",
+      "kind": "global",
+      "rarity": "E",
+      "price": 15,
+      "text": "1手で2組以上合成すると、80%で召喚TIER+1",
+      "art": "icon:skill_chain_recruit",
+      "effect": {
+        "artifact": "chain_recruit",
+        "level": 8
+      }
+    },
+    "swarm_banner": {
+      "name": "群勢旗",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "開戦時、T1が5体いるごとにT1の攻撃速度+32%",
+      "art": "icon:artifact_swarm_banner",
+      "effect": {
+        "artifact": "swarm_banner",
+        "level": 8
+      }
+    },
+    "death_ledger": {
+      "name": "死者の勘定板",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "仲間が5体戦闘不能になるごとに、残った仲間の攻撃力+32%",
+      "art": "icon:artifact_death_ledger",
+      "effect": {
+        "artifact": "death_ledger",
+        "level": 8
+      }
+    },
+    "elite_annals": {
+      "name": "精鋭の軍記",
+      "kind": "global",
+      "rarity": "C",
+      "price": 6,
+      "text": "T4を召喚すると経験値+32、T5なら+64",
+      "art": "icon:artifact_elite_annals",
+      "effect": {
+        "artifact": "elite_annals",
+        "level": 8
+      }
+    },
+    "chain_abacus": {
+      "name": "連鎖の算盤",
+      "kind": "global",
+      "rarity": "C",
+      "price": 6,
+      "text": "1手で2組以上合成すると、合成数×16の経験値",
+      "art": "icon:artifact_chain_abacus",
+      "effect": {
+        "artifact": "chain_abacus",
+        "level": 8
+      }
+    },
+    "plague_research": {
+      "name": "疫病の研究書",
+      "kind": "global",
+      "rarity": "C",
+      "price": 5,
+      "lord": "white",
+      "text": "敵の毒を20増やすごとに経験値+16",
+      "art": "icon:artifact_plague_research",
+      "effect": {
+        "artifact": "plague_research",
+        "level": 8
+      }
+    },
+    "revival_records": {
+      "name": "還魂の記録簿",
+      "kind": "global",
+      "rarity": "C",
+      "price": 5,
+      "text": "戦闘終了時、復活した仲間1体につき経験値+16",
+      "art": "icon:artifact_revival_records",
+      "effect": {
+        "artifact": "revival_records",
+        "level": 8
+      }
+    },
+    "inheritance_tablet": {
+      "name": "継承の石板",
+      "kind": "global",
+      "rarity": "E",
+      "price": 15,
+      "text": "T5を合成召喚すると盤面にT4のタイル（1WAVE4回まで）",
+      "art": "icon:artifact_inheritance_tablet",
+      "effect": {
+        "artifact": "inheritance_tablet",
+        "level": 5
+      }
+    },
+    "royal_retinue": {
+      "name": "王の従者旗",
+      "kind": "global",
+      "rarity": "E",
+      "price": 15,
+      "text": "T5を合成召喚すると別種のT4が加わる（1WAVE4回まで）",
+      "art": "icon:artifact_royal_retinue",
+      "effect": {
+        "artifact": "royal_retinue",
+        "level": 5
+      }
+    },
+    "mark_poison": {
+      "name": "毒刻印の香炉",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "lord": "white",
+      "unlock": "poison_marks",
+      "text": "準備開始時、毒刻印が2枚になるまでランダムなタイルに付ける",
+      "art": "icon:skill_poison_marks",
+      "effect": {
+        "marks": "poison",
+        "count": 2
+      }
+    },
+    "mark_vitality": {
+      "name": "巨大化の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "vitality_marks",
+      "text": "準備開始時、巨大化刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:vitality",
+      "effect": {
+        "marks": "vitality",
+        "count": 2
+      }
+    },
+    "mark_haste": {
+      "name": "疾風の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "haste_marks",
+      "text": "準備開始時、疾風刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:haste",
+      "effect": {
+        "marks": "haste",
+        "count": 2
+      }
+    },
+    "mark_might": {
+      "name": "怪力の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "might_marks",
+      "text": "準備開始時、怪力刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:might",
+      "effect": {
+        "marks": "might",
+        "count": 2
+      }
+    },
+    "mark_guard": {
+      "name": "守護の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "guard_marks",
+      "text": "準備開始時、守護刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:guard",
+      "effect": {
+        "marks": "guard",
+        "count": 2
+      }
+    },
+    "mark_mirror": {
+      "name": "鏡の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "mirror_marks",
+      "text": "準備開始時、鏡刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:mirror",
+      "effect": {
+        "marks": "mirror",
+        "count": 2
+      }
+    },
+    "mark_leech": {
+      "name": "吸血の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "unlock": "leech_marks",
+      "text": "準備開始時、吸血刻印が2枚になるまで大きいタイルから付ける",
+      "art": "mark:leech",
+      "effect": {
+        "marks": "leech",
+        "count": 2
+      }
+    },
+    "tempo_bell": {
+      "name": "連打の鈴",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "unlock_artifact": "tempo_bell",
+      "text": "このキャラの通常攻撃5回目の威力+500%",
+      "art": "mark:haste",
+      "effect": {
+        "unit": {
+          "tempo_hit": 5.0
+        }
+      }
+    },
+    "blood_ruby": {
+      "name": "血晶のブローチ",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "unlock_artifact": "blood_ruby",
+      "text": "このキャラの吸血の回復量+100%",
+      "art": "mark:leech",
+      "effect": {
+        "unit": {
+          "lifesteal_bonus": 1.0
+        }
+      }
+    },
+    "guard_clasp": {
+      "name": "護盾の留め金",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "unlock_artifact": "guard_clasp",
+      "text": "このキャラが張る・配るガード+100%",
+      "art": "mark:guard",
+      "effect": {
+        "unit": {
+          "guard_bonus": 1.0
+        }
+      }
+    },
+    "early_seal": {
+      "name": "早熟の印",
+      "kind": "personal",
+      "rarity": "E",
+      "price": 14,
+      "text": "このキャラはT2から能力が発動（T3の値）",
+      "art": "icon:skill_base_surge",
+      "effect": {
+        "unit": {
+          "early_ability": 1.0
+        }
+      }
+    },
+    "call_flute": {
+      "name": "呼び声の笛",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 8,
+      "text": "このキャラの召喚の重み+50%",
+      "art": "icon:skill_rally",
+      "effect": {
+        "summon_weight": 0.5
+      }
+    },
+    "twin_mirror": {
+      "name": "分身の鏡",
+      "kind": "personal",
+      "rarity": "E",
+      "price": 14,
+      "text": "このキャラの「編成全体で1回」の能力を、2番目に強い個体でももう1回",
+      "art": "mark:mirror",
+      "effect": {
+        "unit": {
+          "twin_ability": 1.0
+        }
+      }
+    },
+    "secret_book": {
+      "name": "極意の書",
+      "kind": "personal",
+      "rarity": "E",
+      "price": 15,
+      "text": "このキャラの能力の倍率・付与量・体数+50%",
+      "art": "icon:artifact_elite_annals",
+      "effect": {
+        "unit": {
+          "ability_power": 0.5
+        }
+      }
+    },
+    "power_bracelet": {
+      "name": "力の腕輪",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "text": "このキャラのユニットの攻撃力+100%",
+      "art": "mark:might",
+      "effect": {
+        "unit": {
+          "attack": 1.0
+        }
+      }
+    },
+    "guard_armor": {
+      "name": "守りの鎧",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "text": "このキャラのユニットの最大HP+100%",
+      "art": "mark:vitality",
+      "effect": {
+        "unit": {
+          "hp": 1.0
+        }
+      }
+    },
+    "gale_feather": {
+      "name": "疾風の羽根",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "text": "このキャラのユニットの攻撃速度+50%（上限2倍）",
+      "art": "mark:haste",
+      "effect": {
+        "unit": {
+          "attack_speed": 0.5
+        }
+      }
+    },
+    "last_stand": {
+      "name": "不屈の誓い",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 10,
+      "text": "このキャラのユニットは、1WAVEに1度だけHP1で踏みとどまる",
+      "art": "icon:artifact_revival_records",
+      "effect": {
+        "unit": {
+          "last_stand": 1.0
+        }
+      }
+    },
+    "revenge_fang": {
+      "name": "復讐の牙",
+      "kind": "personal",
+      "rarity": "R",
+      "price": 9,
+      "text": "このキャラのユニットが戦闘不能になると、攻撃力×300%のダメージ",
+      "art": "icon:artifact_death_ledger",
+      "effect": {
+        "unit": {
+          "revenge": 3.0
+        }
+      }
+    },
+    "coin_purse": {
+      "name": "小銭入れ",
+      "kind": "economy",
+      "rarity": "C",
+      "price": 5,
+      "text": "STAGEクリア時+2G",
+      "art": "shop:orb_pile",
+      "effect": {
+        "income": 2
+      }
+    },
+    "sand_glass": {
+      "name": "早帰りの砂時計",
+      "kind": "economy",
+      "rarity": "C",
+      "price": 6,
+      "text": "WAVE1でボスを倒すと+4G、WAVE2なら+2G",
+      "art": "icon:skill_freeze",
+      "effect": {
+        "early_clear_gold": [
+          4,
+          2,
+          0
+        ]
+      }
+    },
+    "piggy_chest": {
+      "name": "貯金箱",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 7,
+      "text": "毎STAGE 1Gずつ貯まる。売ると貯まった分も全額",
+      "art": "place:gem_chest_v2",
+      "effect": {
+        "piggy": 1
+      }
+    },
+    "merchant_ledger": {
+      "name": "商人の帳簿",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 8,
+      "text": "補給所の値段−20%（端数切り上げ）",
+      "art": "icon:artifact_chain_abacus",
+      "effect": {
+        "discount": 0.2
+      }
+    },
+    "appraiser_glass": {
+      "name": "目利きの眼鏡",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 8,
+      "text": "装備と包みの中身にレア以上が出やすくなる",
+      "art": "shop:orb",
+      "effect": {
+        "lucky": 1
+      }
+    },
+    "gilded_ring": {
+      "name": "成金の指輪",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 10,
+      "text": "所持金10Gごとに、このキャラのユニットの攻撃力+5%",
+      "art": "icon:artifact_lucky_coin",
+      "effect": {
+        "gold_power": 0.05
+      }
+    },
+    "manual_sort": {
+      "name": "整列術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 9,
+      "text": "盤面を大きい数字から順に並べ直す。使うと3WAVE休む",
+      "art": "icon:skill_sort",
+      "effect": {
+        "skill": "sort"
+      }
+    },
+    "manual_purge": {
+      "name": "解体術",
+      "kind": "manual",
+      "rarity": "C",
+      "price": 6,
+      "text": "手数を使わず、選んだタイルを1枚消す。使うと2WAVE休む",
+      "art": "icon:skill_purge",
+      "effect": {
+        "skill": "purge"
+      }
+    },
+    "turtle_shield": {
+      "name": "亀甲の盾",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "ガードが残っている味方の通常攻撃の威力+50%",
+      "art": "mark:guard",
+      "effect": {
+        "artifact": "turtle_shield",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "rampart_stone": {
+      "name": "城壁の礎",
+      "kind": "global",
+      "rarity": "C",
+      "price": 6,
+      "text": "開戦時、味方全員に最大HP×25%のガード",
+      "art": "icon:skill_legend_stone",
+      "effect": {
+        "artifact": "rampart_stone",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "thunder_bell": {
+      "name": "雷鳴の鐘",
+      "kind": "global",
+      "rarity": "R",
+      "price": 10,
+      "text": "雷1発の威力+50%",
+      "art": "mark:thunder",
+      "effect": {
+        "artifact": "thunder_bell",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "blood_chalice": {
+      "name": "血の杯",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "回復量・吸血量+60%",
+      "art": "icon:artifact_flesh_crucible",
+      "effect": {
+        "artifact": "blood_chalice",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "muster_drum": {
+      "name": "雷太鼓",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "準備中、雷刻印のあるタイルを合成するたびに、雷を2つためる",
+      "art": "mark:thunder",
+      "effect": {
+        "artifact": "muster_drum",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "nomination_writ": {
+      "name": "指名状",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "指名のマスで召喚した仲間は、攻撃力・最大HP+80%",
+      "art": "icon:skill_elite_selection",
+      "effect": {
+        "artifact": "nomination_writ",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "dissolving_flask": {
+      "name": "溶解の瓶",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "敵の毒10につき、味方の与ダメージ+2%（最大+40%）",
+      "art": "mark:poison_flask",
+      "effect": {
+        "artifact": "dissolving_flask",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "corrosion_seal": {
+      "name": "腐蝕の印章",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "毒マスの上で合成召喚した仲間は、通常攻撃のたびに敵の毒+2",
+      "art": "mark:poison_seal",
+      "effect": {
+        "artifact": "corrosion_seal",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "miasma_altar": {
+      "name": "瘴気の祭壇",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "出撃時に盤面がすべて毒マスなら、このランの間、味方全員の攻撃力・最大HP+6%（重なる）",
+      "art": "mark:poison_altar",
+      "effect": {
+        "artifact": "miasma_altar",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "swarm_standard": {
+      "name": "群雄の軍旗",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "T1〜T2の味方30体以上で出撃するたび、このランの間、T1〜T2の攻撃力・最大HP+5%（重なる）",
+      "art": "mark:retinue",
+      "effect": {
+        "artifact": "swarm_standard",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "hero_monument": {
+      "name": "英雄の碑",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "T5の味方3体以上で出撃するたび、このランの間、T4〜T5の攻撃力・最大HP+5%（重なる）",
+      "art": "mark:crown",
+      "effect": {
+        "artifact": "hero_monument",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "unfallen_gate": {
+      "name": "不落の城門",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "戦闘不能0でWAVEを終えるたび、このランの間、開戦時に最大HPの5%のガード（重なる・次のWAVEから）",
+      "art": "mark:fortress",
+      "effect": {
+        "artifact": "unfallen_gate",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "gale_almanac": {
+      "name": "雷神の暦",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "WAVEで雷を30以上ためるたび、このランの間、味方全員の攻撃力+4%（重なる・次のWAVEから）",
+      "art": "mark:thunder",
+      "effect": {
+        "artifact": "gale_almanac",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "life_seed": {
+      "name": "命樹の種",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "1WAVEの回復・吸血の合計が味方の最大HPの合計を超えるたび、このランの間、味方全員の最大HP+6%（重なる・次のWAVEから）",
+      "art": "mark:vitality",
+      "effect": {
+        "artifact": "life_seed",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "manual_might_marks": {
+      "name": "怪力の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 8,
+      "text": "ランダムなタイル3枚に怪力刻印を付ける（召喚する仲間の攻撃力2倍。刻印は合成先に引き継ぐ）。使うと1WAVE休む",
+      "art": "mark:might",
+      "effect": {
+        "skill": "might_marks"
+      },
+      "floor_only": true
+    },
+    "manual_haste_marks": {
+      "name": "雷の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 8,
+      "text": "ランダムなタイル3枚に雷刻印を付ける。使うと1WAVE休む",
+      "art": "mark:thunder",
+      "effect": {
+        "skill": "thunder_marks"
+      },
+      "floor_only": true
+    },
+    "manual_vitality_marks": {
+      "name": "巨大化の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 8,
+      "text": "ランダムなタイル3枚に巨大化刻印を付ける（召喚する仲間の最大HP2倍。刻印は合成先に引き継ぐ）。使うと1WAVE休む",
+      "art": "mark:vitality",
+      "effect": {
+        "skill": "vitality_marks"
+      },
+      "floor_only": true
+    },
+    "manual_guard_marks": {
+      "name": "守護の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 8,
+      "text": "ランダムなタイル3枚に守護刻印を付ける（召喚する仲間に、開戦時に最大HP分のガード。刻印は合成先に引き継ぐ）。使うと1WAVE休む",
+      "art": "mark:guard",
+      "effect": {
+        "skill": "guard_marks"
+      },
+      "floor_only": true
+    },
+    "manual_mirror_marks": {
+      "name": "鏡の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 10,
+      "text": "ランダムなタイル3枚に鏡刻印を付ける（合成召喚のたびに、同じ仲間をもう1体。刻印は合成先に引き継ぐ）。使うと1WAVE休む",
+      "art": "mark:mirror",
+      "effect": {
+        "skill": "mirror_marks"
+      },
+      "floor_only": true
+    },
+    "manual_leech_marks": {
+      "name": "吸血の刻印術",
+      "kind": "manual",
+      "rarity": "R",
+      "price": 8,
+      "text": "ランダムなタイル3枚に吸血刻印を付ける（召喚する仲間が、与えたダメージの20%を回復。刻印は合成先に引き継ぐ）。使うと1WAVE休む",
+      "art": "mark:leech",
+      "effect": {
+        "skill": "leech_marks"
+      },
+      "floor_only": true
+    },
+    "feeding_dish": {
+      "name": "餌付けの皿",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 9,
+      "text": "Lv3の仲間も補給所に並び、重ねるたびにその仲間の攻撃力・最大HP+15%（上限なし）",
+      "art": "mark:vitality",
+      "effect": {
+        "overflow_stack": 0.15
+      },
+      "floor_only": true
+    },
+    "warrior_lineage": {
+      "name": "戦士の血統",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "STAGEを越えるたび、このランの間、味方全員の攻撃力+3%（重なる）",
+      "art": "mark:might",
+      "effect": {
+        "artifact": "warrior_lineage",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "demon_crown": {
+      "name": "魔王の戴冠",
+      "kind": "global",
+      "rarity": "L",
+      "price": 12,
+      "text": "永続の魔道具の重なりが合計10回以上なら、その重なりの効果が2倍",
+      "art": "mark:crown",
+      "effect": {
+        "artifact": "demon_crown",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "mark_scripture": {
+      "name": "刻印の聖典",
+      "kind": "global",
+      "rarity": "R",
+      "price": 9,
+      "text": "刻印術を使うたび、このランの間、刻印の付いた仲間の攻撃力・最大HP+4%（重なる）",
+      "art": "mark:mirror",
+      "effect": {
+        "artifact": "mark_scripture",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "square_atlas": {
+      "name": "マスの地図帳",
+      "kind": "global",
+      "rarity": "R",
+      "price": 8,
+      "text": "置いているマス1つにつき、マスの上で召喚した仲間の攻撃力+3%",
+      "art": "mark:fortress",
+      "effect": {
+        "artifact": "square_atlas",
+        "level": 1
+      },
+      "floor_only": true
+    },
+    "regular_card": {
+      "name": "常連の札",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 8,
+      "text": "補給所に並ぶ魔道具が1つ増える",
+      "art": "shop:orb",
+      "effect": {
+        "shop_artifacts": 1
+      },
+      "floor_only": true
+    },
+    "stock_book": {
+      "name": "仕入れ帳",
+      "kind": "economy",
+      "rarity": "C",
+      "price": 5,
+      "text": "補給所に入るたび、リロールが1回無料",
+      "art": "icon:skill_sort",
+      "effect": {
+        "free_reroll": 1
+      },
+      "floor_only": true
+    },
+    "apprentice_merchant": {
+      "name": "見習い商人",
+      "kind": "economy",
+      "rarity": "R",
+      "price": 8,
+      "text": "補給所に並ぶモンスターが1体増える",
+      "art": "shop:orb",
+      "effect": {
+        "shop_monsters": 1
+      },
+      "floor_only": true
+    }
+  },
+  "skill_order": [
+    "purge",
+    "sort",
+    "base_surge",
+    "quad_generation",
+    "freeze",
+    "rally",
+    "elite_selection",
+    "poison_marks",
+    "vitality_marks",
+    "haste_marks",
+    "might_marks",
+    "guard_marks",
+    "mirror_marks",
+    "leech_marks",
+    "legend_giant",
+    "legend_fever",
+    "legend_wild",
+    "legend_stone",
+    "legend_lines",
+    "legend_ultimate",
+    "corrode_merge",
+    "rite_of_return",
+    "rite_of_requiem",
+    "rite_of_inheritance",
+    "retinue_marks",
+    "fortress_marks",
+    "crit_marks",
+    "miasma_harvest",
+    "poison_transmute",
+    "steadfast_reward",
+    "reflect_marks",
+    "crown_marks"
+  ],
+  "skills": {
+    "corrode_merge": {
+      "name": "腐蝕合成",
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false,
+      "text": "5手の間、毒マス上で合成すると召喚TIER+1（最大T5）",
+      "art": "icon:skill_poison_marks",
+      "lord": "white"
+    },
+    "rite_of_return": {
+      "name": "還元の儀",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "T1・T2の仲間3体を消費し、選んだタイルを1段階上げる",
+      "art": "icon:skill_rally"
+    },
+    "rite_of_requiem": {
+      "name": "鎮魂の儀",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "前WAVEの戦闘不能6体につき、小さいタイル1枚を1段階上げる。1WAVE1回",
+      "art": "icon:artifact_revival_records"
+    },
+    "rite_of_inheritance": {
+      "name": "継承の儀",
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false,
+      "text": "選んだタイルを消し、上下左右のタイルを1段階上げる",
+      "art": "icon:artifact_inheritance_tablet"
+    },
+    "retinue_marks": {
+      "name": "眷属刻印",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に眷属刻印。T3/T4/T5召喚時、同じ仲間のT1を1/2/3体追加",
+      "art": "mark:retinue"
+    },
+    "fortress_marks": {
+      "name": "城塞刻印",
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false,
+      "text": "選んだ1枚に城塞刻印。動かず異なる数字を5回吸収。召喚する仲間に最大HP50%のガード",
+      "art": "mark:fortress"
+    },
+    "crit_marks": {
+      "name": "会心刻印",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に会心刻印。召喚する仲間の会心率+50%",
+      "art": "mark:crit"
+    },
+    "miasma_harvest": {
+      "name": "瘴気の収穫",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "毒の床をすべて消し、1マスにつき敵の毒+10。タイルと毒刻印は残る",
+      "art": "icon:artifact_plague_research",
+      "lord": "white"
+    },
+    "poison_transmute": {
+      "name": "毒の転化",
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false,
+      "text": "敵の毒の半分までを使い、毒15につき小さいタイル1枚を1段階上げる",
+      "art": "icon:skill_poison_marks",
+      "lord": "white"
+    },
+    "steadfast_reward": {
+      "name": "堅守の報い",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "前WAVEでガードが防いだ量が軍団の最大HP30%に達するごとに、小さいタイル1枚を1段階上げる。1WAVE1回",
+      "art": "mark:guard"
+    },
+    "reflect_marks": {
+      "name": "反射刻印",
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に反射刻印。召喚する仲間が受けたダメージの50%を反射",
+      "art": "mark:reflection"
+    },
+    "crown_marks": {
+      "name": "王冠刻印",
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に王冠刻印。合成上限の半分に達するとT5を召喚し、タイルが消える",
+      "art": "mark:crown"
+    },
+    "purge": {
+      "wave_cooldown": 2,
+      "rarity": "C",
+      "legend": false
+    },
+    "sort": {
+      "wave_cooldown": 3,
+      "rarity": "R",
+      "legend": false
+    },
+    "base_surge": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false
+    },
+    "quad_generation": {
+      "wave_cooldown": 2,
+      "rarity": "R",
+      "legend": false
+    },
+    "freeze": {
+      "wave_cooldown": 2,
+      "rarity": "R",
+      "legend": false
+    },
+    "rally": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "このWAVEの準備終了まで、T1・T2を合成召喚すると同じ仲間がもう1体加わる"
+    },
+    "elite_selection": {
+      "wave_cooldown": 2,
+      "rarity": "R",
+      "legend": false
+    },
+    "poison_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "lord": "white",
+      "text": "ランダムなタイル最大3枚に毒刻印。移動した道に毒が残る"
+    },
+    "vitality_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に巨大化刻印。召喚する仲間のHP2倍"
+    },
+    "haste_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に疾風刻印。召喚する仲間の攻撃速度2倍"
+    },
+    "might_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に怪力刻印。召喚する仲間の攻撃力2倍"
+    },
+    "guard_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に守護刻印。召喚する仲間にガード"
+    },
+    "mirror_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に鏡刻印。召喚する仲間が2体になる"
+    },
+    "leech_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に吸血刻印。召喚する仲間に吸血"
+    },
+    "legend_giant": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "legend_fever": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "legend_wild": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "legend_stone": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "legend_lines": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "legend_ultimate": {
+      "wave_cooldown": 3,
+      "rarity": "L",
+      "legend": true
+    },
+    "thunder_marks": {
+      "wave_cooldown": 1,
+      "rarity": "C",
+      "legend": false,
+      "text": "ランダムなタイル最大3枚に雷刻印"
+    }
+  },
+  "item_order": [
+    "purge",
+    "sort",
+    "base_surge",
+    "quad_generation",
+    "freeze",
+    "rally",
+    "elite_selection",
+    "poison_marks",
+    "vitality_marks",
+    "haste_marks",
+    "might_marks",
+    "guard_marks",
+    "mirror_marks",
+    "leech_marks",
+    "legend_giant",
+    "legend_fever",
+    "legend_wild",
+    "legend_stone",
+    "legend_lines",
+    "legend_ultimate",
+    "exp_book",
+    "silver_shard",
+    "scout_ticket",
+    "small_bag"
+  ],
+  "items": {
+    "purge": {
+      "name": "解体の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "purge",
+      "target": "tile",
+      "text": "選んだタイルを1枚消す。手数を使わない"
+    },
+    "sort": {
+      "name": "整列の品",
+      "kind": "stock",
+      "rarity": "R",
+      "skill": "sort",
+      "text": "盤面を大きい順に並べ直す"
+    },
+    "base_surge": {
+      "name": "基礎加速",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "base_surge",
+      "text": "5手の間、出現タイルが1段上がる"
+    },
+    "quad_generation": {
+      "name": "四重生成",
+      "kind": "stock",
+      "rarity": "R",
+      "skill": "quad_generation",
+      "text": "4手の間、毎手タイルが最大4枚出る"
+    },
+    "freeze": {
+      "name": "拘束陣",
+      "kind": "stock",
+      "rarity": "R",
+      "skill": "freeze",
+      "text": "今のWAVEの手数+7（1WAVE1回まで）"
+    },
+    "rally": {
+      "name": "低位総動員",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "rally",
+      "text": "このWAVEの準備終了まで、T1・T2を合成召喚すると同じ仲間がもう1体加わる"
+    },
+    "elite_selection": {
+      "name": "精鋭選抜",
+      "kind": "stock",
+      "rarity": "R",
+      "skill": "elite_selection",
+      "text": "5手の間、T3・T4を1TIER上で召喚"
+    },
+    "poison_marks": {
+      "name": "毒刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "poison_marks",
+      "target": "tile",
+      "lord": "white",
+      "text": "選んだタイルに毒刻印"
+    },
+    "vitality_marks": {
+      "name": "巨大化刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "vitality_marks",
+      "target": "tile",
+      "text": "選んだタイルに巨大化刻印（最大HP2倍）"
+    },
+    "haste_marks": {
+      "name": "疾風刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "haste_marks",
+      "target": "tile",
+      "text": "選んだタイルに疾風刻印（攻撃速度2倍）"
+    },
+    "might_marks": {
+      "name": "怪力刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "might_marks",
+      "target": "tile",
+      "text": "選んだタイルに怪力刻印（攻撃力2倍）"
+    },
+    "guard_marks": {
+      "name": "守護刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "guard_marks",
+      "target": "tile",
+      "text": "選んだタイルに守護刻印（開戦時ガード）"
+    },
+    "mirror_marks": {
+      "name": "鏡刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "mirror_marks",
+      "target": "tile",
+      "text": "選んだタイルに鏡刻印（同じ仲間がもう1体）"
+    },
+    "leech_marks": {
+      "name": "吸血刻印の品",
+      "kind": "stock",
+      "rarity": "C",
+      "skill": "leech_marks",
+      "target": "tile",
+      "text": "選んだタイルに吸血刻印（与ダメージの20%回復）"
+    },
+    "legend_giant": {
+      "name": "特大盤面",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_giant",
+      "text": "このWAVEだけ盤面を7×7に広げ、毎手9枚出る"
+    },
+    "legend_fever": {
+      "name": "全消しフィーバー",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_fever",
+      "text": "全消しパズルを3回。手数は進まない"
+    },
+    "legend_wild": {
+      "name": "ワイルドパネル",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_wild",
+      "text": "7手の間、ワイルドだけが出る"
+    },
+    "legend_stone": {
+      "name": "不滅の石",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_stone",
+      "text": "4手の間、2つの石が端へ動き、通ったタイルを倍にする"
+    },
+    "legend_lines": {
+      "name": "2ライン倍化フィールド",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_lines",
+      "text": "7手の間、金色の縦横ライン上の合成がさらに2倍"
+    },
+    "legend_ultimate": {
+      "name": "アルティメットパネル",
+      "kind": "stock",
+      "rarity": "L",
+      "skill": "legend_ultimate",
+      "text": "タイル8枚に防壁・治癒・反撃・毒をまとめて付ける"
+    },
+    "exp_book": {
+      "name": "経験値の書",
+      "kind": "permanent",
+      "rarity": "C",
+      "text": "次の基礎パネルまでの経験値の半分を得る",
+      "art": "icon:artifact_revival_records"
+    },
+    "silver_shard": {
+      "name": "魔銀の欠片",
+      "kind": "permanent",
+      "rarity": "R",
+      "text": "2倍タイルの確率+3%（重なる）",
+      "art": "shop:orb"
+    },
+    "scout_ticket": {
+      "name": "スカウト券",
+      "kind": "permanent",
+      "rarity": "R",
+      "text": "次の補給所でもう1回スカウト",
+      "art": "shop:ticket"
+    },
+    "small_bag": {
+      "name": "小袋",
+      "kind": "permanent",
+      "rarity": "R",
+      "text": "ストック品の所持枠+1（5つまで）",
+      "art": "place:gem_pouch_v2"
+    }
+  },
+  "packs": {
+    "supply": {
+      "name": "補給の包み",
+      "price": 6,
+      "text": "ストック品が多め",
+      "seal": "#e8836f",
+      "permanent_chance": 0.2,
+      "legend_chance": 0.0
+    },
+    "silver": {
+      "name": "銀の包み",
+      "price": 12,
+      "text": "永続品とレジェンドが出やすい",
+      "seal": "#9b7bd0",
+      "permanent_chance": 0.45,
+      "legend_chance": 0.2
+    },
+    "gear_pack": {
+      "name": "装備の包み",
+      "price": 4,
+      "text": "装備を1人に1つ",
+      "kind": "gear",
+      "seal": "#d3ac5c"
+    },
+    "skill_pack": {
+      "name": "スキルの包み",
+      "price": 4,
+      "text": "何度でも使える技",
+      "kind": "skill",
+      "seal": "#9b7bd0"
+    }
+  },
+  "rarity_colors": {
+    "C": "#bdb4a8",
+    "R": "#6c9fad",
+    "E": "#9b7bd0",
+    "L": "#d3ac5c"
+  },
+  "rarity_names": {
+    "C": "コモン",
+    "R": "レア",
+    "E": "エピック",
+    "L": "レジェンド"
+  }
+}

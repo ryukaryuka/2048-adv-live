@@ -1,0 +1,3078 @@
+{
+  "version": 1,
+  "source": "docs/story/2048_scenario_full_final.txt#S25",
+  "status": "2026-10-02 user-requested finale; FIX dialogue preserved; final visual review pending",
+  "actor_order": [
+    "hinata",
+    "maou",
+    "kraken",
+    "arachne",
+    "slime",
+    "flare",
+    "soldier",
+    "bishop"
+  ],
+  "assets": {
+    "bishop_listen": {
+      "image": "res://art/adv/clean_cel_20260928/bishop_listen_crisp.png",
+      "anchor": [
+        0.55,
+        0.174
+      ],
+      "face_width": 0.145,
+      "chroma": false,
+      "expression_group": "bishop_standing",
+      "expression_state": "listen",
+      "face_scale": 0.94
+    },
+    "bishop_talk": {
+      "image": "res://art/adv/clean_cel_20260928/bishop_talk_crisp.png",
+      "anchor": [
+        0.55,
+        0.174
+      ],
+      "face_width": 0.145,
+      "chroma": false,
+      "expression_group": "bishop_standing",
+      "expression_state": "talk",
+      "face_scale": 0.94
+    },
+    "flare_listen": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "listen",
+      "face_scale": 0.94
+    },
+    "flare_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "flare_standing",
+      "expression_state": "listen",
+      "face_scale": 0.94
+    },
+    "flare_talk": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "expression_group": "flare_standing",
+      "expression_state": "talk",
+      "face_scale": 0.94
+    },
+    "flare_talk_reverse": {
+      "image": "res://art/adv/clean_cel_20260928/flare_talk_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "flare_standing",
+      "expression_state": "talk",
+      "face_scale": 0.94
+    },
+    "hinata_composed_listen_reverse": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen",
+      "face_scale": 0.94
+    },
+    "hinata_composed_talk_reverse": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "flip_h": true,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk",
+      "face_scale": 0.94
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "expression_group": "kraken_composed",
+      "expression_state": "listen",
+      "face_scale": 0.94
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "talk"
+    },
+    "maou_reply": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "slime_current_outfit": {
+      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
+      "anchor": [
+        0.551,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927",
+      "face_scale": 0.94
+    },
+    "kraken_solo_talk_v16_quiet": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/kraken_solo_listen_source.png",
+      "mouth_target": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_source": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_full_patch": true
+    }
+  },
+  "frames": [
+    {
+      "source_line": 1,
+      "cut": "S25_C01",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 1,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 2,
+      "cut": "S25_C02",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 2,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 3,
+      "cut": "S25_C03",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 3,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 4,
+      "cut": "S25_C03",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 4,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 5,
+      "cut": "S25_C04",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 5,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        },
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 6,
+      "cut": "S25_C05",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 6,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        },
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 7,
+      "cut": "S25_C05",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 7,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 8,
+      "cut": "S25_C05",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 8,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 9,
+      "cut": "S25_C06",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 9,
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        },
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 10,
+      "cut": "S25_C07",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 10,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 11,
+      "cut": "S25_C07",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 11,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 12,
+      "cut": "S25_C07",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 12,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 13,
+      "cut": "S25_C08",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 13,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "source_line": 14,
+      "cut": "S25_C08",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16_quiet",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 14,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 15,
+      "cut": "S25_C09",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 15,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 16,
+      "cut": "S25_C09",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 16,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 17,
+      "cut": "S25_C10",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 17,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 18,
+      "cut": "S25_C10",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 18,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 19,
+      "cut": "S25_C10",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 19,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 20,
+      "cut": "S25_C10",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 20,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 21,
+      "cut": "S25_C10",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 21,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 22,
+      "cut": "S25_C11",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 22,
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 23,
+      "cut": "S25_C11",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 23,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 24,
+      "cut": "S25_C11",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 24,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 25,
+      "cut": "S25_C11",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 25,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 26,
+      "cut": "S25_C11",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 26,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 27,
+      "cut": "S25_C12",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 27,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 28,
+      "cut": "S25_C12",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 28,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 29,
+      "cut": "S25_C13",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 29,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        },
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 30,
+      "cut": "S25_C13",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 30,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 31,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 31,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        },
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 32,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 32,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 33,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 33,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 34,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 34,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 35,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 35,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 36,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 36,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 37,
+      "cut": "S25_C14",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 37,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 38,
+      "cut": "S25_C15",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 38,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 39,
+      "cut": "S25_C15",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 39,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 40,
+      "cut": "S25_C16",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 40,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.78
+        },
+        "flare": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 41,
+      "cut": "S25_C16",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 41,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 42,
+      "cut": "S25_C17",
+      "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 42,
+      "beat": {
+        "actor": "slime",
+        "kind": "tilt",
+        "amount": 1.1,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "slime",
+      "paper_turn": []
+    },
+    {
+      "source_line": 43,
+      "cut": "S25_C18",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 43,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 44,
+      "cut": "S25_C19",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "twins",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 44,
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        },
+        "flare": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 45,
+      "cut": "S25_C19",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 45,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 46,
+      "cut": "S25_C19",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 46,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 47,
+      "cut": "S25_C20",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 47,
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "maou": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.78
+        },
+        "flare": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "source_line": 48,
+      "cut": "S25_C21",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 48,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "source_line": 49,
+      "cut": "S25_C22",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 49,
+      "beat": {
+        "actor": "flare",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        },
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 50,
+      "cut": "S25_C22",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 50,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 51,
+      "cut": "S25_C22",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 51,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 52,
+      "cut": "S25_C22",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 52,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 53,
+      "cut": "S25_C23",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 53,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        },
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 54,
+      "cut": "S25_C24",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 54,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 55,
+      "cut": "S25_C24",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 55,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 56,
+      "cut": "S25_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 56,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 57,
+      "cut": "S25_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 57,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 58,
+      "cut": "S25_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 58,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 59,
+      "cut": "S25_C25",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 59,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 60,
+      "cut": "S25_C26",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 60,
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 61,
+      "cut": "S25_C26",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "flare": {
+          "pose": "flare_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 61,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 62,
+      "cut": "S25_C27",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 62,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.78
+        },
+        "flare": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 63,
+      "cut": "S25_C27",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 63,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 64,
+      "cut": "S25_C27",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 64,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 65,
+      "cut": "S25_C28",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 65,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 66,
+      "cut": "S25_C29",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 66,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 67,
+      "cut": "S25_C30",
+      "actors": {
+        "maou": {
+          "pose": "maou_reply",
+          "x": 0.5,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 67,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "maou": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "source_line": 68,
+      "cut": "S25_C31",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 68,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 69,
+      "cut": "S25_C32",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 69,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "bishop": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 70,
+      "cut": "S25_C33",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 70,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "flare": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        },
+        "bishop": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 71,
+      "cut": "S25_C33",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 71,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 72,
+      "cut": "S25_C33",
+      "actors": {
+        "flare": {
+          "pose": "flare_talk_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 72,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "flare",
+      "paper_turn": []
+    },
+    {
+      "source_line": 73,
+      "cut": "S25_C33",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 73,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 74,
+      "cut": "S25_C33",
+      "actors": {
+        "flare": {
+          "pose": "flare_listen_reverse",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 74,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 75,
+      "cut": "S25_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_listen",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 75,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.88,
+          "speech": 0.8
+        }
+      },
+      "puppet_exits": {
+        "flare": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "source_line": 76,
+      "cut": "S25_C34",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_listen_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.754,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 76,
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {},
+      "speaker": "bishop",
+      "paper_turn": []
+    },
+    {
+      "source_line": 77,
+      "cut": "S25_C35",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "seal",
+      "cue": "seal",
+      "background": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+      "line": 77,
+      "beat": {
+        "actor": "bishop",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "music": "mystery",
+      "mood": "unease",
+      "paper_location": "palace",
+      "paper_world": "",
+      "puppet_entries": {},
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": -1,
+          "duration": 0.78
+        }
+      },
+      "speaker": "bishop",
+      "paper_turn": []
+    }
+  ],
+  "cuts": {
+    "S25_C01": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C02": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C03": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C04": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C05": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C06": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C07": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C08": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C09": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C10": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C11": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C12": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C13": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C14": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C15": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C16": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C17": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C18": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C19": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C20": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C21": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C22": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C23": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C24": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C25": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C26": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C27": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C28": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C29": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C30": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C31": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C32": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C33": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C34": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    },
+    "S25_C35": {
+      "kind": "paper",
+      "duration": 0.72,
+      "delay": 0.0
+    }
+  }
+}

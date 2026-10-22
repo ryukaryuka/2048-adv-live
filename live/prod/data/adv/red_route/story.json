@@ -1,0 +1,6510 @@
+{
+  "version": 1,
+  "route": "red",
+  "characters": {
+    "red_maou": {
+      "name": "魔王",
+      "color": "#a84850",
+      "image": "res://art/adv/red_maou_style_20261003/red_maou_normal.png",
+      "chroma": false
+    },
+    "red_vampire": {
+      "name": "ヴァンパイア",
+      "color": "#794769",
+      "image": "res://art/adv/red_route_20261002/vampire_normal.png",
+      "chroma": false
+    },
+    "red_succubus": {
+      "name": "サキュバス",
+      "color": "#b96383",
+      "image": "res://art/adv/red_route_20261002/succubus_normal.png",
+      "chroma": false
+    },
+    "red_golem": {
+      "name": "ゴーレム",
+      "color": "#618677",
+      "image": "res://art/adv/red_revision_20261012/golem_normal_front_warm.png",
+      "chroma": false
+    },
+    "red_wraith": {
+      "name": "レイス",
+      "color": "#7c71a4",
+      "image": "res://art/adv/red_revision_20261012/wraith_normal_front_warm.png",
+      "chroma": false
+    },
+    "red_broker": {
+      "name": "戦争屋",
+      "color": "#456773",
+      "image": "res://art/adv/red_route_20261002/war_broker_normal.png",
+      "chroma": false
+    },
+    "red_soldier": {
+      "name": "契約兵",
+      "color": "#718084",
+      "image": "res://art/adv/red_route_20261002/contract_soldier.png",
+      "chroma": false
+    },
+    "red_castle": {
+      "name": "城内音声",
+      "color": "#b78c4d"
+    }
+  },
+  "scenes": [
+    {
+      "id": "red_opening",
+      "route": "red",
+      "title": "大処分市",
+      "chapter": "第1章",
+      "show_draft_notice": false,
+      "chapter_index": 1,
+      "stage": 0,
+      "trigger": "opening",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_home.png",
+      "staging": "res://data/adv/red_route/ch1_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 0,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 14,
+          "speaker": "red_maou",
+          "text": "……やはり狭いのう。",
+          "stage_directions": [
+            "（小さな仮住まい。五人で卓を囲んでいる）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 16,
+          "speaker": "red_vampire",
+          "text": "そうですね。前のお城と比べれば、ずいぶん小さくなりました。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 18,
+          "speaker": "red_succubus",
+          "text": "私は好きですよ～。みんなとの距離が近くて。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R1C03",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 20,
+          "speaker": "red_maou",
+          "text": "おぬしらは欲がないのう。わらわは必ず力を取り戻す。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C04",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 22,
+          "speaker": "red_maou",
+          "text": "そして再び、強大な魔王として返り咲くのじゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "joy_rays"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C04",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 26,
+          "speaker": "red_maou",
+          "text": "なんじゃ？",
+          "stage_directions": [
+            "（郵便受けから一枚のチラシが入る。先にチラシを見せ、一拍置いてから魔王が反応する）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 30,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（魔王が広げる）"
+          ],
+          "cast": [],
+          "cut": "R1C06",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 32,
+          "speaker": "red_vampire",
+          "text": "どうされました？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 34,
+          "speaker": "red_maou",
+          "text": "わらわの玉座が売られておる。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 36,
+          "speaker": "red_succubus",
+          "text": "あら～。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 38,
+          "speaker": "red_maou",
+          "text": "しかも激安販売じゃと！",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 40,
+          "speaker": "red_maou",
+          "text": "仮にも大魔王の玉座じゃぞ！",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 42,
+          "speaker": "red_vampire",
+          "text": "値段より、売られていることを気にしてください。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C09",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 46,
+          "speaker": "red_maou",
+          "text": "……大広間の食卓まである。",
+          "stage_directions": [
+            "（魔王がチラシをめくる）"
+          ],
+          "cast": [],
+          "cut": "R1C10",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 48,
+          "speaker": "red_succubus",
+          "text": "懐かしいですね～。よくみんなで囲みましたね。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R1C11",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 50,
+          "speaker": "red_maou",
+          "text": "うむ……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C12",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 54,
+          "speaker": "red_maou",
+          "text": "……気に食わぬ。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C12",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 56,
+          "speaker": "red_vampire",
+          "text": "城は借金の質に入っていますから。向こうとしては、ただの備品なんでしょうけど。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 58,
+          "speaker": "red_maou",
+          "text": "質に入れただけじゃ！　いずれ請け出すと言うてある！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 60,
+          "speaker": "red_maou",
+          "text": "中身を売ってよいなどと、一言も言うておらぬ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 62,
+          "speaker": "red_vampire",
+          "text": "……そういう約束だったんですか？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 64,
+          "speaker": "red_maou",
+          "text": "そうじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 68,
+          "speaker": "red_maou",
+          "text": "……ばらばらに売られては、二度とそろわぬではないか。",
+          "stage_directions": [
+            "（魔王がチラシの食卓を見る）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C14",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 72,
+          "speaker": "red_maou",
+          "text": "決めたぞ。",
+          "stage_directions": [
+            "（魔王がチラシを卓へ置く）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 74,
+          "speaker": "red_vampire",
+          "text": "何をです？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 76,
+          "speaker": "red_maou",
+          "text": "魔王城を取り戻す。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 78,
+          "speaker": "red_vampire",
+          "text": "……今からですか？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 80,
+          "speaker": "red_maou",
+          "text": "今からじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 82,
+          "speaker": "red_maou",
+          "text": "わらわの城で、これ以上好き勝手されてはかなわぬ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 84,
+          "speaker": "red_succubus",
+          "text": "では、お供しますね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R1C16",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 86,
+          "speaker": "red_vampire",
+          "text": "……そういうことでしたら、私も。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C17",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 88,
+          "speaker": "red_golem",
+          "text": "……私も。道は、私が開けます。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R1C18",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 92,
+          "speaker": "red_golem",
+          "text": "……すみません。",
+          "stage_directions": [
+            "（ゴーレムが勢いよく立ち上がり、低い天井に頭をぶつけて穴を開ける）"
+          ],
+          "accents": {
+            "red_golem": "sweat"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R1C18",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 94,
+          "speaker": "red_maou",
+          "text": "……やはり狭いのう。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "sigh"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R1C19",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 98,
+          "speaker": "red_wraith",
+          "text": "……私も。留守番は、少し退屈なので。",
+          "stage_directions": [
+            "（レイスも静かに顔を上げる）"
+          ],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R1C20",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 100,
+          "speaker": "red_maou",
+          "text": "よし。ならば、改めて契約じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 102,
+          "speaker": "red_maou",
+          "text": "魔王城を取り戻すまで、わらわに力を貸せ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 104,
+          "speaker": "red_maou",
+          "text": "報酬は――そうじゃな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 106,
+          "speaker": "red_maou",
+          "text": "奪還の暁には、おぬしらの望みを一つ叶えてやろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 108,
+          "speaker": "red_vampire",
+          "text": "ずいぶん大きく出ましたね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 110,
+          "speaker": "red_maou",
+          "text": "大魔王との契約じゃぞ。当然じゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 42,
+          "source_file_line": 112,
+          "speaker": "red_succubus",
+          "text": "楽しみにしてますね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R1C22",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 43,
+          "source_file_line": 114,
+          "speaker": "red_vampire",
+          "text": "承知しました。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C23",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 44,
+          "source_file_line": 116,
+          "speaker": "red_golem",
+          "text": "……はい。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R1C24",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 45,
+          "source_file_line": 120,
+          "speaker": "red_maou",
+          "text": "では行くぞ！",
+          "stage_directions": [
+            "（レイスも頷く）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R1C25",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 46,
+          "source_file_line": 124,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（魔王城へ続く街道。処分品を積んだ荷車が前を横切る）"
+          ],
+          "cast": [],
+          "cut": "R1C26",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 47,
+          "source_file_line": 126,
+          "speaker": "red_vampire",
+          "text": "魔王様？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C27",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 48,
+          "source_file_line": 128,
+          "speaker": "red_maou",
+          "text": "おい、あれ。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C28",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 49,
+          "source_file_line": 132,
+          "speaker": "red_succubus",
+          "text": "あら。魔王様のですね～。",
+          "stage_directions": [
+            "（荷台に豪華な天蓋ベッド）"
+          ],
+          "cast": [],
+          "cut": "R1C28",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 50,
+          "source_file_line": 134,
+          "speaker": "red_maou",
+          "text": "わらわの寝床まで売ったのか……。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R1C28",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 51,
+          "source_file_line": 136,
+          "speaker": "red_vampire",
+          "text": "向こうは、自分の物のつもりみたいですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C29",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 52,
+          "source_file_line": 138,
+          "speaker": "red_maou",
+          "text": "預けただけじゃというに……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C29",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 53,
+          "source_file_line": 140,
+          "speaker": "red_maou",
+          "text": "じゃから、まずは城へ行って話をつけるのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C29",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 54,
+          "source_file_line": 144,
+          "speaker": "red_soldier",
+          "text": "止まれ。城の周囲をうろつく不審者を確認。",
+          "stage_directions": [
+            "（護衛の契約兵が一行に気づく）"
+          ],
+          "cast": [
+            "red_soldier"
+          ],
+          "cut": "R1C30",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 55,
+          "source_file_line": 146,
+          "speaker": "red_soldier",
+          "text": "城の財産を狙う盗人と判断。排除する。",
+          "stage_directions": [],
+          "cast": [
+            "red_soldier"
+          ],
+          "cut": "R1C30",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 56,
+          "source_file_line": 148,
+          "speaker": "red_vampire",
+          "text": "……私たち、道を歩いているだけですが。",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "sigh"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R1C31",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 57,
+          "source_file_line": 150,
+          "speaker": "red_soldier",
+          "text": "盗人はみな、そう言う。",
+          "stage_directions": [],
+          "cast": [
+            "red_soldier"
+          ],
+          "cut": "R1C32",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 58,
+          "source_file_line": 152,
+          "speaker": "red_maou",
+          "text": "ふむ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_soldier"
+          ],
+          "cut": "R1C33",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 59,
+          "source_file_line": 154,
+          "speaker": "red_maou",
+          "text": "あやつらしい言いがかりじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_soldier"
+          ],
+          "cut": "R1C33",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 60,
+          "source_file_line": 158,
+          "speaker": "red_maou",
+          "text": "……そやつらに、刃を向けるか。",
+          "stage_directions": [
+            "（兵士たちが、ヴァンパイアたちへ武器を向ける）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C34",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 61,
+          "source_file_line": 162,
+          "speaker": "red_maou",
+          "text": "……あやつ、約束を違えたな。",
+          "stage_directions": [
+            "（魔王の表情が変わる）"
+          ],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C34",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 62,
+          "source_file_line": 164,
+          "speaker": "red_vampire",
+          "text": "約束？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C34",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 63,
+          "source_file_line": 166,
+          "speaker": "red_maou",
+          "text": "何でもない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R1C34",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 64,
+          "source_file_line": 168,
+          "speaker": "red_maou",
+          "text": "先に手を出したのは、あちらじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_soldier"
+          ],
+          "cut": "R1C35",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 65,
+          "source_file_line": 170,
+          "speaker": "red_maou",
+          "text": "遠慮はいらぬ。返り討ちにして進むぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_soldier"
+          ],
+          "cut": "R1C35",
+          "lead_in": 0.0,
+          "music": "mystery"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage05",
+      "route": "red",
+      "title": "帰ってきたぞ、魔王城",
+      "chapter": "第2章",
+      "show_draft_notice": false,
+      "chapter_index": 2,
+      "stage": 4,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_castle.png",
+      "staging": "res://data/adv/red_route/ch2_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 5,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 181,
+          "speaker": "red_maou",
+          "text": "ふふん。",
+          "stage_directions": [
+            "（魔王城正門。巨大な城を見上げる一行）"
+          ],
+          "cast": [],
+          "cut": "R2C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 183,
+          "speaker": "red_maou",
+          "text": "帰ってきたぞ！",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R2C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 185,
+          "speaker": "red_succubus",
+          "text": "久しぶりですね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R2C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 187,
+          "speaker": "red_vampire",
+          "text": "外観はあまり変わっていませんね。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R2C03",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 189,
+          "speaker": "red_maou",
+          "text": "当然じゃ。わらわが造った城じゃぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C04",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 193,
+          "speaker": "red_maou",
+          "text": "開け。",
+          "stage_directions": [
+            "（魔王が正門の前へ立つ）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 197,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（沈黙）"
+          ],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 199,
+          "speaker": "red_maou",
+          "text": "開け。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 203,
+          "speaker": "red_castle",
+          "text": "魔力照合中。",
+          "stage_directions": [
+            "（門の紋章が光る）"
+          ],
+          "cast": [],
+          "cut": "R2C06",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 205,
+          "speaker": "red_maou",
+          "text": "うむ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 207,
+          "speaker": "red_castle",
+          "text": "該当する管理者情報がありません。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R2C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 209,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C09",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 211,
+          "speaker": "red_vampire",
+          "text": "魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C10",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 213,
+          "speaker": "red_maou",
+          "text": "もう一度じゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C10",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 215,
+          "speaker": "red_castle",
+          "text": "該当する管理者情報がありません。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R2C11",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 217,
+          "speaker": "red_maou",
+          "text": "わらわが造った城じゃぞ！？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C12",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 219,
+          "speaker": "red_succubus",
+          "text": "忘れられちゃいましたね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R2C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 221,
+          "speaker": "red_maou",
+          "text": "笑い事ではない！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R2C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 223,
+          "speaker": "red_wraith",
+          "text": "……わかります。私も、自動ドアに反応してもらえません。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_wraith"
+          ],
+          "cut": "R2C14",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 225,
+          "speaker": "red_maou",
+          "text": "おぬしと一緒にするでない！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_wraith"
+          ],
+          "cut": "R2C14",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 227,
+          "speaker": "red_vampire",
+          "text": "登録されている魔力量と、今の魔王様の魔力量が違いすぎるのかもしれません。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 229,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 231,
+          "speaker": "red_vampire",
+          "text": "魔王様？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 233,
+          "speaker": "red_maou",
+          "text": "聞こえなかったことにするのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R2C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 235,
+          "speaker": "red_golem",
+          "text": "……叩いて、みます。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R2C16",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 241,
+          "speaker": "red_castle",
+          "text": "侵入者を確認。",
+          "stage_directions": [
+            "（ゴーレムがそっと門をノックする。門が大きくへこむ）",
+            "（城壁上に自動砲台が展開する）"
+          ],
+          "cast": [],
+          "cut": "R2C17",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 243,
+          "speaker": "red_maou",
+          "text": "誰が侵入者じゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C18",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 245,
+          "speaker": "red_castle",
+          "text": "排除を開始します。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R2C19",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 247,
+          "speaker": "red_golem",
+          "text": "……来ます。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R2C20",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 249,
+          "speaker": "red_maou",
+          "text": "よかろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 253,
+          "speaker": "red_maou",
+          "text": "主人の顔を忘れた罰じゃ。",
+          "stage_directions": [
+            "（魔王が城を見上げる）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 255,
+          "speaker": "red_maou",
+          "text": "少し教育してやる。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R2C21",
+          "lead_in": 0.0,
+          "music": "comic"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage10",
+      "route": "red",
+      "title": "城の中",
+      "chapter": "第3章",
+      "show_draft_notice": false,
+      "chapter_index": 3,
+      "stage": 8,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_corridor.png",
+      "staging": "res://data/adv/red_route/ch3_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 10,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 266,
+          "speaker": "red_maou",
+          "text": "ふむ。",
+          "stage_directions": [
+            "（魔王城内部。戦闘を突破して城内へ）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 268,
+          "speaker": "red_maou",
+          "text": "やはり中に入ると落ち着くのう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 270,
+          "speaker": "red_succubus",
+          "text": "魔王様、嬉しそうですね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 272,
+          "speaker": "red_maou",
+          "text": "当然じゃ。わらわの城じゃぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 276,
+          "speaker": "red_maou",
+          "text": "……ずいぶんすっきりしたの。",
+          "stage_directions": [
+            "（廊下を進む。壁に家具を外した跡が並んでいる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 278,
+          "speaker": "red_vampire",
+          "text": "絶賛売り出し中ですからね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 280,
+          "speaker": "red_maou",
+          "text": "全部取り返すぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 282,
+          "speaker": "red_vampire",
+          "text": "城だけじゃなかったんですか？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 284,
+          "speaker": "red_maou",
+          "text": "城も家具もじゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 288,
+          "speaker": "red_maou",
+          "text": "ここを抜ければ中庭じゃ。",
+          "stage_directions": [
+            "（中庭へ続く大きな扉の前）"
+          ],
+          "cast": [],
+          "cut": "R3C03",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 292,
+          "speaker": "red_vampire",
+          "text": "砲撃です！　後ろの通路が崩れました！",
+          "stage_directions": [
+            "（防衛砲の砲撃が廊下に着弾。背後の通路が崩れ、前の扉も衝撃で歪む）"
+          ],
+          "cast": [],
+          "cut": "R3C04",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 294,
+          "speaker": "red_maou",
+          "text": "前の扉も歪んで開かぬ。閉じ込められたか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 296,
+          "speaker": "red_vampire",
+          "text": "ここにいたら狙い撃ちです。扉を破って抜けましょう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 298,
+          "speaker": "red_maou",
+          "text": "むう……やむを得ぬ。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 302,
+          "speaker": "red_maou",
+          "text": "ゴーレム、なるべく丁寧に壊すのじゃ。",
+          "stage_directions": [
+            "（ゴーレムを見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R3C06",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 304,
+          "speaker": "red_golem",
+          "text": "……はい。道を、開けます。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R3C06",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 308,
+          "speaker": "red_golem",
+          "text": "……すみません。",
+          "stage_directions": [
+            "（ゴーレムが扉を殴る。一撃で扉ごと壁の一部が吹き飛ぶ）"
+          ],
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R3C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 310,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "sweat"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R3C08",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 312,
+          "speaker": "red_succubus",
+          "text": "あら～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R3C09",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 314,
+          "speaker": "red_vampire",
+          "text": "ずいぶん強くなりましたね。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R3C10",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 316,
+          "speaker": "red_maou",
+          "text": "おぬし、昔からこんな怪力だったか？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R3C11",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 318,
+          "speaker": "red_golem",
+          "text": "……最近、加減が、うまくいかなくて。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R3C11",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 320,
+          "speaker": "red_maou",
+          "text": "加減の問題か？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R3C11",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 322,
+          "speaker": "red_wraith",
+          "text": "……私なら、すり抜けられましたけど。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R3C12",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 324,
+          "speaker": "red_golem",
+          "text": "……先に、言ってください。",
+          "stage_directions": [],
+          "accents": {
+            "red_golem": "sweat"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R3C12",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 328,
+          "speaker": "red_castle",
+          "text": "封鎖突破を確認。侵入者への攻撃を継続。",
+          "stage_directions": [
+            "（崩れた扉の向こうから、砲撃していた防衛装置が再び照準を向ける）"
+          ],
+          "cast": [],
+          "cut": "R3C13",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 330,
+          "speaker": "red_vampire",
+          "text": "まだ撃つ気のようですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C14",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 332,
+          "speaker": "red_maou",
+          "text": "誰の城だと思っておる！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R3C14",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 334,
+          "speaker": "red_castle",
+          "text": "侵入者です。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R3C15",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 336,
+          "speaker": "red_maou",
+          "text": "その言い方をやめぬか！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R3C16",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 340,
+          "speaker": "red_succubus",
+          "text": "まだまだ元気なお城ですね～。",
+          "stage_directions": [
+            "（多数の防衛兵器が現れる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C17",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 342,
+          "speaker": "red_maou",
+          "text": "結構。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C17",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 344,
+          "speaker": "red_maou",
+          "text": "全部黙らせてから取り戻すのじゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R3C17",
+          "lead_in": 0.0,
+          "music": "comic"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage15",
+      "route": "red",
+      "title": "古い契約",
+      "chapter": "第4章",
+      "show_draft_notice": false,
+      "chapter_index": 4,
+      "stage": 12,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_archive.png",
+      "staging": "res://data/adv/red_route/ch4_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 15,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 355,
+          "speaker": "red_vampire",
+          "text": "この辺りは、ほとんど手を付けられていないようですね。",
+          "stage_directions": [
+            "（魔王城・旧執務区画。古い書類や契約板が残っている）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 357,
+          "speaker": "red_maou",
+          "text": "ここは書類ばかりじゃからの。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 359,
+          "speaker": "red_vampire",
+          "text": "昔から嫌いでしたね、ここ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 361,
+          "speaker": "red_maou",
+          "text": "書類仕事はおぬしに任せておったじゃろ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 365,
+          "speaker": "red_vampire",
+          "text": "……こんな所に、古い板が。何か刻んでありますね。",
+          "stage_directions": [
+            "（ヴァンパイアが棚の奥に目を留め、埃をかぶった板を引き出す）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 369,
+          "speaker": "red_maou",
+          "text": "あっ……！　待て、それは見るでない！",
+          "stage_directions": [
+            "（魔王が板に気づき、はっとして身を乗り出す）"
+          ],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 371,
+          "speaker": "red_vampire",
+          "text": "どうして急に慌てるんです？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 373,
+          "speaker": "red_maou",
+          "text": "い、いや……ただの古い書類じゃ。戻しておけ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C01",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 375,
+          "speaker": "red_succubus",
+          "text": "あら～。秘密ですか？",
+          "stage_directions": [],
+          "accents": {
+            "red_succubus": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R4C02",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 377,
+          "speaker": "red_vampire",
+          "text": "契約者は……魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R4C03",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 379,
+          "speaker": "red_maou",
+          "text": "読むなと言うておる！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R4C04",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 381,
+          "speaker": "red_vampire",
+          "text": "担保、魔王城。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R4C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 383,
+          "speaker": "red_vampire",
+          "text": "……変ですね。書類は全部、私が通していたはずなのに。この契約は見た覚えがありません。",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R4C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 385,
+          "speaker": "red_vampire",
+          "text": "借用物は――",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R4C05",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 389,
+          "speaker": "red_maou",
+          "text": "そこまでじゃ。",
+          "stage_directions": [
+            "（魔王が契約板を取り上げる）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R4C06",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 391,
+          "speaker": "red_vampire",
+          "text": "何を借りたんです？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 393,
+          "speaker": "red_maou",
+          "text": "昔の借金の話じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 395,
+          "speaker": "red_vampire",
+          "text": "それは知っています。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 397,
+          "speaker": "red_maou",
+          "text": "ならばよかろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 399,
+          "speaker": "red_vampire",
+          "text": "よくないから聞いてるんです。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 401,
+          "speaker": "red_maou",
+          "text": "しつこいのう！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R4C07",
+          "lead_in": 0.0,
+          "music": "comic"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 403,
+          "speaker": "red_broker",
+          "text": "――まだ、隠しているのか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 407,
+          "speaker": "red_maou",
+          "text": "……おぬしか。",
+          "stage_directions": [
+            "（声の方を見る。戦争屋が姿を現す）"
+          ],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 409,
+          "speaker": "red_broker",
+          "text": "久しいな、魔王。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 411,
+          "speaker": "red_maou",
+          "text": "随分とわらわの城を好きに使ってくれたようじゃな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 413,
+          "speaker": "red_broker",
+          "text": "私の城だ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 415,
+          "speaker": "red_maou",
+          "text": "今は、な。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 417,
+          "speaker": "red_broker",
+          "text": "契約を覚えているなら、話は早い。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 419,
+          "speaker": "red_maou",
+          "text": "覚えておる。質に入れたのは城じゃ。中身を売ってよいとは約束しておらぬ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 421,
+          "speaker": "red_broker",
+          "text": "ああ。城は売っていない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 423,
+          "speaker": "red_maou",
+          "text": "……何？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 425,
+          "speaker": "red_broker",
+          "text": "契約書には『担保、魔王城』とある。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 427,
+          "speaker": "red_broker",
+          "text": "売っているのは、玉座と寝台と食卓だ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 429,
+          "speaker": "red_broker",
+          "text": "椅子は、城ではない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 431,
+          "speaker": "red_maou",
+          "text": "屁理屈じゃ！　中身も含めて城じゃろうが！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 433,
+          "speaker": "red_broker",
+          "text": "書いていないことは、約束していないことだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 435,
+          "speaker": "red_vampire",
+          "text": "……一番たちの悪い読み方をしますね。",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "sigh"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R4C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 437,
+          "speaker": "red_maou",
+          "text": "売るのはやめよ。借りた分は、必ず返す。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 439,
+          "speaker": "red_broker",
+          "text": "断る。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 441,
+          "speaker": "red_maou",
+          "text": "……街道の兵も、おぬしの差し金じゃな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 443,
+          "speaker": "red_broker",
+          "text": "盗人を追い払わせただけだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 42,
+          "source_file_line": 445,
+          "speaker": "red_maou",
+          "text": "そうか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 43,
+          "source_file_line": 447,
+          "speaker": "red_broker",
+          "text": "随分あっさりしているな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 44,
+          "source_file_line": 449,
+          "speaker": "red_maou",
+          "text": "ならば、次の話をするだけじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R4C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage20",
+      "route": "red",
+      "title": "契約の軍隊",
+      "chapter": "第5章",
+      "show_draft_notice": false,
+      "chapter_index": 5,
+      "stage": 16,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_hall.png",
+      "staging": "res://data/adv/red_route/ch5_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 20,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 462,
+          "speaker": "red_broker",
+          "text": "見事なものだろう。",
+          "stage_directions": [
+            "（魔王城・大広間手前。契約兵たちが整列している。戦争屋がその奥に立っている）"
+          ],
+          "cast": [],
+          "cut": "R5C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 464,
+          "speaker": "red_maou",
+          "text": "何がじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R5C02",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 466,
+          "speaker": "red_broker",
+          "text": "命じれば進む。命じれば戦う。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 468,
+          "speaker": "red_broker",
+          "text": "恐怖も迷いも関係ない。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 470,
+          "speaker": "red_vampire",
+          "text": "……ずいぶん一方的な契約ですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R5C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 472,
+          "speaker": "red_broker",
+          "text": "本人が署名した。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R5C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 474,
+          "speaker": "red_vampire",
+          "text": "選べる状況だったかは、別でしょう。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R5C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 476,
+          "speaker": "red_broker",
+          "text": "結果は同じだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R5C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 480,
+          "speaker": "red_wraith",
+          "text": "……あの人たち、私より顔色が悪いです。",
+          "stage_directions": [
+            "（負傷した契約兵が膝をつく。その横を別の契約兵が通過する）"
+          ],
+          "cast": [],
+          "cut": "R5C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 482,
+          "speaker": "red_maou",
+          "text": "おい。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R5C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 484,
+          "speaker": "red_broker",
+          "text": "なんだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 486,
+          "speaker": "red_maou",
+          "text": "そやつ、倒れておるぞ。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R5C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 488,
+          "speaker": "red_broker",
+          "text": "まだ命令は遂行できる。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R5C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 490,
+          "speaker": "red_maou",
+          "text": "そういう話ではない。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R5C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 492,
+          "speaker": "red_broker",
+          "text": "なら、どういう話だ？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 494,
+          "speaker": "red_maou",
+          "text": "……気に食わぬという話じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 496,
+          "speaker": "red_broker",
+          "text": "相変わらずだな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 498,
+          "speaker": "red_broker",
+          "text": "お前は昔から、無駄なものばかり気にする。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 500,
+          "speaker": "red_maou",
+          "text": "おぬしは昔から、気にするものが少なすぎるのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 502,
+          "speaker": "red_broker",
+          "text": "だが、お前も契約を使っている。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 506,
+          "speaker": "red_broker",
+          "text": "そいつらを従わせているのも契約だろう。",
+          "stage_directions": [
+            "（魔王たちを見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 508,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 510,
+          "speaker": "red_broker",
+          "text": "城を取り戻すまで。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 512,
+          "speaker": "red_broker",
+          "text": "報酬まで付けて。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 514,
+          "speaker": "red_broker",
+          "text": "何が違う？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 516,
+          "speaker": "red_maou",
+          "text": "一緒にするでない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 518,
+          "speaker": "red_broker",
+          "text": "理由は？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 520,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R5C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 522,
+          "speaker": "red_succubus",
+          "text": "魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R5C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 524,
+          "speaker": "red_maou",
+          "text": "分かっておる。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R5C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 526,
+          "speaker": "red_maou",
+          "text": "うまく言えぬだけじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R5C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 528,
+          "speaker": "red_broker",
+          "text": "なら同じだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 530,
+          "speaker": "red_broker",
+          "text": "力がある者が、契約で他人を動かす。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 532,
+          "speaker": "red_broker",
+          "text": "それだけのことだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 536,
+          "speaker": "red_broker",
+          "text": "排除しろ。",
+          "stage_directions": [
+            "（戦争屋が指を鳴らす）"
+          ],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R5C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 540,
+          "speaker": "red_maou",
+          "text": "……ヴァンパイア。",
+          "stage_directions": [
+            "（契約兵が一斉に動く）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R5C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 542,
+          "speaker": "red_vampire",
+          "text": "はい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R5C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 544,
+          "speaker": "red_maou",
+          "text": "倒れた者まで踏むなよ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R5C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 546,
+          "speaker": "red_vampire",
+          "text": "承知しました。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R5C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 548,
+          "speaker": "red_golem",
+          "text": "……踏みません。運びます。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R5C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 550,
+          "speaker": "red_maou",
+          "text": "では行くぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R5C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage25",
+      "route": "red",
+      "title": "借金の理由",
+      "chapter": "第6章",
+      "show_draft_notice": false,
+      "chapter_index": 6,
+      "stage": 20,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_tower.png",
+      "staging": "res://data/adv/red_route/ch6_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 25,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 561,
+          "speaker": "red_broker",
+          "text": "ずいぶん奥まで戻ってきたものだ。",
+          "stage_directions": [
+            "（魔王城・中央塔。戦争屋が待ち受けている）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 563,
+          "speaker": "red_maou",
+          "text": "戻ってきたのではない。取り戻しに来たのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 565,
+          "speaker": "red_broker",
+          "text": "その割には、まだ随分と小さいな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 567,
+          "speaker": "red_maou",
+          "text": "……余計なお世話じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 571,
+          "speaker": "red_broker",
+          "text": "それに、同じ顔ぶれか。",
+          "stage_directions": [
+            "（戦争屋が魔王たちを見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 573,
+          "speaker": "red_broker",
+          "text": "懲りないものだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 575,
+          "speaker": "red_maou",
+          "text": "何が言いたい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 577,
+          "speaker": "red_broker",
+          "text": "まだ話していないのだろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 581,
+          "speaker": "red_maou",
+          "text": "……黙れ。",
+          "stage_directions": [
+            "（魔王の表情が変わる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 583,
+          "speaker": "red_vampire",
+          "text": "何のことです？",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R6C02",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 585,
+          "speaker": "red_broker",
+          "text": "この城が、なぜ私のものになったのかだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 587,
+          "speaker": "red_maou",
+          "text": "余計なことを言うでない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 589,
+          "speaker": "red_broker",
+          "text": "借金を返せなかったから。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 591,
+          "speaker": "red_broker",
+          "text": "そう聞かされているのだろう？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 593,
+          "speaker": "red_succubus",
+          "text": "そうですね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R6C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 595,
+          "speaker": "red_broker",
+          "text": "半分は正しい。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 599,
+          "speaker": "red_broker",
+          "text": "昔、私はこの城を攻めた。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 601,
+          "speaker": "red_broker",
+          "text": "だが、魔王は倒せなかった。こいつも、この城も強すぎた。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 603,
+          "speaker": "red_broker",
+          "text": "だから、倒せる方から倒した。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 607,
+          "speaker": "red_vampire",
+          "text": "……。",
+          "stage_directions": [
+            "（短いフラッシュ。崩れた城内。倒れている仲間たち）"
+          ],
+          "cast": [],
+          "cut": "R6C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 609,
+          "speaker": "red_broker",
+          "text": "部下が尽きたところで、蘇生の魔道具を見せてやった。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R6C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 611,
+          "speaker": "red_broker",
+          "text": "代金は、この城。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R6C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 613,
+          "speaker": "red_broker",
+          "text": "そして蘇生に必要な魔力も――",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R6C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 615,
+          "speaker": "red_broker",
+          "text": "こいつが、ほとんどすべて払った。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R6C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 619,
+          "speaker": "red_maou",
+          "text": "……見るでない。",
+          "stage_directions": [
+            "（仲間たちが魔王を見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 621,
+          "speaker": "red_vampire",
+          "text": "……自分で殺しておいて、生き返らせる代金を取ったんですか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 623,
+          "speaker": "red_broker",
+          "text": "一番高く売れる時に売った。それだけだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 625,
+          "speaker": "red_broker",
+          "text": "城を落とすより、ずっと安く済んだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 627,
+          "speaker": "red_broker",
+          "text": "その代わり、こいつは一つだけ条件を付けた。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 629,
+          "speaker": "red_broker",
+          "text": "生き返った者には、二度と手を出すな、と。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 631,
+          "speaker": "red_vampire",
+          "text": "……では、街道で私たちを襲わせたのは。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 633,
+          "speaker": "red_broker",
+          "text": "盗人を追い払わせただけだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 635,
+          "speaker": "red_maou",
+          "text": "……屁理屈は聞き飽きたわ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 637,
+          "speaker": "red_vampire",
+          "text": "……それで、あの時『約束を違えた』と。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 639,
+          "speaker": "red_vampire",
+          "text": "魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 641,
+          "speaker": "red_maou",
+          "text": "借金で城を取られた。それで十分じゃろ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 645,
+          "speaker": "red_golem",
+          "text": "……覚えて、います。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R6C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 647,
+          "speaker": "red_golem",
+          "text": "最後に、魔王様の声がしたのを。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R6C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 649,
+          "speaker": "red_succubus",
+          "text": "……それで私たち、あの戦の終わりのことを覚えてなかったんですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R6C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 651,
+          "speaker": "red_broker",
+          "text": "蘇生の副作用だ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 653,
+          "speaker": "red_vampire",
+          "text": "……払った魔力は、どこへ行ったんです。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 42,
+          "source_file_line": 655,
+          "speaker": "red_broker",
+          "text": "蘇生した者の中だ。決まっているだろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 43,
+          "source_file_line": 659,
+          "speaker": "red_vampire",
+          "text": "……どうして、黙っていたんです。",
+          "stage_directions": [
+            "（ヴァンパイアが、自分の胸元に手を当てる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C14",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 44,
+          "source_file_line": 661,
+          "speaker": "red_maou",
+          "text": "……言えば、おぬしらはそれを借りだと思うじゃろう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C14",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 45,
+          "source_file_line": 663,
+          "speaker": "red_maou",
+          "text": "借りで誰かを縛るのは、わらわのやり方ではない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R6C14",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 46,
+          "source_file_line": 665,
+          "speaker": "red_broker",
+          "text": "城も力も失ってまで、死んだ部下を取り戻した。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 47,
+          "source_file_line": 667,
+          "speaker": "red_broker",
+          "text": "実に愚かだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 48,
+          "source_file_line": 669,
+          "speaker": "red_maou",
+          "text": "……おぬしには分からぬ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 49,
+          "source_file_line": 671,
+          "speaker": "red_broker",
+          "text": "分かる必要もない。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 50,
+          "source_file_line": 673,
+          "speaker": "red_broker",
+          "text": "結局、今のお前も同じことをしている。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 51,
+          "source_file_line": 675,
+          "speaker": "red_broker",
+          "text": "力ある者が契約を結び、他人を従わせる。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R6C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 52,
+          "source_file_line": 677,
+          "speaker": "red_vampire",
+          "text": "……それは少し違います。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C16",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 53,
+          "source_file_line": 679,
+          "speaker": "red_broker",
+          "text": "何がだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C16",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 54,
+          "source_file_line": 681,
+          "speaker": "red_vampire",
+          "text": "今の魔王様には、力もありません。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C16",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 55,
+          "source_file_line": 683,
+          "speaker": "red_vampire",
+          "text": "お金もありません。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C16",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 56,
+          "source_file_line": 685,
+          "speaker": "red_maou",
+          "text": "おぬし、庇う気はあるのか！？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R6C17",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 57,
+          "source_file_line": 687,
+          "speaker": "red_vampire",
+          "text": "あります。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R6C18",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 58,
+          "source_file_line": 689,
+          "speaker": "red_succubus",
+          "text": "本当にないですものね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R6C19",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 59,
+          "source_file_line": 691,
+          "speaker": "red_maou",
+          "text": "追い打ちをかけるでない！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R6C20",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 60,
+          "source_file_line": 693,
+          "speaker": "red_vampire",
+          "text": "そもそも私たち、今回の契約を結ぶ前から一緒に暮らしていましたし。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R6C21",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 61,
+          "source_file_line": 697,
+          "speaker": "red_broker",
+          "text": "……なら、なぜ契約した。",
+          "stage_directions": [
+            "（戦争屋が黙る）"
+          ],
+          "accents": {
+            "red_broker": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C22",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 62,
+          "source_file_line": 699,
+          "speaker": "red_vampire",
+          "text": "仕事は仕事ですから。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R6C22",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 63,
+          "source_file_line": 701,
+          "speaker": "red_maou",
+          "text": "そこだけは妙に堅いのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R6C23",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 64,
+          "source_file_line": 703,
+          "speaker": "red_vampire",
+          "text": "吸血鬼なので。",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "joy_rays"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R6C24",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 65,
+          "source_file_line": 705,
+          "speaker": "red_broker",
+          "text": "ならば、契約が終われば分かる。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C25",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 66,
+          "source_file_line": 707,
+          "speaker": "red_broker",
+          "text": "城を取り戻せば、お前たちを繋ぐものはなくなる。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C25",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 67,
+          "source_file_line": 711,
+          "speaker": "red_maou",
+          "text": "……それでよい。",
+          "stage_directions": [
+            "（魔王が一瞬だけ仲間を見る）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R6C26",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 68,
+          "source_file_line": 713,
+          "speaker": "red_maou",
+          "text": "契約が終われば、好きにすればよい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R6C26",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 69,
+          "source_file_line": 715,
+          "speaker": "red_broker",
+          "text": "なら、その時を楽しみにしておこう。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C27",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 70,
+          "source_file_line": 719,
+          "speaker": "red_broker",
+          "text": "もっとも――",
+          "stage_directions": [
+            "（戦争屋が手を上げる。大量の契約兵が現れる）"
+          ],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C27",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 71,
+          "source_file_line": 721,
+          "speaker": "red_broker",
+          "text": "ここを越えられれば、だが。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R6C27",
+          "lead_in": 0.0,
+          "music": "mystery"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage30_before",
+      "route": "red",
+      "title": "力を貸せ",
+      "chapter": "第7章",
+      "show_draft_notice": false,
+      "chapter_index": 7,
+      "stage": 24,
+      "trigger": "before",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_hall.png",
+      "staging": "res://data/adv/red_route/ch7_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 29,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 732,
+          "speaker": "red_broker",
+          "text": "まだ来るか。",
+          "stage_directions": [
+            "（魔王城・最奥。戦いを抜けた一行。戦争屋の周囲には、残った契約兵たちが立っている）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 734,
+          "speaker": "red_maou",
+          "text": "ここまで来て帰る馬鹿がおるか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 736,
+          "speaker": "red_broker",
+          "text": "ならば終わらせよう。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 740,
+          "speaker": "red_broker",
+          "text": "前へ出ろ。",
+          "stage_directions": [
+            "（戦争屋が手を上げる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C01",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 744,
+          "speaker": "red_vampire",
+          "text": "……まだ戦わせるんですか。",
+          "stage_directions": [
+            "（傷ついた契約兵たちが、一斉に魔王たちの前へ出る）"
+          ],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R7C02",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 746,
+          "speaker": "red_broker",
+          "text": "契約が残っている。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R7C02",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 748,
+          "speaker": "red_maou",
+          "text": "立っているのがやっとではないか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 750,
+          "speaker": "red_broker",
+          "text": "立てるなら使える。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C03",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 754,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（契約兵の一人が倒れる。他の兵は振り返らず前へ進む）"
+          ],
+          "cast": [],
+          "cut": "R7C04",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 756,
+          "speaker": "red_broker",
+          "text": "余計な判断はいらない。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 758,
+          "speaker": "red_broker",
+          "text": "命令だけを守れば、軍は乱れない。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C05",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 760,
+          "speaker": "red_vampire",
+          "text": "その割には、誰も隣を見ていませんね。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C06",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 764,
+          "speaker": "red_broker",
+          "text": "ならば最後まで役に立ってもらおう。",
+          "stage_directions": [
+            "（戦争屋が契約陣を展開する）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C07",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 766,
+          "speaker": "red_broker",
+          "text": "契約に従い、魔力を供出しろ。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C08",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 770,
+          "speaker": "red_succubus",
+          "text": "……あら。",
+          "stage_directions": [
+            "（契約兵たちから魔力が抜け、戦争屋へ集まっていく）"
+          ],
+          "cast": [
+            "red_succubus",
+            "red_broker"
+          ],
+          "cut": "R7C09",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 772,
+          "speaker": "red_golem",
+          "text": "……倒れちゃいます。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_broker"
+          ],
+          "cut": "R7C10",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 774,
+          "speaker": "red_maou",
+          "text": "やめさせよ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 776,
+          "speaker": "red_broker",
+          "text": "私の兵だ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 778,
+          "speaker": "red_maou",
+          "text": "違う。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 780,
+          "speaker": "red_maou",
+          "text": "おぬしが縛っておるだけじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C11",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 784,
+          "speaker": "red_broker",
+          "text": "これが契約だ。",
+          "stage_directions": [
+            "（戦争屋の魔力が大きく膨れ上がる）"
+          ],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 786,
+          "speaker": "red_broker",
+          "text": "裏切らない。拒まない。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 788,
+          "speaker": "red_broker",
+          "text": "必要な時に、必要なものを差し出す。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 790,
+          "speaker": "red_broker",
+          "text": "それ以上に確かなものがあるか？",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C12",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 794,
+          "speaker": "red_vampire",
+          "text": "魔王様。",
+          "stage_directions": [
+            "（魔王が前へ出る。しかし魔力が足りず、膝をつく）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R7C13",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 796,
+          "speaker": "red_maou",
+          "text": "……まだじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C14",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 798,
+          "speaker": "red_vampire",
+          "text": "ええ。まだです。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R7C15",
+          "lead_in": 0.0,
+          "music": "mystery"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 800,
+          "speaker": "red_vampire",
+          "text": "ですから、お返しします。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R7C16",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 802,
+          "speaker": "red_maou",
+          "text": "……何？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C17",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 806,
+          "speaker": "red_vampire",
+          "text": "蘇生の時に払った魔力は、私たちの中にあります。",
+          "stage_directions": [
+            "（ヴァンパイアが術式を展開する。四人の胸元に、魔王と同じ赤い光が灯る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire",
+            "red_succubus",
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R7C18",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 808,
+          "speaker": "red_vampire",
+          "text": "血と魔力の受け渡しなら、吸血鬼の専門です。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C19",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 810,
+          "speaker": "red_maou",
+          "text": "……いつ気づいた。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C20",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 812,
+          "speaker": "red_vampire",
+          "text": "中央塔で。あの人が親切に教えてくれましたから。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C21",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 814,
+          "speaker": "red_maou",
+          "text": "やめよ。それは、おぬしらを生かしておる魔力じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R7C22",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 816,
+          "speaker": "red_vampire",
+          "text": "借りた分だけです。命まではお返ししません。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C23",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 820,
+          "speaker": "red_succubus",
+          "text": "ずっと借りっぱなしで、すみませんでした～。あったかい魔力でしたよ。",
+          "stage_directions": [
+            "（サキュバスが魔王へ手を向ける。魔力が流れ込む）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R7C24",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 822,
+          "speaker": "red_maou",
+          "text": "おぬし……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 826,
+          "speaker": "red_golem",
+          "text": "……ずっと、力加減がうまくいかなかったのは……",
+          "stage_directions": [
+            "（ゴーレムの核が強く光る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_golem"
+          ],
+          "cut": "R7C26",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 828,
+          "speaker": "red_golem",
+          "text": "魔王様の力が、入っていたからでした。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R7C27",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 830,
+          "speaker": "red_maou",
+          "text": "ただのドジではなかったのか……。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C28",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 832,
+          "speaker": "red_golem",
+          "text": "……ドジも、あります。",
+          "stage_directions": [],
+          "accents": {
+            "red_golem": "sweat"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R7C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 42,
+          "source_file_line": 836,
+          "speaker": "red_wraith",
+          "text": "……お返しします。少し、冷えているかもしれませんが。",
+          "stage_directions": [
+            "（レイスからも静かに魔力が流れ込む）"
+          ],
+          "cast": [
+            "red_wraith"
+          ],
+          "cut": "R7C30",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 43,
+          "source_file_line": 840,
+          "speaker": "red_broker",
+          "text": "……魔王の命令か？",
+          "stage_directions": [
+            "（四人の魔力が魔王へ集まっていく）"
+          ],
+          "cast": [
+            "red_vampire",
+            "red_broker"
+          ],
+          "cut": "R7C31",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 44,
+          "source_file_line": 842,
+          "speaker": "red_vampire",
+          "text": "いいえ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C32",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 45,
+          "source_file_line": 844,
+          "speaker": "red_broker",
+          "text": "契約の義務か？",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 46,
+          "source_file_line": 846,
+          "speaker": "red_vampire",
+          "text": "いいえ。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C34",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 47,
+          "source_file_line": 848,
+          "speaker": "red_broker",
+          "text": "では、なぜだ。",
+          "stage_directions": [],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R7C35",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 48,
+          "source_file_line": 850,
+          "speaker": "red_succubus",
+          "text": "私たちが、そうしたいからですよ～。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R7C36",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 49,
+          "source_file_line": 854,
+          "speaker": "red_broker",
+          "text": "……。",
+          "stage_directions": [
+            "（魔王の魔力が一気に膨れ上がる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire",
+            "red_succubus",
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R7C37",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 50,
+          "source_file_line": 856,
+          "speaker": "red_maou",
+          "text": "まったく……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C38",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 51,
+          "source_file_line": 858,
+          "speaker": "red_maou",
+          "text": "勝手な奴らじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C38",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 52,
+          "source_file_line": 860,
+          "speaker": "red_vampire",
+          "text": "お互い様です。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R7C39",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 53,
+          "source_file_line": 864,
+          "speaker": "red_maou",
+          "text": "……よかろう。",
+          "stage_directions": [
+            "（魔王の姿が、かつての強大な姿へ変わっていく）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C40",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 54,
+          "source_file_line": 866,
+          "speaker": "red_maou",
+          "text": "確かに、返してもらった。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R7C40",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 55,
+          "source_file_line": 870,
+          "speaker": "red_maou",
+          "text": "前に、何が違うかと聞いたな。",
+          "stage_directions": [
+            "（魔王が戦争屋を見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 56,
+          "source_file_line": 872,
+          "speaker": "red_maou",
+          "text": "おぬしの契約は、縛るための契約じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 57,
+          "source_file_line": 874,
+          "speaker": "red_maou",
+          "text": "わらわの契約は、終われば好きにしてよい契約じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 58,
+          "source_file_line": 876,
+          "speaker": "red_maou",
+          "text": "縛らずとも、こやつらはここにおる。それが違いじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 59,
+          "source_file_line": 878,
+          "speaker": "red_broker",
+          "text": "……戯言だ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 60,
+          "source_file_line": 880,
+          "speaker": "red_maou",
+          "text": "では、もう一つ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 61,
+          "source_file_line": 882,
+          "speaker": "red_maou",
+          "text": "ずいぶん長いこと、わらわの城を貸してやったの。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 62,
+          "source_file_line": 884,
+          "speaker": "red_broker",
+          "text": "……何が言いたい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 63,
+          "source_file_line": 886,
+          "speaker": "red_maou",
+          "text": "返してもらうぞ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 64,
+          "source_file_line": 890,
+          "speaker": "red_broker",
+          "text": "来い、魔王。",
+          "stage_directions": [
+            "（戦争屋が膨大な魔力を解放する）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 65,
+          "source_file_line": 892,
+          "speaker": "red_maou",
+          "text": "うむ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 66,
+          "source_file_line": 896,
+          "speaker": "red_maou",
+          "text": "久しぶりに、大魔王らしく暴れてやるのじゃ。",
+          "stage_directions": [
+            "（魔王が笑う）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R7C41",
+          "lead_in": 0.0,
+          "music": "hope"
+        }
+      ],
+      "paper_red_version": 1
+    },
+    {
+      "id": "red_stage30_after",
+      "route": "red",
+      "title": "契約終了",
+      "chapter": "第8章",
+      "show_draft_notice": false,
+      "chapter_index": 8,
+      "stage": 24,
+      "trigger": "after",
+      "mode": "A",
+      "bgm": "res://audio/adv/candidates_20260928/hope.mp3",
+      "background_a": "res://art/adv/quality_20261003/paper_hall.png",
+      "staging": "res://data/adv/red_route/ch8_staging.json",
+      "staging_renderer": "res://ui/adv/red_route/stage.gd",
+      "source": "docs/story/new_maou_scenario_current.txt",
+      "source_stage": 30,
+      "lines": [
+        {
+          "source_line": 1,
+          "source_file_line": 907,
+          "speaker": "red_broker",
+          "text": "……契約が……。",
+          "stage_directions": [
+            "（戦争屋との戦闘終了。戦争屋が倒れ、城中に張り巡らされていた契約術式が砕けていく）"
+          ],
+          "cast": [
+            "red_broker"
+          ],
+          "cut": "R8C01",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 2,
+          "source_file_line": 911,
+          "speaker": "red_vampire",
+          "text": "……終わったみたいですね。",
+          "stage_directions": [
+            "（契約兵たちを縛っていた紋様が消える。兵たちはその場に膝をつく）"
+          ],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R8C02",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 3,
+          "source_file_line": 913,
+          "speaker": "red_succubus",
+          "text": "皆さん、自由になったみたいですよ～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C03",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 4,
+          "source_file_line": 917,
+          "speaker": "red_broker",
+          "text": "……命令もなしに、か。",
+          "stage_directions": [
+            "（解放された契約兵の一人が、隣で倒れた兵に手を貸して立たせる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R8C04",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 5,
+          "source_file_line": 919,
+          "speaker": "red_maou",
+          "text": "そういうものじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_broker"
+          ],
+          "cut": "R8C04",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 6,
+          "source_file_line": 923,
+          "speaker": "red_castle",
+          "text": "管理者魔力を確認。",
+          "stage_directions": [
+            "（戦争屋は何も言わず、目を閉じる。魔王城全体に光が走る）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C05",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 7,
+          "source_file_line": 925,
+          "speaker": "red_castle",
+          "text": "――お帰りなさいませ、魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C05",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 8,
+          "source_file_line": 929,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C06",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 9,
+          "source_file_line": 931,
+          "speaker": "red_maou",
+          "text": "遅いわ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C06",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 10,
+          "source_file_line": 933,
+          "speaker": "red_vampire",
+          "text": "そこは怒るんですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C06",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 11,
+          "source_file_line": 935,
+          "speaker": "red_maou",
+          "text": "当然じゃ！　散々わらわを侵入者扱いしおって！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C06",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 12,
+          "source_file_line": 937,
+          "speaker": "red_succubus",
+          "text": "でも、ちゃんと帰ってこられましたね～。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R8C07",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 13,
+          "source_file_line": 941,
+          "speaker": "red_maou",
+          "text": "……うむ。",
+          "stage_directions": [
+            "（魔王が大広間を見渡す）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R8C07",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 14,
+          "source_file_line": 943,
+          "speaker": "red_maou",
+          "text": "ようやくじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R8C07",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 15,
+          "source_file_line": 945,
+          "speaker": "red_maou",
+          "text": "力も戻った。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C08",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 16,
+          "source_file_line": 947,
+          "speaker": "red_maou",
+          "text": "城も戻った。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C08",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 17,
+          "source_file_line": 949,
+          "speaker": "red_maou",
+          "text": "これで再び、わらわは大魔王じゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "joy_rays"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C08",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 18,
+          "source_file_line": 951,
+          "speaker": "red_vampire",
+          "text": "おめでとうございます、魔王様。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R8C09",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 19,
+          "source_file_line": 953,
+          "speaker": "red_succubus",
+          "text": "おめでとうございます～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C10",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 20,
+          "source_file_line": 955,
+          "speaker": "red_golem",
+          "text": "……おめでとうございます。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem"
+          ],
+          "cut": "R8C11",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 21,
+          "source_file_line": 957,
+          "speaker": "red_wraith",
+          "text": "……おめでとうございます。",
+          "stage_directions": [],
+          "cast": [
+            "red_wraith"
+          ],
+          "cut": "R8C12",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 22,
+          "source_file_line": 961,
+          "speaker": "red_maou",
+          "text": "うむ！",
+          "stage_directions": [
+            "（魔王が満足そうに頷く）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C13",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 23,
+          "source_file_line": 965,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 24,
+          "source_file_line": 969,
+          "speaker": "red_maou",
+          "text": "そういえば。",
+          "stage_directions": [
+            "（魔王が仲間たちを見る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 25,
+          "source_file_line": 971,
+          "speaker": "red_maou",
+          "text": "魔王城を取り戻すまで――じゃったな。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 26,
+          "source_file_line": 973,
+          "speaker": "red_vampire",
+          "text": "契約ですか？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 27,
+          "source_file_line": 975,
+          "speaker": "red_maou",
+          "text": "うむ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 28,
+          "source_file_line": 977,
+          "speaker": "red_maou",
+          "text": "ならば、これにて契約終了じゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 29,
+          "source_file_line": 981,
+          "speaker": "red_maou",
+          "text": "皆、大義であった。",
+          "stage_directions": [
+            "（魔王が少し偉そうに胸を張る）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 30,
+          "source_file_line": 983,
+          "speaker": "red_maou",
+          "text": "約束の報酬もある。望みが決まったら申せ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C14",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 31,
+          "source_file_line": 985,
+          "speaker": "red_succubus",
+          "text": "は～い。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C15",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 32,
+          "source_file_line": 987,
+          "speaker": "red_vampire",
+          "text": "承知しました。",
+          "stage_directions": [],
+          "cast": [
+            "red_vampire"
+          ],
+          "cut": "R8C16",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 33,
+          "source_file_line": 991,
+          "speaker": "red_maou",
+          "text": "……では。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C17",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 34,
+          "source_file_line": 993,
+          "speaker": "red_maou",
+          "text": "好きにするがよい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C17",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 35,
+          "source_file_line": 1001,
+          "speaker": "red_maou",
+          "text": "……？",
+          "stage_directions": [
+            "（魔王が背を向ける）",
+            "（間）",
+            "（後ろで荷物を動かす音）"
+          ],
+          "cast": [],
+          "cut": "R8C18",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 36,
+          "source_file_line": 1005,
+          "speaker": "red_maou",
+          "text": "何をしておる。",
+          "stage_directions": [
+            "（振り返る。サキュバスたちは普通に城内へ荷物を運び始めている）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C19",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 37,
+          "source_file_line": 1007,
+          "speaker": "red_vampire",
+          "text": "荷物を運んでいます。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C19",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 38,
+          "source_file_line": 1009,
+          "speaker": "red_maou",
+          "text": "それは見れば分かる。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C19",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 39,
+          "source_file_line": 1011,
+          "speaker": "red_maou",
+          "text": "なぜ運んでおるのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C19",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 40,
+          "source_file_line": 1013,
+          "speaker": "red_succubus",
+          "text": "住むからですよ～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C20",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 41,
+          "source_file_line": 1015,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C21",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 42,
+          "source_file_line": 1017,
+          "speaker": "red_maou",
+          "text": "契約は終わったぞ？",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "question"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C21",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 43,
+          "source_file_line": 1019,
+          "speaker": "red_vampire",
+          "text": "はい。終わりました。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C21",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 44,
+          "source_file_line": 1021,
+          "speaker": "red_maou",
+          "text": "では……帰らぬのか？",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C21",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 45,
+          "source_file_line": 1023,
+          "speaker": "red_succubus",
+          "text": "帰ってきたところですけど～。",
+          "stage_directions": [],
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C22",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 46,
+          "source_file_line": 1027,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C23",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 47,
+          "source_file_line": 1029,
+          "speaker": "red_golem",
+          "text": "……ここに、いたいです。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R8C24",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 48,
+          "source_file_line": 1033,
+          "speaker": "red_vampire",
+          "text": "契約が終わったんですから、もう好きにしていいんですよね？",
+          "stage_directions": [
+            "（レイスも荷物を持ったまま、その場にいる）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 49,
+          "source_file_line": 1035,
+          "speaker": "red_maou",
+          "text": "……そうじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 50,
+          "source_file_line": 1037,
+          "speaker": "red_vampire",
+          "text": "では、好きにします。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 51,
+          "source_file_line": 1039,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 52,
+          "source_file_line": 1041,
+          "speaker": "red_vampire",
+          "text": "それと、報酬の望みですが。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 53,
+          "source_file_line": 1043,
+          "speaker": "red_maou",
+          "text": "……決まったのか。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 54,
+          "source_file_line": 1045,
+          "speaker": "red_vampire",
+          "text": "またここで、みんなで暮らすことです。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C25",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 55,
+          "source_file_line": 1047,
+          "speaker": "red_succubus",
+          "text": "私もそれです～。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R8C26",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 56,
+          "source_file_line": 1049,
+          "speaker": "red_golem",
+          "text": "……同じです。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R8C27",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 57,
+          "source_file_line": 1051,
+          "speaker": "red_wraith",
+          "text": "……留守番より、退屈しなさそうなので。",
+          "stage_directions": [],
+          "cast": [
+            "red_golem",
+            "red_wraith"
+          ],
+          "cut": "R8C27",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 58,
+          "source_file_line": 1053,
+          "speaker": "red_maou",
+          "text": "……大魔王に叶えさせる望みが、それか。",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "ellipsis"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C28",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 59,
+          "source_file_line": 1055,
+          "speaker": "red_maou",
+          "text": "安すぎるわ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou"
+          ],
+          "cut": "R8C28",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 60,
+          "source_file_line": 1059,
+          "speaker": "red_maou",
+          "text": "……勝手な奴らじゃ。",
+          "stage_directions": [
+            "（魔王が顔を背ける）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 61,
+          "source_file_line": 1061,
+          "speaker": "red_vampire",
+          "text": "今さらですね。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 62,
+          "source_file_line": 1063,
+          "speaker": "red_vampire",
+          "text": "そもそも、契約なんてなくてもついて行きましたよ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 63,
+          "source_file_line": 1065,
+          "speaker": "red_maou",
+          "text": "……おぬしらは、あの戦の終わりを覚えておらぬ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 64,
+          "source_file_line": 1067,
+          "speaker": "red_maou",
+          "text": "何も覚えておらぬ者に、ただついて来いとは言えなんだのじゃ。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 65,
+          "source_file_line": 1071,
+          "speaker": "red_maou",
+          "text": "……それに、大魔王が頭を下げるわけにもいかぬじゃろ。",
+          "stage_directions": [
+            "（少し間）"
+          ],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C29",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 66,
+          "source_file_line": 1073,
+          "speaker": "red_succubus",
+          "text": "そっちが本音ですね～。",
+          "stage_directions": [],
+          "accents": {
+            "red_succubus": "sigh"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_succubus"
+          ],
+          "cut": "R8C30",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 67,
+          "source_file_line": 1075,
+          "speaker": "red_maou",
+          "text": "ふん。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C31",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 68,
+          "source_file_line": 1077,
+          "speaker": "red_maou",
+          "text": "まあよい。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C31",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 69,
+          "source_file_line": 1079,
+          "speaker": "red_maou",
+          "text": "大魔王との契約じゃ。その望み、叶えてやるのじゃ！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "exclaim"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C31",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 70,
+          "source_file_line": 1081,
+          "speaker": "red_vampire",
+          "text": "ありがとうございます。",
+          "stage_directions": [],
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C31",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 71,
+          "source_file_line": 1083,
+          "speaker": "red_succubus",
+          "text": "やった～。",
+          "stage_directions": [],
+          "accents": {
+            "red_succubus": "joy_rays"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_succubus"
+          ],
+          "cut": "R8C32",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 72,
+          "source_file_line": 1089,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（場面転換。大広間）",
+            "（売りに出されていた食卓が戻されている。広い大広間で、五人は手の届く大きさの円卓を近くで囲んで座っている）"
+          ],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 73,
+          "source_file_line": 1091,
+          "speaker": "red_succubus",
+          "text": "どうしました～？",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 74,
+          "source_file_line": 1093,
+          "speaker": "red_maou",
+          "text": "いや。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 75,
+          "source_file_line": 1097,
+          "speaker": "red_maou",
+          "text": "やはり、魔王城はこれくらい広くなくてはな。",
+          "stage_directions": [
+            "（魔王が広い大広間を見渡す）"
+          ],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 76,
+          "source_file_line": 1099,
+          "speaker": "red_vampire",
+          "text": "そうですね。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 77,
+          "source_file_line": 1101,
+          "speaker": "red_succubus",
+          "text": "でも、座る場所は前と変わりませんね～。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 78,
+          "source_file_line": 1105,
+          "speaker": "red_maou",
+          "text": "……。",
+          "stage_directions": [
+            "（魔王が自分のすぐそばに集まっている皆を見る）"
+          ],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 79,
+          "source_file_line": 1107,
+          "speaker": "red_maou",
+          "text": "別によいじゃろ。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 80,
+          "source_file_line": 1109,
+          "speaker": "red_maou",
+          "text": "……全部、そろったな。",
+          "stage_directions": [],
+          "cast": [],
+          "cut": "R8C33",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 81,
+          "source_file_line": 1113,
+          "speaker": "red_maou",
+          "text": "……ん？",
+          "stage_directions": [
+            "（少し離れた場所。戻ってきた玉座に、処分市の値札がまだぶら下がっている）"
+          ],
+          "cast": [],
+          "cut": "R8C34",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 82,
+          "source_file_line": 1117,
+          "speaker": "red_maou",
+          "text": "誰じゃ。",
+          "stage_directions": [
+            "（魔王が値札を見る）"
+          ],
+          "cast": [],
+          "cut": "R8C34",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 83,
+          "source_file_line": 1119,
+          "speaker": "red_maou",
+          "text": "わらわの玉座に『激安販売』を貼ったままにしておるのは！！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C35",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 84,
+          "source_file_line": 1121,
+          "speaker": "red_vampire",
+          "text": "まだ気にしてたんですか。",
+          "stage_directions": [],
+          "accents": {
+            "red_vampire": "sigh"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C35",
+          "lead_in": 0.0,
+          "music": "hope"
+        },
+        {
+          "source_line": 85,
+          "source_file_line": 1123,
+          "speaker": "red_maou",
+          "text": "気にするわ！！",
+          "stage_directions": [],
+          "accents": {
+            "red_maou": "anger"
+          },
+          "accent_duration": 1.25,
+          "cast": [
+            "red_maou",
+            "red_vampire"
+          ],
+          "cut": "R8C35",
+          "lead_in": 0.0,
+          "music": "hope"
+        }
+      ],
+      "paper_red_version": 1
+    }
+  ]
+}

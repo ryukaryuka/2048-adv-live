@@ -1,0 +1,1832 @@
+{
+  "version": 1,
+  "status": "2026-09-29 chapter 1 v7 motion revision: resident Kraken turns, continuous entrances with softened steps; approved visual direction retained; TestFlight preview approved by user",
+  "source": "docs/story/chapter1-cut-plan.md",
+  "assets": {
+    "hinata_call": {
+      "image": "res://art/adv/cut_poses/hinata_call.png",
+      "anchor": [
+        0.395,
+        0.188
+      ],
+      "face_width": 0.195,
+      "chroma": true
+    },
+    "hinata_wish": {
+      "image": "res://art/adv/cut_poses/hinata_wish.png",
+      "anchor": [
+        0.369,
+        0.18
+      ],
+      "face_width": 0.187,
+      "chroma": true
+    },
+    "hinata_idea": {
+      "image": "res://art/adv/cut_poses/hinata_idea.png",
+      "anchor": [
+        0.464,
+        0.187
+      ],
+      "face_width": 0.194,
+      "chroma": true
+    },
+    "hinata_check": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_check.png",
+      "anchor": [
+        0.416,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "hinata_joy": {
+      "image": "res://art/adv/cut_poses/hinata_joy.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "hinata_reassure": {
+      "image": "res://art/adv/cut_poses/hinata_reassure.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "hinata_depart": {
+      "image": "res://art/adv/cut_poses/hinata_depart.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "hinata_resigned": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_resigned.png",
+      "anchor": [
+        0.414,
+        0.189
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "maou_reply": {
+      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.18,
+      "chroma": false
+    },
+    "maou_eating": {
+      "image": "res://art/adv/clean_cel_20260930/maou_eating.png",
+      "anchor": [
+        0.577,
+        0.132
+      ],
+      "face_width": 0.125,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "arachne_room": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_room.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false
+    },
+    "arachne_question": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_question.png",
+      "anchor": [
+        0.493,
+        0.139
+      ],
+      "face_width": 0.155,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:arachne_question",
+      "expression_state": "talk"
+    },
+    "arachne_listen": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_listen.png",
+      "anchor": [
+        0.511,
+        0.14
+      ],
+      "face_width": 0.155,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "kraken_dubious": {
+      "image": "res://art/adv/cut_poses/kraken_dubious.png",
+      "anchor": [
+        0.535,
+        0.146
+      ],
+      "face_width": 0.157,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_dubious",
+      "expression_state": "talk"
+    },
+    "hinata_c05_talk": {
+      "image": "res://art/adv/cut_poses/hinata_c05_talk.png",
+      "anchor": [
+        0.421,
+        0.191
+      ],
+      "face_width": 0.205,
+      "chroma": true
+    },
+    "hinata_c05_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_c05_listen.png",
+      "anchor": [
+        0.408,
+        0.186
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "kraken_c04_talk": {
+      "image": "res://art/adv/cut_poses/kraken_c04_talk.png",
+      "anchor": [
+        0.535,
+        0.146
+      ],
+      "face_width": 0.157,
+      "chroma": true,
+      "face_scale": 0.94
+    },
+    "kraken_c05_listen": {
+      "image": "res://art/adv/cut_poses/kraken_c05_listen.png",
+      "anchor": [
+        0.535,
+        0.146
+      ],
+      "face_width": 0.157,
+      "chroma": true,
+      "face_scale": 0.94
+    },
+    "hinata_solo_call": {
+      "image": "res://art/adv/cut_poses/hinata_solo_call.png",
+      "anchor": [
+        0.455,
+        0.194
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "maou_solo_reply": {
+      "image": "res://art/adv/cut_poses/maou_solo_reply.png",
+      "anchor": [
+        0.5,
+        0.126
+      ],
+      "face_width": 0.16,
+      "chroma": true
+    },
+    "kraken_solo_talk": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "arachne_solo_room": {
+      "image": "res://art/adv/cut_poses/arachne_solo_room.png",
+      "anchor": [
+        0.502,
+        0.14
+      ],
+      "face_width": 0.165,
+      "chroma": true
+    },
+    "hinata_solo_wish": {
+      "image": "res://art/adv/cut_poses/hinata_solo_wish.png",
+      "anchor": [
+        0.45,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_idea": {
+      "image": "res://art/adv/cut_poses/hinata_solo_idea.png",
+      "anchor": [
+        0.48,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_check": {
+      "image": "res://art/adv/cut_poses/hinata_solo_check.png",
+      "anchor": [
+        0.463,
+        0.186
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_joy": {
+      "image": "res://art/adv/cut_poses/hinata_solo_joy.png",
+      "anchor": [
+        0.461,
+        0.183
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_talk": {
+      "image": "res://art/adv/cut_poses/hinata_solo_talk.png",
+      "anchor": [
+        0.479,
+        0.185
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_reassure": {
+      "image": "res://art/adv/cut_poses/hinata_solo_reassure.png",
+      "anchor": [
+        0.481,
+        0.189
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_depart": {
+      "image": "res://art/adv/cut_poses/hinata_solo_depart.png",
+      "anchor": [
+        0.465,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "kraken_solo_dubious": {
+      "image": "res://art/adv/cut_poses/kraken_solo_dubious.png",
+      "anchor": [
+        0.5,
+        0.156
+      ],
+      "face_width": 0.17,
+      "chroma": true
+    },
+    "hinata_solo_complaint": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_solo.png",
+      "anchor": [
+        0.425,
+        0.179
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "hinata_composed_talk": {
+      "image": "res://art/adv/mouth_parts_20261002/hinata_talk_fixed.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "talk"
+    },
+    "kraken_composed_listen": {
+      "image": "res://art/adv/composition_review/original_kraken.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "kraken_composed",
+      "expression_state": "listen"
+    },
+    "hinata_composed_listen": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
+      "anchor": [
+        0.377,
+        0.16
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "hinata_composed",
+      "expression_state": "listen"
+    },
+    "kraken_composed_talk": {
+      "image": "res://art/adv/composition_review/original_kraken_talk.png",
+      "anchor": [
+        0.382,
+        0.171
+      ],
+      "face_width": 0.15,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "kraken_composed",
+      "expression_state": "talk"
+    },
+    "hinata_solo_grumble_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_grumble_v16.png",
+      "anchor": [
+        0.455,
+        0.194
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_wish_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_wish_v16.png",
+      "anchor": [
+        0.45,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_idea_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_idea_v16.png",
+      "anchor": [
+        0.48,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_check_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_check_v16.png",
+      "anchor": [
+        0.463,
+        0.186
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_joy_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_joy_v16.png",
+      "anchor": [
+        0.461,
+        0.183
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_reassure_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_reassure_v16.png",
+      "anchor": [
+        0.481,
+        0.189
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_solo_depart_v16": {
+      "image": "res://art/adv/cut_poses/hinata_solo_depart_v16.png",
+      "anchor": [
+        0.465,
+        0.184
+      ],
+      "face_width": 0.2,
+      "chroma": true
+    },
+    "hinata_reassure_v16": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_reassure.png",
+      "anchor": [
+        0.413,
+        0.183
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:hinata_reassure",
+      "expression_state": "talk"
+    },
+    "hinata_idea_v16": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_idea.png",
+      "anchor": [
+        0.451,
+        0.185
+      ],
+      "face_width": 0.194,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:hinata_idea",
+      "expression_state": "talk"
+    },
+    "arachne_solo_room_v16": {
+      "image": "res://art/adv/cut_poses/arachne_solo_room_v16.png",
+      "anchor": [
+        0.502,
+        0.14
+      ],
+      "face_width": 0.165,
+      "chroma": true
+    },
+    "kraken_solo_dubious_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_dubious_v16.png",
+      "anchor": [
+        0.5,
+        0.156
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94
+    },
+    "kraken_solo_talk_v16": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "talk"
+    },
+    "hinata_solo_grumble_fresh": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_solo_grumble.png",
+      "anchor": [
+        0.521,
+        0.181
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "hinata_solo_wish_fresh": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_solo_wish.png",
+      "anchor": [
+        0.401,
+        0.166
+      ],
+      "face_width": 0.185,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "hinata_solo_idea_fresh": {
+      "image": "res://art/adv/cut_poses/hinata_solo_idea_fresh.png",
+      "anchor": [
+        0.476,
+        0.184
+      ],
+      "face_width": 0.185,
+      "chroma": true
+    },
+    "hinata_solo_check_fresh": {
+      "image": "res://art/adv/cut_poses/hinata_solo_check_fresh.png",
+      "anchor": [
+        0.482,
+        0.181
+      ],
+      "face_width": 0.185,
+      "chroma": true
+    },
+    "hinata_solo_joy_fresh": {
+      "image": "res://art/adv/cut_poses/hinata_solo_joy_fresh.png",
+      "anchor": [
+        0.504,
+        0.178
+      ],
+      "face_width": 0.19,
+      "chroma": true
+    },
+    "arachne_solo_room_fresh": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_solo_room.png",
+      "anchor": [
+        0.542,
+        0.137
+      ],
+      "face_width": 0.15,
+      "chroma": false,
+      "face_scale": 0.94
+    },
+    "hinata_solo_reassure_fresh": {
+      "image": "res://art/adv/cut_poses/hinata_solo_reassure_fresh.png",
+      "anchor": [
+        0.504,
+        0.173
+      ],
+      "face_width": 0.19,
+      "chroma": true
+    },
+    "hinata_solo_depart_fresh": {
+      "image": "res://art/adv/cut_poses/hinata_solo_depart_fresh.png",
+      "anchor": [
+        0.515,
+        0.168
+      ],
+      "face_width": 0.19,
+      "chroma": true
+    },
+    "hinata_solo_depart_v18": {
+      "image": "res://art/adv/cut_poses/hinata_solo_depart_v18.png",
+      "anchor": [
+        0.515,
+        0.168
+      ],
+      "face_width": 0.19,
+      "chroma": true
+    },
+    "slime_current_outfit": {
+      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
+      "anchor": [
+        0.551,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    },
+    "slime_shrug": {
+      "image": "res://art/adv/clean_cel_20260930/slime_shrug.png",
+      "anchor": [
+        0.554,
+        0.146
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927",
+      "face_scale": 0.94
+    },
+    "slime_warm": {
+      "image": "res://art/adv/clean_cel_20260930/slime_warm.png",
+      "anchor": [
+        0.55,
+        0.134
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    },
+    "slime_homesick": {
+      "image": "res://art/adv/clean_cel_20260930/slime_homesick.png",
+      "anchor": [
+        0.55,
+        0.147
+      ],
+      "face_width": 0.19,
+      "chroma": false,
+      "status": "production_user_approved_20260927"
+    },
+    "kraken_dubious_quiet": {
+      "image": "res://art/adv/cut_poses/kraken_dubious.png",
+      "anchor": [
+        0.535,
+        0.146
+      ],
+      "face_width": 0.157,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_dubious",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/kraken_dubious_listen_source.png",
+      "mouth_target": [
+        0.5348101265822784,
+        0.162748643761302,
+        0.049578059071729956,
+        0.02230259192284509
+      ],
+      "mouth_source": [
+        0.5348101265822784,
+        0.162748643761302,
+        0.049578059071729956,
+        0.02230259192284509
+      ],
+      "mouth_full_patch": true
+    },
+    "hinata_reassure_v16_quiet": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_reassure.png",
+      "anchor": [
+        0.413,
+        0.183
+      ],
+      "face_width": 0.205,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:hinata_reassure",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/hinata_reassure_listen_source.png",
+      "mouth_target": [
+        0.3618143459915612,
+        0.1855421686746988,
+        0.07805907172995781,
+        0.03674698795180723
+      ],
+      "mouth_source": [
+        0.3618143459915612,
+        0.1855421686746988,
+        0.07805907172995781,
+        0.03674698795180723
+      ],
+      "mouth_full_patch": true
+    },
+    "hinata_idea_v16_quiet": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_idea.png",
+      "anchor": [
+        0.451,
+        0.185
+      ],
+      "face_width": 0.194,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:hinata_idea",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/hinata_idea_listen_source.png",
+      "mouth_target": [
+        0.3850210970464135,
+        0.18022905364677516,
+        0.07278481012658228,
+        0.037371910789632305
+      ],
+      "mouth_source": [
+        0.3850210970464135,
+        0.18022905364677516,
+        0.07278481012658228,
+        0.037371910789632305
+      ],
+      "mouth_full_patch": true
+    },
+    "kraken_solo_talk_v16_quiet": {
+      "image": "res://art/adv/cut_poses/kraken_solo_talk_v16.png",
+      "anchor": [
+        0.509,
+        0.151
+      ],
+      "face_width": 0.17,
+      "chroma": true,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:kraken_solo",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/kraken_solo_listen_source.png",
+      "mouth_target": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_source": [
+        0.4820675105485232,
+        0.15491259795057263,
+        0.0580168776371308,
+        0.02591922845087402
+      ],
+      "mouth_full_patch": true
+    },
+    "arachne_question_quiet": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_question.png",
+      "anchor": [
+        0.493,
+        0.139
+      ],
+      "face_width": 0.155,
+      "chroma": false,
+      "face_scale": 0.94,
+      "expression_group": "white_gesture:arachne_question",
+      "expression_state": "listen",
+      "mouth_image": "res://art/adv/quality_20261003/arachne_question_listen_source.png",
+      "mouth_target": [
+        0.49156118143459915,
+        0.13743218806509946,
+        0.06118143459915612,
+        0.03134418324291742
+      ],
+      "mouth_source": [
+        0.49156118143459915,
+        0.13743218806509946,
+        0.06118143459915612,
+        0.03134418324291742
+      ],
+      "mouth_full_patch": true
+    }
+  },
+  "cuts": {
+    "C01": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "ヒナタの不満",
+      "purpose": "呼びかけ先を先に出さない",
+      "line_start": 1,
+      "line_end": 2
+    },
+    "C02": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "魔王の返事",
+      "purpose": "うむ、の発話で初めて見せる",
+      "line_start": 3,
+      "line_end": 3
+    },
+    "C03": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "不満を続ける",
+      "purpose": "ヒナタの困りごとに戻る",
+      "line_start": 4,
+      "line_end": 4
+    },
+    "C04": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "横からひと言",
+      "purpose": "声と同時にクラーケンを紹介",
+      "line_start": 5,
+      "line_end": 5
+    },
+    "C05": {
+      "kind": "expand",
+      "duration": 0.8,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "体質の違い",
+      "purpose": "ツッコミと涼しい反応を同時に見せる",
+      "line_start": 6,
+      "line_end": 8
+    },
+    "C06": {
+      "kind": "focus",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "願望から提案へ",
+      "purpose": "魔王を先置きせずヒナタの思考を追う",
+      "line_start": 9,
+      "line_end": 10
+    },
+    "C07": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "即答",
+      "purpose": "よかろう、で返答先へ切る",
+      "line_start": 11,
+      "line_end": 11
+    },
+    "C08": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "拍子抜けと確認",
+      "purpose": "沈黙から確認まで一人で保持",
+      "line_start": 12,
+      "line_end": 13
+    },
+    "C09": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "承諾",
+      "purpose": "うむ、で魔王へ切る",
+      "line_start": 14,
+      "line_end": 14
+    },
+    "C10": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "先走る喜び",
+      "purpose": "次の発言者を予告配置しない",
+      "line_start": 15,
+      "line_end": 15
+    },
+    "C11": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "条件を差し込む",
+      "purpose": "発話をきっかけに注意を移す",
+      "line_start": 16,
+      "line_end": 16
+    },
+    "C12": {
+      "kind": "expand",
+      "duration": 0.55,
+      "delay": 0.02,
+      "bounce": 3.0,
+      "title": "条件への応酬",
+      "purpose": "楽観と疑いの温度差を見せる",
+      "line_start": 17,
+      "line_end": 19
+    },
+    "C13": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "アラクネの希望",
+      "purpose": "本人の希望と姿を一緒に紹介",
+      "line_start": 20,
+      "line_end": 20
+    },
+    "C14": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "希望を受ける",
+      "purpose": "軽く受け流すヒナタへ",
+      "line_start": 21,
+      "line_end": 21
+    },
+    "C15": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "スライムの希望",
+      "purpose": "本人の声で初めて見せる",
+      "line_start": 22,
+      "line_end": 22
+    },
+    "C16": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "引き受ける",
+      "purpose": "ヒナタの勢いを追う",
+      "line_start": 23,
+      "line_end": 23
+    },
+    "C17": {
+      "kind": "expand",
+      "duration": 0.58,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "行き先は未定",
+      "purpose": "質問と即答後の呆れを同じ画面で見せる",
+      "line_start": 24,
+      "line_end": 25
+    },
+    "C18": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "冷静な指摘",
+      "purpose": "やっぱり、でクラーケンへ",
+      "line_start": 26,
+      "line_end": 26
+    },
+    "C19": {
+      "kind": "expand",
+      "duration": 0.62,
+      "delay": 0.03,
+      "bounce": 2.0,
+      "title": "まず見に行く",
+      "purpose": "説明を受けて納得する表情を残す",
+      "line_start": 27,
+      "line_end": 28
+    },
+    "C20": {
+      "kind": "focus",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "全員への号令",
+      "purpose": "個別会話から全員への呼びかけへ",
+      "line_start": 29,
+      "line_end": 29
+    },
+    "C21": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0,
+      "bounce": 0.0,
+      "title": "まだ食事中",
+      "purpose": "号令への答えとして食事姿を見せ、画面外の声が補足",
+      "line_start": 30,
+      "line_end": 30
+    },
+    "C22": {
+      "kind": "expand",
+      "duration": 0.85,
+      "delay": 0.05,
+      "bounce": 0.0,
+      "title": "食べ終わるのを待つ",
+      "purpose": "既に見せた食事姿とヒナタの脱力で締める",
+      "line_start": 31,
+      "line_end": 32
+    }
+  },
+  "frames": [
+    {
+      "line": 1,
+      "cut": "C01",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_solo_grumble_fresh",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 3,
+        "duration": 0.45
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 1.12,
+          "speech": 0.68
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 2,
+      "cut": "C01",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_solo_grumble_fresh",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 3,
+        "duration": 0.45
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 3,
+      "cut": "C02",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.55
+      },
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.85,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "line": 4,
+      "cut": "C03",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_solo_complaint",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 3,
+        "duration": 0.45
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.72,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 5,
+      "cut": "C04",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.5
+        }
+      },
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 6,
+      "cut": "C05",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16_quiet",
+          "x": 0.35,
+          "y": 0.35
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.711,
+          "y": 0.47
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 3,
+        "duration": 0.4
+      },
+      "listening": {
+        "kraken": "closed mouth; gaze held toward partner"
+      },
+      "paper_turn": [],
+      "puppet_entries": {
+        "hinata": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 1.05,
+          "speech": 0.68
+        }
+      },
+      "speaker": "hinata"
+    },
+    {
+      "line": 7,
+      "cut": "C05",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_talk",
+          "x": 0.35,
+          "y": 0.35
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.711,
+          "y": 0.47
+        }
+      },
+      "listening": {
+        "hinata": "closed mouth; gaze held toward partner"
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 8,
+      "cut": "C05",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_composed_listen",
+          "x": 0.35,
+          "y": 0.35
+        },
+        "hinata": {
+          "pose": "hinata_composed_talk",
+          "x": 0.711,
+          "y": 0.47
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 3,
+        "duration": 0.4
+      },
+      "listening": {
+        "kraken": "closed mouth; gaze held toward partner"
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 9,
+      "cut": "C06",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_solo_wish_fresh",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "settle",
+        "amount": 2,
+        "duration": 0.8
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 10,
+      "cut": "C06",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_idea_v16",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "lift",
+        "amount": 4,
+        "duration": 0.55
+      },
+      "paper_turn": [
+        "hinata"
+      ],
+      "speaker": "hinata"
+    },
+    {
+      "line": 11,
+      "cut": "C07",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.55
+      },
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "line": 12,
+      "cut": "C08",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "peek",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.36
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 13,
+      "cut": "C08",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_check",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "tilt",
+        "amount": 0.5,
+        "duration": 0.9
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 14,
+      "cut": "C09",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.55
+      },
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.72,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    },
+    {
+      "line": 15,
+      "cut": "C10",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "lift",
+        "amount": 6,
+        "duration": 0.6
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.7,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 16,
+      "cut": "C11",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_dubious_v16",
+          "x": 0.5
+        }
+      },
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.85,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 17,
+      "cut": "C12",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_c05_listen",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.7537037037037037
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.55
+      },
+      "paper_turn": [
+        "kraken"
+      ],
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.76,
+          "speech": 0.78
+        }
+      },
+      "speaker": "hinata"
+    },
+    {
+      "line": 18,
+      "cut": "C12",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_dubious",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_reassure_v16_quiet",
+          "x": 0.7537037037037037
+        }
+      },
+      "paper_turn": [
+        "kraken"
+      ],
+      "speaker": "kraken"
+    },
+    {
+      "line": 19,
+      "cut": "C12",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_dubious_quiet",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.7537037037037037
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "lift",
+        "amount": 2,
+        "duration": 0.5
+      },
+      "paper_turn": [
+        "hinata"
+      ],
+      "speaker": "hinata"
+    },
+    {
+      "line": 20,
+      "cut": "C13",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_solo_room_fresh",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "arachne",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.7
+      },
+      "puppet_entries": {
+        "arachne": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.95,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        },
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "arachne",
+      "paper_turn": []
+    },
+    {
+      "line": 21,
+      "cut": "C14",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.5
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.7,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "arachne": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 22,
+      "cut": "C15",
+      "actors": {
+        "slime": {
+          "pose": "slime_shrug",
+          "x": 0.5
+        }
+      },
+      "puppet_entries": {
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.95,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "swing",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "slime",
+      "paper_turn": []
+    },
+    {
+      "line": 23,
+      "cut": "C16",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.5
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.72,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 1.02
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 24,
+      "cut": "C17",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_question",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_reassure_v16_quiet",
+          "x": 0.7537037037037037
+        }
+      },
+      "puppet_entries": {
+        "arachne": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      },
+      "speaker": "arachne",
+      "paper_turn": []
+    },
+    {
+      "line": 25,
+      "cut": "C17",
+      "actors": {
+        "arachne": {
+          "pose": "arachne_question_quiet",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_reassure_v16",
+          "x": 0.7537037037037037
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "lift",
+        "amount": 3,
+        "duration": 0.5
+      },
+      "paper_turn": [
+        "hinata"
+      ],
+      "speaker": "hinata"
+    },
+    {
+      "line": 26,
+      "cut": "C18",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_dubious_v16",
+          "x": 0.5
+        }
+      },
+      "puppet_entries": {
+        "kraken": {
+          "kind": "peek",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.36
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        },
+        "arachne": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 27,
+      "cut": "C19",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_c05_listen",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_idea_v16",
+          "x": 0.7537037037037037
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.6
+      },
+      "paper_turn": [
+        "kraken"
+      ],
+      "puppet_entries": {
+        "hinata": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 1.02,
+          "speech": 0.68
+        }
+      },
+      "speaker": "hinata"
+    },
+    {
+      "line": 28,
+      "cut": "C19",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_c04_talk",
+          "x": 0.25925925925925924
+        },
+        "hinata": {
+          "pose": "hinata_idea_v16_quiet",
+          "x": 0.7537037037037037
+        }
+      },
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.7
+      },
+      "paper_turn": [
+        "kraken"
+      ],
+      "speaker": "kraken"
+    },
+    {
+      "line": 29,
+      "cut": "C20",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_idea_v16",
+          "x": 0.5
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "lift",
+        "amount": 4,
+        "duration": 0.55
+      },
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 30,
+      "cut": "C21",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.5,
+          "y": 0.38
+        }
+      },
+      "lead_in": 0.8,
+      "puppet_entries": {
+        "maou": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.9,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.64
+        }
+      },
+      "speaker": "slime",
+      "paper_turn": []
+    },
+    {
+      "line": 31,
+      "cut": "C22",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.25925925925925924,
+          "y": 0.38
+        },
+        "hinata": {
+          "pose": "hinata_resigned",
+          "x": 0.7537037037037037,
+          "y": 0.49
+        }
+      },
+      "beat": {
+        "actor": "hinata",
+        "kind": "settle",
+        "amount": 4,
+        "duration": 1.0
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.95,
+          "speech": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 32,
+      "cut": "C22",
+      "actors": {
+        "maou": {
+          "pose": "maou_eating",
+          "x": 0.25925925925925924,
+          "y": 0.38
+        },
+        "hinata": {
+          "pose": "hinata_resigned",
+          "x": 0.7537037037037037,
+          "y": 0.49
+        }
+      },
+      "beat": {
+        "actor": "maou",
+        "kind": "nod",
+        "amount": 2,
+        "duration": 0.55
+      },
+      "speaker": "maou",
+      "paper_turn": []
+    }
+  ]
+}

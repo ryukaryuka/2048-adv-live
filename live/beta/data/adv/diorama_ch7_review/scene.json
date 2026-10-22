@@ -1,0 +1,282 @@
+{
+  "id": "stage60_before",
+  "source_id": "S29",
+  "title": "聖冠",
+  "chapter": "第7章",
+  "stage": 30,
+  "trigger": "before",
+  "mode": "A",
+  "text_only": false,
+  "show_draft_notice": false,
+  "composite_mode": 0,
+  "background_a": "res://art/adv/diorama_finale_20261002/paper_crown_hall_v1.png",
+  "staging": "res://data/adv/diorama_ch7_review/staging.json",
+  "staging_renderer": "res://ui/adv/diorama/finale_stage.gd",
+  "characters": {
+    "hinata": {
+      "name": "ヒナタ（サラマンダー）"
+    },
+    "maou": {
+      "name": "魔王"
+    },
+    "kraken": {
+      "name": "クラーケン"
+    },
+    "arachne": {
+      "name": "アラクネ"
+    },
+    "slime": {
+      "name": "スライム"
+    },
+    "flare": {
+      "name": "フレア"
+    },
+    "soldier": {
+      "name": "王国兵"
+    },
+    "bishop": {
+      "name": "大司教"
+    },
+    "priest": {
+      "name": "司祭"
+    },
+    "priests": {
+      "name": "司祭たち"
+    },
+    "child": {
+      "name": "子供"
+    },
+    "narrator": {
+      "name": ""
+    }
+  },
+  "lines": [
+    {
+      "source_line": 1,
+      "speaker": "hinata",
+      "text": "……もう終わりっす。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S29_C01",
+      "music": "mystery"
+    },
+    {
+      "source_line": 2,
+      "speaker": "bishop",
+      "text": "……私は、ですね。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S29_C02",
+      "music": "mystery"
+    },
+    {
+      "source_line": 3,
+      "speaker": "hinata",
+      "text": "？",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S29_C03",
+      "music": "mystery"
+    },
+    {
+      "source_line": 4,
+      "speaker": "bishop",
+      "text": "聖冠は……まだ終わっていません。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S29_C04",
+      "music": "mystery"
+    },
+    {
+      "source_line": 5,
+      "speaker": "flare",
+      "text": "……あれが。",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 6,
+      "speaker": "bishop",
+      "text": "この国が、人と魔を分けてきた力そのものです。",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 7,
+      "speaker": "kraken",
+      "text": "ずいぶん小さいのに、大仕事してたのねえ。",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 8,
+      "speaker": "slime",
+      "text": "かんむりー。",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 9,
+      "speaker": "hinata",
+      "text": "あれを止めれば、もう鐘も？",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 10,
+      "speaker": "flare",
+      "text": "人の心を縛る力も、終わるはずです。",
+      "cast": [],
+      "cut": "S29_C05",
+      "music": "mystery"
+    },
+    {
+      "source_line": 11,
+      "speaker": "bishop",
+      "text": "……止める？",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S29_C06",
+      "music": "mystery"
+    },
+    {
+      "source_line": 12,
+      "speaker": "bishop",
+      "text": "何百年も続いた平和を？",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S29_C06",
+      "music": "mystery"
+    },
+    {
+      "source_line": 13,
+      "speaker": "hinata",
+      "text": "その話は、もうしたっす。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S29_C07",
+      "music": "mystery"
+    },
+    {
+      "source_line": 14,
+      "speaker": "hinata",
+      "text": "住む場所くらい、自分で決めるっすよ。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S29_C07",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.15,
+      "accent_delay": 0.09,
+      "music": "mystery"
+    },
+    {
+      "source_line": 15,
+      "speaker": "bishop",
+      "text": "聖冠は、あなた方を許しません。",
+      "cast": [],
+      "cut": "S29_C08",
+      "music": "mystery"
+    },
+    {
+      "source_line": 16,
+      "speaker": "hinata",
+      "text": "王冠に許可もらって引っ越すつもりはないっす。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S29_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 17,
+      "speaker": "kraken",
+      "text": "大家さんでもないものねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S29_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 18,
+      "speaker": "hinata",
+      "text": "そういうことっす。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "S29_C09",
+      "music": "mystery"
+    },
+    {
+      "source_line": 19,
+      "speaker": "flare",
+      "text": "来ます！",
+      "cast": [
+        "flare"
+      ],
+      "cut": "S29_C10",
+      "music": "mystery"
+    },
+    {
+      "source_line": 20,
+      "speaker": "hinata",
+      "text": "魔王様。",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "S29_C11",
+      "music": "mystery"
+    },
+    {
+      "source_line": 21,
+      "speaker": "maou",
+      "text": "うむ。",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S29_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 22,
+      "speaker": "hinata",
+      "text": "これ止めて、引っ越しの続きするっすよ！",
+      "cast": [
+        "hinata",
+        "maou"
+      ],
+      "cut": "S29_C12",
+      "music": "mystery"
+    },
+    {
+      "source_line": 0,
+      "speaker": "narrator",
+      "text": "――BOSS：聖冠",
+      "cast": [],
+      "cut": "S29_E22",
+      "music": "mystery"
+    }
+  ],
+  "presentation_version": 2,
+  "bgm": "res://audio/adv/candidates_20260928/mystery.mp3",
+  "paper_finale_version": 1
+}
