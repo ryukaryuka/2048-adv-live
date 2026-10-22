@@ -113,7 +113,7 @@
       ],
       "face_width": 0.155,
       "chroma": false,
-      "face_scale": 0.94,
+      "face_scale": 0.89,
       "expression_group": "white_gesture:arachne_question",
       "expression_state": "talk"
     },
@@ -699,7 +699,7 @@
       ],
       "face_width": 0.155,
       "chroma": false,
-      "face_scale": 0.94,
+      "face_scale": 0.89,
       "expression_group": "white_gesture:arachne_question",
       "expression_state": "listen",
       "mouth_image": "res://art/adv/quality_20261003/arachne_question_listen_source.png",
@@ -1528,7 +1528,8 @@
       "actors": {
         "slime": {
           "pose": "slime_shrug",
-          "x": 0.5
+          "x": 0.5,
+          "y": 0.36
         }
       },
       "puppet_entries": {
@@ -1555,7 +1556,8 @@
       "actors": {
         "hinata": {
           "pose": "hinata_reassure_v16",
-          "x": 0.5
+          "x": 0.5,
+          "y": 0.375
         }
       },
       "beat": {
