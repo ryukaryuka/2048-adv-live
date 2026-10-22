@@ -79,7 +79,12 @@
         "hinata"
       ],
       "cut": "S29_C03",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 4,
@@ -113,7 +118,12 @@
       "text": "ずいぶん小さいのに、大仕事してたのねえ。",
       "cast": [],
       "cut": "S29_C05",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 8,
@@ -121,7 +131,14 @@
       "text": "かんむりー。",
       "cast": [],
       "cut": "S29_C05",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "slime": "joy_rays"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 9,
@@ -147,7 +164,12 @@
         "bishop"
       ],
       "cut": "S29_C06",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "bishop": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 12,
@@ -157,7 +179,14 @@
         "bishop"
       ],
       "cut": "S29_C06",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "bishop": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 13,
@@ -167,7 +196,12 @@
         "hinata"
       ],
       "cut": "S29_C07",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "grumble"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 14,
@@ -178,10 +212,10 @@
       ],
       "cut": "S29_C07",
       "accents": {
-        "hinata": "question"
+        "hinata": "exclaim"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
       "music": "mystery"
     },
     {
@@ -201,7 +235,12 @@
         "hinata"
       ],
       "cut": "S29_C09",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "grumble"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 17,
@@ -212,7 +251,14 @@
         "hinata"
       ],
       "cut": "S29_C09",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "kraken": "joy_rays"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 18,
@@ -233,7 +279,14 @@
         "flare"
       ],
       "cut": "S29_C10",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 20,
@@ -265,7 +318,14 @@
         "maou"
       ],
       "cut": "S29_C12",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 0,

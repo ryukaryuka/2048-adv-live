@@ -88,7 +88,12 @@
         "kraken"
       ],
       "cut": "S20_C03",
-      "music": "comic"
+      "music": "comic",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 4,
@@ -279,8 +284,10 @@
       "accents": {
         "hinata": "grumble"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 19,
@@ -429,8 +436,10 @@
       "accents": {
         "hinata": "exclaim"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 33,
@@ -479,8 +488,10 @@
       "accents": {
         "slime": "question"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 37,
@@ -598,8 +609,10 @@
       "accents": {
         "kraken": "sweat"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 48,
@@ -611,8 +624,10 @@
       "accents": {
         "priest": "exclaim"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 49,
@@ -741,8 +756,10 @@
       "accents": {
         "priest": "exclaim"
       },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 60,
@@ -827,7 +844,12 @@
         "hinata"
       ],
       "cut": "S20_C39",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 67,

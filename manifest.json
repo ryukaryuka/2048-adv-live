@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "contract": "party2048-adv-live-v1",
- "revision": 1792678316,
+ "revision": 1792679630,
  "files": {
   "data/adv/chapter1_staging.json": {
    "sha256": "6c2505f69a8170c7181513de549651ec6f84b3d302bd72804cf4f6353449ef0d",
@@ -60,24 +60,24 @@
    "bytes": 74427
   },
   "data/adv/diorama_ch5_review/scene.json": {
-   "sha256": "8125df92b8f18834910ab37cfec39bca584fea0c5a366314a597614e7916f972",
-   "bytes": 19061
+   "sha256": "2fd282a11ace602e40b350b2028c0abfbf6aa5e80ea9fa7d5d446082ee139f97",
+   "bytes": 19729
   },
   "data/adv/diorama_ch5_review/staging.json": {
    "sha256": "82ac9f01a1aed01d4eed6107c756ab4b54c38a91a16267c59df7b23de952a4a1",
    "bytes": 75755
   },
   "data/adv/diorama_ch6_review/scene.json": {
-   "sha256": "a8d514cbbce0a523d5a2c815e5a7bb2105d27590e8f286d2b62b4f01e21677e7",
-   "bytes": 19424
+   "sha256": "5c92ffd5aa367e897aff74166db30fef20d6a76b8f99988f1905ff590cc2b320",
+   "bytes": 21779
   },
   "data/adv/diorama_ch6_review/staging.json": {
-   "sha256": "e02ac952fa317a43d384fa9494df2a02ee0f08030b495d023edf4eafb59e3770",
-   "bytes": 69533
+   "sha256": "39d661088bba2e69230de4dc406fdb2263b0951ee877d17cb0ba127396fb69ca",
+   "bytes": 70025
   },
   "data/adv/diorama_ch7_review/scene.json": {
-   "sha256": "13df103a44652369d53e8868af856b5e1a25625ff9107e4921a6d84af7c0a2c2",
-   "bytes": 5982
+   "sha256": "abe4c07e5df666e087ef29c64fd9fc794e93bd7386267d1fbc76fd54ad5dba1d",
+   "bytes": 7489
   },
   "data/adv/diorama_ch7_review/staging.json": {
    "sha256": "0f357361909a77bed821745893b8ac49b4ec887c1f85a7827ae585918de5638f",
@@ -108,8 +108,8 @@
    "bytes": 47316
   },
   "data/adv/presentation/stage50_staging.json": {
-   "sha256": "9e9e168d29f7a468bc356f034ad5d4340ecc444fc94b37b34083c5568d35c9d2",
-   "bytes": 55330
+   "sha256": "427f6f12bd01056929cbd86890dd613d62615e84347aeae9e9524054d09c2c2a",
+   "bytes": 55827
   },
   "data/adv/presentation/stage60_after_staging.json": {
    "sha256": "272f6540671b8a3b5eec2018b597a1dc0758f4bf338edbd771a9953ed2bf39b7",
@@ -156,8 +156,8 @@
    "bytes": 178523
   },
   "data/adv/story.json": {
-   "sha256": "922e9786127614bdfd68e17782b88aec00fba5938745b8419c8afb92fea5495d",
-   "bytes": 312601
+   "sha256": "47cffca7656ed39de21747fdbccc7f8a82df657dc3f55ef1e8b2c898d69d2435",
+   "bytes": 312928
   },
   "data/adv/white_s10_staging.json": {
    "sha256": "c7c3863fb388695907636e56df803d819e33fa389625dcbf852a71f627a51474",

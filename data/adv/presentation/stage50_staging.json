@@ -2198,6 +2198,31 @@
       "mood": "unease"
     },
     {
+      "source_line": -661,
+      "cut": "S25_C29",
+      "actors": {
+        "bishop": {
+          "pose": "bishop_talk",
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 67,
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease"
+    },
+    {
       "source_line": 67,
       "cut": "S25_C30",
       "actors": {
@@ -2210,7 +2235,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 67,
+      "line": 68,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -2235,7 +2260,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 68,
+      "line": 69,
       "beat": {
         "actor": "bishop",
         "kind": "nod",
@@ -2267,7 +2292,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 69,
+      "line": 70,
       "camera": {
         "zoom": 1.16,
         "pan": [
@@ -2297,7 +2322,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 70,
+      "line": 71,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2327,7 +2352,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 71,
+      "line": 72,
       "beat": {
         "actor": "bishop",
         "kind": "nod",
@@ -2364,7 +2389,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 72,
+      "line": 73,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2394,7 +2419,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 73,
+      "line": 74,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2424,7 +2449,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 74,
+      "line": 75,
       "beat": {
         "actor": "bishop",
         "kind": "nod",
@@ -2461,7 +2486,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 75,
+      "line": 76,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2491,7 +2516,7 @@
       "effect": "",
       "cue": "",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 76,
+      "line": 77,
       "camera": {
         "zoom": 1.09,
         "pan": [
@@ -2516,7 +2541,7 @@
       "effect": "seal",
       "cue": "seal",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 77,
+      "line": 78,
       "beat": {
         "actor": "bishop",
         "kind": "nod",

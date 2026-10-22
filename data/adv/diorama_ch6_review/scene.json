@@ -101,7 +101,12 @@
         "hinata"
       ],
       "cut": "S25_C04",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "joy_rays"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 6,
@@ -281,13 +286,18 @@
     {
       "source_line": 22,
       "speaker": "hinata",
-      "text": "……じゃあ、あたしがじめじめしたダンジョンから『引っ越したい』って思えたのは、鐘が効かなかったから？",
+      "text": "……じゃあ、あたしが『引っ越したい』って思えたのは、鐘が効かなかったからっすか？",
       "cast": [
         "hinata",
         "bishop"
       ],
       "cut": "S25_C11",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 23,
@@ -303,7 +313,7 @@
     {
       "source_line": 24,
       "speaker": "bishop",
-      "text": "不満を持つことまでは問題ではありません。",
+      "text": "不満を持つだけなら、構わないのです。",
       "cast": [
         "hinata",
         "bishop"
@@ -319,7 +329,7 @@
     {
       "source_line": 25,
       "speaker": "bishop",
-      "text": "じめじめしている。日が当たらない。もっと違う場所なら、と考える。",
+      "text": "じめじめしている、日が当たらない――そう思うだけなら。",
       "cast": [
         "hinata",
         "bishop"
@@ -330,7 +340,7 @@
     {
       "source_line": 26,
       "speaker": "bishop",
-      "text": "しかし、そこで『なら現状を変えよう』と考えられては困るのです。",
+      "text": "困るのは、『だから今を変えよう』と動き出されることです。",
       "cast": [
         "hinata",
         "bishop"
@@ -341,7 +351,7 @@
     {
       "source_line": 27,
       "speaker": "flare",
-      "text": "……不満は感じる。でも、その先を考えられないようにした。",
+      "text": "……不満は感じても、変えようとは思えないようにしていた、と。",
       "cast": [
         "flare",
         "bishop"
@@ -352,7 +362,7 @@
     {
       "source_line": 28,
       "speaker": "bishop",
-      "text": "現状を変えようとしなければ、争いも起こりません。",
+      "text": "誰も今を変えようとしなければ、争いは起こりません。",
       "cast": [
         "flare",
         "bishop"
@@ -378,7 +388,12 @@
         "hinata"
       ],
       "cut": "S25_C13",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "grumble"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 31,
@@ -400,7 +415,12 @@
         "bishop"
       ],
       "cut": "S25_C14",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 33,
@@ -466,7 +486,14 @@
         "flare"
       ],
       "cut": "S25_C15",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 39,
@@ -507,7 +534,12 @@
         "slime"
       ],
       "cut": "S25_C17",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "slime": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 43,
@@ -529,11 +561,13 @@
       ],
       "cut": "S25_C19",
       "accents": {
-        "hinata": "question"
+        "hinata": "exclaim"
       },
-      "accent_duration": 1.15,
-      "accent_delay": 0.09,
-      "music": "mystery"
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "music": "mystery",
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 45,
@@ -544,7 +578,12 @@
         "flare"
       ],
       "cut": "S25_C19",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "exclaim"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 46,
@@ -555,7 +594,14 @@
         "flare"
       ],
       "cut": "S25_C19",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 47,
@@ -575,7 +621,12 @@
         "kraken"
       ],
       "cut": "S25_C21",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "kraken": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 49,
@@ -629,7 +680,12 @@
         "hinata"
       ],
       "cut": "S25_C23",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 54,
@@ -704,7 +760,12 @@
         "flare"
       ],
       "cut": "S25_C26",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "ellipsis"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 61,
@@ -755,12 +816,27 @@
         "hinata"
       ],
       "cut": "S25_C28",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "question"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 66,
       "speaker": "bishop",
-      "text": "なぜ、魔王まで聖冠の導きを受けない。",
+      "text": "司祭から聞きました。鐘が鳴っても、魔王は顔色ひとつ変えなかったと。",
+      "cast": [
+        "bishop"
+      ],
+      "cut": "S25_C29",
+      "music": "mystery"
+    },
+    {
+      "source_line": -661,
+      "speaker": "bishop",
+      "text": "そもそも、魔物を地上へ出すことを許した時点で、導きを受けていないはずなのです。",
       "cast": [
         "bishop"
       ],
@@ -795,7 +871,14 @@
         "hinata"
       ],
       "cut": "S25_C32",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "sweat"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/stupid3.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 70,
@@ -828,7 +911,12 @@
         "bishop"
       ],
       "cut": "S25_C33",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "flare": "anger"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06
     },
     {
       "source_line": 73,
@@ -861,7 +949,14 @@
         "bishop"
       ],
       "cut": "S25_C34",
-      "music": "mystery"
+      "music": "mystery",
+      "accents": {
+        "hinata": "anger"
+      },
+      "accent_duration": 1.6,
+      "accent_delay": 0.06,
+      "sfx": "res://audio/adv/lab/decision22.wav",
+      "sfx_delay": 0.1
     },
     {
       "source_line": 76,
