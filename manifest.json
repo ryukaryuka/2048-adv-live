@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "contract": "party2048-adv-live-v1",
- "revision": 1792674064,
+ "revision": 1792676197,
  "files": {
   "data/adv/chapter1_staging.json": {
    "sha256": "6c2505f69a8170c7181513de549651ec6f84b3d302bd72804cf4f6353449ef0d",
@@ -44,24 +44,24 @@
    "bytes": 34584
   },
   "data/adv/diorama_ch3_review/scene.json": {
-   "sha256": "7f44208701e070fa1932e426ca9d28982ce3d8e91dcf74781d30570f6087a5af",
-   "bytes": 11236
+   "sha256": "366fc17310d6bfb47b2973143e133f907e45a9fafa6f4ef68fcad2bae30de5d0",
+   "bytes": 11245
   },
   "data/adv/diorama_ch3_review/staging.json": {
    "sha256": "c64544bdbcac9f6962d41931c3dd890fd7198e406aab401c3af36747fd4088c0",
    "bytes": 38748
   },
   "data/adv/diorama_ch4_review/scene.json": {
-   "sha256": "333c2eed976808019e0da8eda1ee979fc11118a63cbed907b614de76e00d1c7c",
-   "bytes": 19332
+   "sha256": "9ee2505e3983a49dd8b2dd3cee2c4cdce9bc6e0f09808bf6265a042ce4175161",
+   "bytes": 19641
   },
   "data/adv/diorama_ch4_review/staging.json": {
-   "sha256": "70615dbea13566367049f64ef7a00c4b6522710938f5ce8f9855c78cbce842dd",
-   "bytes": 73114
+   "sha256": "4b0124f2b3c87e86f1aca83c5e5ef8a866e53118048d1c959a39082729bc0794",
+   "bytes": 74427
   },
   "data/adv/diorama_ch5_review/scene.json": {
-   "sha256": "7c4e470e60836f0941a9c7c02e547ca5d2ddc6459f2b5205e982e4d0c3b108c6",
-   "bytes": 18969
+   "sha256": "76578cbb7b984a8bb2419cf9126c5e2899d4a299bc51a421adafc4b055ee6206",
+   "bytes": 18978
   },
   "data/adv/diorama_ch5_review/staging.json": {
    "sha256": "a8e2dfb51667b344fe95430d177f5690541903c7900242a180f496b8764dcc2b",
@@ -156,8 +156,8 @@
    "bytes": 178523
   },
   "data/adv/story.json": {
-   "sha256": "d53a03b989217db1a70d3727b1f5f003179acffa5e91284f27eb32e0044f355d",
-   "bytes": 312230
+   "sha256": "b3e82634cb896245e521e6c36b3964ac7e588b68a9b05157ea395d7b311fe7a4",
+   "bytes": 312557
   },
   "data/adv/white_s10_staging.json": {
    "sha256": "c7c3863fb388695907636e56df803d819e33fa389625dcbf852a71f627a51474",

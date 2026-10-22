@@ -264,63 +264,6 @@
       "expression_group": "hinata_composed",
       "expression_state": "talk"
     },
-    "party_arachne": {
-      "image": "res://art/adv/clean_cel_20260930/arachne_room.png",
-      "anchor": [
-        0.511,
-        0.14
-      ],
-      "face_width": 0.155,
-      "chroma": false,
-      "face_scale": 0.47
-    },
-    "party_kraken": {
-      "image": "res://art/adv/composition_review/original_kraken.png",
-      "anchor": [
-        0.382,
-        0.171
-      ],
-      "face_width": 0.15,
-      "chroma": true,
-      "face_scale": 0.47,
-      "expression_group": "kraken_composed",
-      "expression_state": "listen"
-    },
-    "party_maou": {
-      "image": "res://art/adv/clean_cel_20260930/maou_reply.png",
-      "anchor": [
-        0.577,
-        0.132
-      ],
-      "face_width": 0.18,
-      "chroma": false,
-      "flip_h": true,
-      "face_scale": 0.47
-    },
-    "party_hinata": {
-      "image": "res://art/adv/clean_cel_20260930/hinata_listen.png",
-      "anchor": [
-        0.377,
-        0.16
-      ],
-      "face_width": 0.19,
-      "chroma": false,
-      "flip_h": true,
-      "face_scale": 0.47,
-      "expression_group": "hinata_composed",
-      "expression_state": "listen"
-    },
-    "party_slime": {
-      "image": "res://art/adv/clean_cel_20260930/slime_lazy.png",
-      "anchor": [
-        0.551,
-        0.146
-      ],
-      "face_width": 0.19,
-      "chroma": false,
-      "status": "production_user_approved_20260927",
-      "face_scale": 0.47
-    },
     "knight_reach_paper": {
       "image": "res://art/adv/diorama_ch4_review/knight_reach_v1.png",
       "anchor": [
@@ -446,6 +389,43 @@
         0.02591922845087402
       ],
       "mouth_full_patch": true
+    },
+    "hinata_flame_talk": {
+      "image": "res://art/adv/clean_cel_20260930/hinata_idea.png",
+      "anchor": [
+        0.451,
+        0.185
+      ],
+      "face_width": 0.194,
+      "chroma": false,
+      "flip_h": true,
+      "face_scale": 0.86,
+      "flame_palm": [
+        0.106,
+        0.364
+      ]
+    },
+    "flare_listen_flame_pair": {
+      "image": "res://art/adv/clean_cel_20260928/flare_listen_crisp.png",
+      "anchor": [
+        0.47,
+        0.16
+      ],
+      "face_width": 0.17,
+      "chroma": false,
+      "face_scale": 0.86,
+      "expression_group": "flare_standing",
+      "expression_state": "listen"
+    },
+    "arachne_solo_room_fresh": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_solo_room.png",
+      "anchor": [
+        0.542,
+        0.137
+      ],
+      "face_width": 0.15,
+      "chroma": false,
+      "face_scale": 0.94
     }
   },
   "frames": [
@@ -1367,18 +1347,18 @@
       "cut": "S15_C16",
       "actors": {
         "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.26,
-          "y": 0.47
+          "pose": "hinata_flame_talk",
+          "x": 0.22,
+          "y": 0.4
         },
         "flare": {
           "pose": "flare_listen",
-          "x": 0.754,
+          "x": 0.78,
           "y": 0.4
         }
       },
-      "effect": "",
-      "cue": "",
+      "effect": "flame",
+      "cue": "flame",
       "background": "res://art/adv/diorama_ch3_review/paper_road_stage_v2.png",
       "line": 21,
       "beat": {
@@ -1399,7 +1379,13 @@
       "music": "comic",
       "mood": "day",
       "speaker": "hinata",
-      "paper_turn": []
+      "paper_turn": [],
+      "flame_holders": [
+        "hinata"
+      ],
+      "front": [
+        "hinata"
+      ]
     },
     {
       "source_line": 22,
@@ -1439,10 +1425,15 @@
       "source_line": 23,
       "cut": "S15_C17",
       "actors": {
+        "hinata": {
+          "pose": "hinata_flame_talk",
+          "x": 0.22,
+          "y": 0.4
+        },
         "flare": {
-          "pose": "flare_listen_flame",
-          "x": 0.6,
-          "y": 0.28
+          "pose": "flare_listen_flame_pair",
+          "x": 0.78,
+          "y": 0.34
         }
       },
       "effect": "flame",
@@ -1450,26 +1441,53 @@
       "background": "res://art/adv/diorama_ch3_review/paper_road_stage_v2.png",
       "line": 23,
       "camera": {
-        "zoom": 1.22,
+        "zoom": 1.09,
         "pan": [
-          0.025,
-          0
+          -0.043,
+          -0.01
         ],
-        "blur": 4.5
+        "blur": 3.5
       },
       "music": "comic",
       "mood": "day",
       "speaker": "hinata",
-      "paper_turn": []
+      "paper_turn": [],
+      "flame_holders": [
+        "hinata",
+        "flare"
+      ],
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      },
+      "front": [
+        "hinata"
+      ]
     },
     {
       "source_line": 24,
       "cut": "S15_C17",
       "actors": {
+        "slime": {
+          "pose": "slime_current_outfit",
+          "x": 0.26,
+          "y": 0.5
+        },
         "flare": {
-          "pose": "flare_listen_flame",
-          "x": 0.6,
-          "y": 0.28
+          "pose": "flare_listen_flame_pair",
+          "x": 0.754,
+          "y": 0.34
         }
       },
       "effect": "flame",
@@ -1477,17 +1495,35 @@
       "background": "res://art/adv/diorama_ch3_review/paper_road_stage_v2.png",
       "line": 24,
       "camera": {
-        "zoom": 1.22,
+        "zoom": 1.09,
         "pan": [
-          0.025,
-          0
+          -0.043,
+          -0.01
         ],
-        "blur": 4.5
+        "blur": 3.5
       },
       "music": "comic",
       "mood": "day",
       "speaker": "slime",
-      "paper_turn": []
+      "paper_turn": [],
+      "flame_holders": [
+        "flare"
+      ],
+      "beat": {
+        "actor": "slime",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "puppet_entries": {
+        "slime": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      }
     },
     {
       "source_line": 25,
@@ -1520,10 +1556,15 @@
       "source_line": 26,
       "cut": "S15_C17",
       "actors": {
+        "hinata": {
+          "pose": "hinata_flame_talk",
+          "x": 0.22,
+          "y": 0.4
+        },
         "flare": {
-          "pose": "flare_listen_flame",
-          "x": 0.6,
-          "y": 0.28
+          "pose": "flare_listen_flame_pair",
+          "x": 0.78,
+          "y": 0.34
         }
       },
       "effect": "flame",
@@ -1531,24 +1572,46 @@
       "background": "res://art/adv/diorama_ch3_review/paper_road_stage_v2.png",
       "line": 26,
       "camera": {
-        "zoom": 1.22,
+        "zoom": 1.09,
         "pan": [
-          0.025,
-          0
+          -0.043,
+          -0.01
         ],
-        "blur": 4.5
+        "blur": 3.5
       },
       "music": "comic",
       "mood": "day",
       "speaker": "hinata",
-      "paper_turn": []
+      "paper_turn": [],
+      "flame_holders": [
+        "hinata",
+        "flare"
+      ],
+      "beat": {
+        "actor": "hinata",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.8,
+          "speech": 0.78
+        }
+      },
+      "front": [
+        "hinata"
+      ]
     },
     {
       "source_line": 27,
       "cut": "S15_C19",
       "actors": {
         "arachne": {
-          "pose": "arachne_room",
+          "pose": "arachne_solo_room_fresh",
           "x": 0.5,
           "y": 0.4
         }
@@ -1771,7 +1834,7 @@
       "cut": "S15_C22",
       "actors": {
         "arachne": {
-          "pose": "arachne_room",
+          "pose": "arachne_solo_room_fresh",
           "x": 0.5,
           "y": 0.4
         }
@@ -1825,29 +1888,14 @@
       "cut": "S15_C23",
       "actors": {
         "arachne": {
-          "pose": "party_arachne",
-          "x": 0.13,
-          "y": 0.32
-        },
-        "kraken": {
-          "pose": "party_kraken",
-          "x": 0.32,
-          "y": 0.3
-        },
-        "maou": {
-          "pose": "party_maou",
-          "x": 0.52,
-          "y": 0.35
-        },
-        "hinata": {
-          "pose": "party_hinata",
-          "x": 0.7,
-          "y": 0.33
+          "pose": "arachne_solo_room_fresh",
+          "x": 0.26,
+          "y": 0.4
         },
         "slime": {
-          "pose": "party_slime",
-          "x": 0.87,
-          "y": 0.43
+          "pose": "slime_current_outfit",
+          "x": 0.754,
+          "y": 0.5
         }
       },
       "effect": "baggage",
@@ -1865,36 +1913,34 @@
       "music": "comic",
       "mood": "day",
       "speaker": "flare",
-      "paper_turn": []
+      "paper_turn": [],
+      "drift": {
+        "from": 0.07,
+        "to": -0.07,
+        "duration": 3.2
+      },
+      "puppet_entries": {
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.9,
+          "speech": 0.78
+        }
+      }
     },
     {
       "source_line": 34,
       "cut": "S15_C23",
       "actors": {
-        "arachne": {
-          "pose": "party_arachne",
-          "x": 0.13,
-          "y": 0.32
-        },
         "kraken": {
-          "pose": "party_kraken",
-          "x": 0.32,
-          "y": 0.3
-        },
-        "maou": {
-          "pose": "party_maou",
-          "x": 0.52,
-          "y": 0.35
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
         },
         "hinata": {
-          "pose": "party_hinata",
-          "x": 0.7,
-          "y": 0.33
-        },
-        "slime": {
-          "pose": "party_slime",
-          "x": 0.87,
-          "y": 0.43
+          "pose": "hinata_composed_listen",
+          "x": 0.72,
+          "y": 0.47
         }
       },
       "effect": "baggage",
@@ -1912,7 +1958,45 @@
       "music": "comic",
       "mood": "day",
       "speaker": "kraken",
-      "paper_turn": []
+      "paper_turn": [],
+      "drift": {
+        "from": -0.07,
+        "to": 0.07,
+        "duration": 3.2
+      },
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.78
+        },
+        "hinata": {
+          "kind": "step",
+          "side": -1,
+          "duration": 0.78,
+          "speech": 0.78
+        }
+      },
+      "puppet_exits": {
+        "arachne": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.82
+        },
+        "slime": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.82
+        }
+      },
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      }
     },
     {
       "source_line": 35,
@@ -1960,21 +2044,6 @@
       },
       "puppet_exits": {
         "kraken": {
-          "kind": "drift",
-          "side": -1,
-          "duration": 0.82
-        },
-        "arachne": {
-          "kind": "drift",
-          "side": -1,
-          "duration": 0.82
-        },
-        "slime": {
-          "kind": "drift",
-          "side": -1,
-          "duration": 0.82
-        },
-        "maou": {
           "kind": "drift",
           "side": -1,
           "duration": 0.82
@@ -3399,6 +3468,6 @@
       "delay": 0.0
     }
   },
-  "scenario_revision": "bell_recovery_20260930",
+  "scenario_revision": "bell_recovery_20260930+ch4_flow_20261022",
   "paper_bell_focus": true
 }

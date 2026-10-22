@@ -8406,7 +8406,7 @@
           "name": "魔王"
         },
         "bell": {
-          "name": ""
+          "name": "鐘の音"
         },
         "arachne": {
           "name": "アラクネ"
@@ -8918,14 +8918,14 @@
           "name": ""
         },
         "bell": {
-          "name": ""
+          "name": "鐘の音"
         }
       },
       "lines": [
         {
           "source_line": 1,
           "speaker": "soldier",
-          "text": "止まれ！",
+          "text": "止まりなさい！",
           "cast": [
             "soldier"
           ],
@@ -8953,7 +8953,7 @@
         {
           "source_line": 3,
           "speaker": "soldier",
-          "text": "返せ！",
+          "text": "返しなさい！",
           "cast": [
             "soldier"
           ],
@@ -8964,7 +8964,7 @@
         {
           "source_line": 4,
           "speaker": "kraken",
-          "text": "振り回すから預かってるのよ。",
+          "text": "振り回すから預かってるだけよ。",
           "cast": [
             "kraken"
           ],
@@ -8975,7 +8975,7 @@
         {
           "source_line": 5,
           "speaker": "hinata",
-          "text": "保護者みたいになってるっすね。",
+          "text": "まあ、危ないっすからね、それ。",
           "cast": [
             "kraken",
             "hinata"
@@ -8987,7 +8987,7 @@
         {
           "source_line": 6,
           "speaker": "kraken",
-          "text": "もう振り回さない？",
+          "text": "もう振り回さないって約束するなら、返してあげるわ。",
           "cast": [
             "kraken",
             "soldier"
@@ -8999,7 +8999,7 @@
         {
           "source_line": 7,
           "speaker": "soldier",
-          "text": "振り回す！",
+          "text": "魔物と約束などするか！",
           "cast": [
             "kraken",
             "soldier"
@@ -9017,7 +9017,7 @@
         {
           "source_line": 8,
           "speaker": "kraken",
-          "text": "じゃあダメねえ。",
+          "text": "じゃあ、返せないわねえ。",
           "cast": [
             "kraken",
             "soldier"
@@ -9029,7 +9029,7 @@
         {
           "source_line": 9,
           "speaker": "slime",
-          "text": "通るねー。",
+          "text": "ちょっと通るねー。",
           "cast": [
             "slime"
           ],
@@ -9106,7 +9106,7 @@
         {
           "source_line": 15,
           "speaker": "hinata",
-          "text": "……あたし？",
+          "text": "……え、あたしと同じ顔っす！？",
           "cast": [
             "hinata",
             "flare"
@@ -9122,7 +9122,7 @@
         {
           "source_line": 16,
           "speaker": "flare",
-          "text": "……私？",
+          "text": "……私と、同じ顔？",
           "cast": [
             "hinata",
             "flare"
@@ -9172,7 +9172,7 @@
         {
           "source_line": 19,
           "speaker": "kraken",
-          "text": "でも、よく似てるわねえ。",
+          "text": "でも、ほんとにそっくりねえ。",
           "cast": [
             "kraken"
           ],
@@ -9195,7 +9195,7 @@
         {
           "source_line": 21,
           "speaker": "hinata",
-          "text": "サラマンダーっす。",
+          "text": "サラマンダーっす。ほら。",
           "cast": [
             "hinata",
             "flare"
@@ -9218,7 +9218,7 @@
         {
           "source_line": 23,
           "speaker": "hinata",
-          "text": "おお。",
+          "text": "おお、王女様も火が出せるんすか！",
           "cast": [
             "flare"
           ],
@@ -9242,7 +9242,7 @@
         {
           "source_line": 25,
           "speaker": "flare",
-          "text": "これは、王家に代々伝わる炎です。",
+          "text": "これは、王家だけに伝わる特別な炎です。王家の者以外が扱えるはずは……。",
           "cast": [
             "flare"
           ],
@@ -9253,7 +9253,7 @@
         {
           "source_line": 26,
           "speaker": "hinata",
-          "text": "へえ。あたしはサラマンダーなんで、火なら普通に出るっすけど。",
+          "text": "あたしのは、サラマンダーなら普通に出せる火っすけど……。",
           "cast": [
             "flare"
           ],
@@ -9264,7 +9264,7 @@
         {
           "source_line": 27,
           "speaker": "arachne",
-          "text": "顔だけならまだしも、炎まで似ているのは妙ですね。",
+          "text": "顔だけならまだしも、王家の炎まで同じなのは妙ですね。",
           "cast": [
             "arachne"
           ],
@@ -9483,7 +9483,7 @@
         {
           "source_line": -401,
           "speaker": "kraken",
-          "text": "……ここにいるべきじゃ、ないのかしら。",
+          "text": "……私たち、ここにいるべきじゃないのかしら。",
           "recovery_insert": "bell_recovery_20260930",
           "cut": "S15_RECOVERY",
           "cast": [
@@ -9597,7 +9597,7 @@
         {
           "source_line": 49,
           "speaker": "kraken",
-          "text": "……あの兵士さん、さっきまで素直だったのにねえ。",
+          "text": "……あの兵士さんも、さっきまで王女様の言うことを聞いてたのにねえ。",
           "cast": [
             "kraken",
             "hinata"
@@ -9792,7 +9792,7 @@
           "name": ""
         },
         "bell": {
-          "name": ""
+          "name": "鐘の音"
         }
       },
       "lines": [
