@@ -3,6 +3,7 @@
   "status": "2026-09-30 chapter 3: approved bell influence and recovery; 38 lines",
   "actor_order": [
     "maou",
+    "arachne",
     "kraken",
     "soldier",
     "hinata"
@@ -165,9 +166,26 @@
         0.02591922845087402
       ],
       "mouth_full_patch": true
+    },
+    "arachne_question": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_question.png",
+      "anchor": [
+        0.493,
+        0.139
+      ],
+      "face_width": 0.155,
+      "chroma": false,
+      "face_scale": 0.89,
+      "expression_group": "white_gesture:arachne_question",
+      "expression_state": "talk"
     }
   },
   "cuts": {
+    "C00": {
+      "kind": "paper",
+      "duration": 0.68,
+      "delay": 0.0
+    },
     "C01": {
       "kind": "paper",
       "duration": 0.68,
@@ -277,6 +295,91 @@
   "frames": [
     {
       "line": 1,
+      "source_line": -411,
+      "cut": "C00",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_pleased_mirrored",
+          "x": 0.5,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "hinata",
+        "kind": "retort",
+        "amount": 5,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.16,
+        "pan": [
+          0.0,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "hinata": {
+          "kind": "step",
+          "side": 1,
+          "duration": 0.78,
+          "speech": 0.78
+        }
+      },
+      "speaker": "hinata",
+      "paper_turn": []
+    },
+    {
+      "line": 2,
+      "source_line": -412,
+      "cut": "C00",
+      "actors": {
+        "kraken": {
+          "pose": "kraken_solo_talk_v16",
+          "x": 0.26,
+          "y": 0.4
+        },
+        "hinata": {
+          "pose": "hinata_composed_listen",
+          "x": 0.754,
+          "y": 0.47
+        }
+      },
+      "background": "res://art/adv/white_final/road.png",
+      "beat": {
+        "actor": "kraken",
+        "kind": "nod",
+        "amount": 3,
+        "duration": 0.58,
+        "delay": 0.06
+      },
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "comic",
+      "mood": "day",
+      "puppet_entries": {
+        "kraken": {
+          "kind": "glide",
+          "side": -1,
+          "duration": 0.82,
+          "speech": 0.78
+        }
+      },
+      "speaker": "kraken",
+      "paper_turn": []
+    },
+    {
+      "line": 3,
       "source_line": 1,
       "cut": "C01",
       "actors": {
@@ -313,10 +416,22 @@
         }
       },
       "speaker": "soldier",
-      "paper_turn": []
+      "paper_turn": [],
+      "puppet_exits": {
+        "kraken": {
+          "kind": "drift",
+          "side": -1,
+          "duration": 0.82
+        },
+        "hinata": {
+          "kind": "shuffle",
+          "side": 1,
+          "duration": 0.7
+        }
+      }
     },
     {
-      "line": 2,
+      "line": 4,
       "source_line": 2,
       "cut": "C02",
       "actors": {
@@ -363,7 +478,7 @@
       "paper_turn": []
     },
     {
-      "line": 3,
+      "line": 5,
       "source_line": 3,
       "cut": "C03",
       "actors": {
@@ -408,7 +523,7 @@
       "paper_turn": []
     },
     {
-      "line": 4,
+      "line": 6,
       "source_line": 4,
       "cut": "C03",
       "actors": {
@@ -445,7 +560,7 @@
       "paper_turn": []
     },
     {
-      "line": 5,
+      "line": 7,
       "source_line": 5,
       "cut": "C03",
       "actors": {
@@ -482,7 +597,7 @@
       "paper_turn": []
     },
     {
-      "line": 6,
+      "line": 8,
       "source_line": 6,
       "cut": "C03",
       "actors": {
@@ -519,7 +634,7 @@
       "paper_turn": []
     },
     {
-      "line": 7,
+      "line": 9,
       "source_line": 7,
       "cut": "C04",
       "actors": {},
@@ -551,7 +666,7 @@
       "paper_turn": []
     },
     {
-      "line": 8,
+      "line": 10,
       "source_line": 8,
       "cut": "C04",
       "actors": {
@@ -584,7 +699,7 @@
       "paper_turn": []
     },
     {
-      "line": 9,
+      "line": 11,
       "source_line": 0,
       "cut": "E01",
       "actors": {},
@@ -611,7 +726,7 @@
       "paper_turn": []
     },
     {
-      "line": 10,
+      "line": 12,
       "source_line": 9,
       "cut": "C05",
       "actors": {
@@ -651,7 +766,7 @@
       "paper_turn": []
     },
     {
-      "line": 11,
+      "line": 13,
       "source_line": 10,
       "cut": "C06",
       "actors": {
@@ -691,7 +806,7 @@
       "paper_turn": []
     },
     {
-      "line": 12,
+      "line": 14,
       "source_line": 11,
       "cut": "C07",
       "actors": {
@@ -731,7 +846,7 @@
       "paper_turn": []
     },
     {
-      "line": 13,
+      "line": 15,
       "source_line": 12,
       "cut": "C08",
       "actors": {
@@ -768,7 +883,7 @@
       "paper_turn": []
     },
     {
-      "line": 14,
+      "line": 16,
       "source_line": 13,
       "cut": "C08",
       "actors": {
@@ -798,7 +913,7 @@
       "paper_turn": []
     },
     {
-      "line": 15,
+      "line": 17,
       "source_line": -301,
       "cut": "S10_RECOVERY",
       "actors": {
@@ -837,7 +952,7 @@
       "paper_turn": []
     },
     {
-      "line": 16,
+      "line": 18,
       "source_line": -302,
       "cut": "S10_RECOVERY",
       "actors": {
@@ -876,7 +991,7 @@
       "paper_turn": []
     },
     {
-      "line": 17,
+      "line": 19,
       "source_line": -303,
       "cut": "S10_RECOVERY",
       "actors": {
@@ -915,96 +1030,7 @@
       "paper_turn": []
     },
     {
-      "line": 18,
-      "source_line": 14,
-      "cut": "S10_RECOVERY",
-      "actors": {
-        "kraken": {
-          "pose": "kraken_solo_talk_v16",
-          "x": 0.25,
-          "y": 0.4
-        },
-        "hinata": {
-          "pose": "hinata_composed_listen",
-          "x": 0.77,
-          "y": 0.47
-        }
-      },
-      "background": "res://art/adv/white_final/road.png",
-      "beat": {
-        "actor": "kraken",
-        "kind": "nod",
-        "amount": 3,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "camera": {
-        "zoom": 1.16,
-        "pan": [
-          0.0,
-          -0.01
-        ],
-        "blur": 3.5
-      },
-      "music": "mystery",
-      "mood": "unease",
-      "recovery_base": {
-        "line": 15,
-        "source_line": 14,
-        "cut": "C09",
-        "actors": {
-          "kraken": {
-            "pose": "kraken_solo_talk_v16",
-            "x": 0.5,
-            "y": 0.4
-          }
-        },
-        "background": "res://art/adv/white_final/road.png",
-        "beat": {
-          "actor": "kraken",
-          "kind": "nod",
-          "amount": 3,
-          "duration": 0.58,
-          "delay": 0.06
-        },
-        "camera": {
-          "zoom": 1.16,
-          "pan": [
-            0.0,
-            -0.01
-          ],
-          "blur": 3.5
-        },
-        "music": "mystery",
-        "mood": "unease",
-        "puppet_entries": {
-          "kraken": {
-            "kind": "glide",
-            "side": -1,
-            "duration": 0.82,
-            "speech": 0.78
-          }
-        },
-        "puppet_exits": {
-          "hinata": {
-            "kind": "shuffle",
-            "side": -1,
-            "duration": 0.7
-          },
-          "soldier": {
-            "kind": "swing",
-            "side": 1,
-            "duration": 0.82
-          }
-        }
-      },
-      "paper_turn": [
-        "kraken"
-      ],
-      "speaker": "kraken"
-    },
-    {
-      "line": 19,
+      "line": 20,
       "source_line": 15,
       "cut": "C10",
       "actors": {
@@ -1045,10 +1071,18 @@
         }
       },
       "speaker": "hinata",
-      "paper_turn": []
+      "paper_turn": [],
+      "puppet_entries": {
+        "soldier": {
+          "kind": "arc",
+          "side": 1,
+          "duration": 0.94,
+          "speech": 0.69
+        }
+      }
     },
     {
-      "line": 20,
+      "line": 21,
       "source_line": 16,
       "cut": "C10",
       "actors": {
@@ -1078,7 +1112,7 @@
       "paper_turn": []
     },
     {
-      "line": 21,
+      "line": 22,
       "source_line": 17,
       "cut": "C12",
       "actors": {
@@ -1119,7 +1153,7 @@
       "speaker": "hinata"
     },
     {
-      "line": 22,
+      "line": 23,
       "source_line": 18,
       "cut": "C12",
       "actors": {
@@ -1151,12 +1185,12 @@
       "paper_turn": []
     },
     {
-      "line": 23,
+      "line": 24,
       "source_line": 19,
       "cut": "C13",
       "actors": {
-        "kraken": {
-          "pose": "kraken_solo_talk_v16",
+        "arachne": {
+          "pose": "arachne_question",
           "x": 0.26,
           "y": 0.4
         },
@@ -1168,7 +1202,7 @@
       },
       "background": "res://art/adv/white_final/road.png",
       "beat": {
-        "actor": "kraken",
+        "actor": "arachne",
         "kind": "nod",
         "amount": 3,
         "duration": 0.58,
@@ -1185,18 +1219,18 @@
       "music": "mystery",
       "mood": "unease",
       "puppet_entries": {
-        "kraken": {
+        "arachne": {
           "kind": "glide",
           "side": -1,
           "duration": 0.82,
           "speech": 0.78
         }
       },
-      "speaker": "kraken",
+      "speaker": "arachne",
       "paper_turn": []
     },
     {
-      "line": 24,
+      "line": 25,
       "source_line": 20,
       "cut": "C14",
       "actors": {
@@ -1238,7 +1272,7 @@
         }
       },
       "puppet_exits": {
-        "kraken": {
+        "arachne": {
           "kind": "drift",
           "side": -1,
           "duration": 0.82
@@ -1248,7 +1282,7 @@
       "paper_turn": []
     },
     {
-      "line": 25,
+      "line": 26,
       "source_line": 21,
       "cut": "C14",
       "actors": {
@@ -1285,7 +1319,7 @@
       "paper_turn": []
     },
     {
-      "line": 26,
+      "line": 27,
       "source_line": 22,
       "cut": "C14",
       "actors": {
@@ -1322,7 +1356,7 @@
       "paper_turn": []
     },
     {
-      "line": 27,
+      "line": 28,
       "source_line": 23,
       "cut": "C14",
       "actors": {
@@ -1359,7 +1393,7 @@
       "paper_turn": []
     },
     {
-      "line": 28,
+      "line": 29,
       "source_line": 24,
       "cut": "C14",
       "actors": {
@@ -1396,7 +1430,7 @@
       "paper_turn": []
     },
     {
-      "line": 29,
+      "line": 30,
       "source_line": 25,
       "cut": "C14",
       "actors": {
@@ -1433,7 +1467,7 @@
       "paper_turn": []
     },
     {
-      "line": 30,
+      "line": 31,
       "source_line": 26,
       "cut": "C14",
       "actors": {
@@ -1470,7 +1504,7 @@
       "paper_turn": []
     },
     {
-      "line": 31,
+      "line": 32,
       "source_line": 27,
       "cut": "C14",
       "actors": {
@@ -1507,7 +1541,7 @@
       "paper_turn": []
     },
     {
-      "line": 32,
+      "line": 33,
       "source_line": 28,
       "cut": "C15",
       "actors": {
@@ -1559,7 +1593,7 @@
       "paper_turn": []
     },
     {
-      "line": 33,
+      "line": 34,
       "source_line": 29,
       "cut": "C16",
       "actors": {
@@ -1606,7 +1640,7 @@
       "paper_turn": []
     },
     {
-      "line": 34,
+      "line": 35,
       "source_line": 30,
       "cut": "C17",
       "actors": {
@@ -1653,7 +1687,7 @@
       "paper_turn": []
     },
     {
-      "line": 35,
+      "line": 36,
       "source_line": 31,
       "cut": "C18",
       "actors": {
@@ -1700,7 +1734,7 @@
       "paper_turn": []
     },
     {
-      "line": 36,
+      "line": 37,
       "source_line": 32,
       "cut": "C19",
       "actors": {
@@ -1747,7 +1781,7 @@
       "paper_turn": []
     },
     {
-      "line": 37,
+      "line": 38,
       "source_line": 33,
       "cut": "C19",
       "actors": {
@@ -1779,7 +1813,7 @@
       "paper_turn": []
     },
     {
-      "line": 38,
+      "line": 39,
       "source_line": 34,
       "cut": "C20",
       "actors": {
@@ -1824,6 +1858,6 @@
       "speaker": "maou"
     }
   ],
-  "scenario_revision": "bell_recovery_20260930",
+  "scenario_revision": "ch3_flow_20261022",
   "paper_bell_focus": true
 }

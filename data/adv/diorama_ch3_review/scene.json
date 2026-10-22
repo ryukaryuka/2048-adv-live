@@ -23,9 +23,33 @@
     },
     "bell": {
       "name": ""
+    },
+    "arachne": {
+      "name": "アラクネ"
     }
   },
   "lines": [
+    {
+      "source_line": -411,
+      "speaker": "hinata",
+      "text": "お、町が見えてきたっすよ！",
+      "cast": [
+        "hinata"
+      ],
+      "cut": "C00",
+      "music": "comic"
+    },
+    {
+      "source_line": -412,
+      "speaker": "kraken",
+      "text": "地上の町って、こんなに大きいのねえ。",
+      "cast": [
+        "kraken",
+        "hinata"
+      ],
+      "cut": "C00",
+      "music": "comic"
+    },
     {
       "source_line": 1,
       "speaker": "soldier",
@@ -235,42 +259,14 @@
       "music": "mystery"
     },
     {
-      "source_line": 14,
-      "speaker": "kraken",
-      "text": "それにしても、ずいぶん厳しいドレスコードねえ。",
-      "cast": [
-        "kraken",
-        "hinata"
-      ],
-      "cut": "S10_RECOVERY",
-      "music": "mystery",
-      "recovery_base": {
-        "source_line": 14,
-        "speaker": "kraken",
-        "text": "ずいぶん厳しいドレスコードねえ。",
-        "cast": [
-          "kraken"
-        ],
-        "cut": "C09",
-        "music": "mystery"
-      }
-    },
-    {
       "source_line": 15,
       "speaker": "hinata",
-      "text": "角としっぽで入店拒否っすか。",
+      "text": "もう一回話してみるっす。……あの、さっきの空いてる建物の話なんすけど。",
       "cast": [
         "hinata",
         "soldier"
       ],
       "cut": "C10",
-      "accents": {
-        "hinata": "sigh"
-      },
-      "accent_duration": 1.5,
-      "accent_delay": 0.06,
-      "sfx": "res://audio/adv/lab/stupid3.wav",
-      "sfx_delay": 0.1,
       "music": "mystery"
     },
     {
@@ -306,10 +302,10 @@
     },
     {
       "source_line": 19,
-      "speaker": "kraken",
+      "speaker": "arachne",
       "text": "鐘が鳴ってから、ね。",
       "cast": [
-        "kraken",
+        "arachne",
         "hinata"
       ],
       "cut": "C13",
@@ -433,7 +429,7 @@
     {
       "source_line": 29,
       "speaker": "soldier",
-      "text": "これ以上進むなら――！",
+      "text": "これ以上進むなら――！　この街道の先で、殿下が視察をなさっているのだぞ！",
       "cast": [
         "soldier"
       ],
@@ -443,7 +439,7 @@
     {
       "source_line": 30,
       "speaker": "kraken",
-      "text": "なるほど。王女様はこの先、と。",
+      "text": "あら。この道をまっすぐ行けばいいのね。",
       "cast": [
         "kraken"
       ],
@@ -509,5 +505,5 @@
   "show_draft_notice": false,
   "presentation_version": 2,
   "bgm": "res://audio/adv/candidates_20260928/comic.mp3",
-  "scenario_revision": "bell_recovery_20260930"
+  "scenario_revision": "ch3_flow_20261022"
 }
