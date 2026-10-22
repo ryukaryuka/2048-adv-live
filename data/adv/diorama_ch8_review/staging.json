@@ -2358,41 +2358,6 @@
       "paper_turn": []
     },
     {
-      "source_line": -3003,
-      "cut": "S30_C32",
-      "actors": {
-        "hinata": {
-          "pose": "hinata_composed_talk_reverse",
-          "x": 0.26,
-          "y": 0.47
-        },
-        "flare": {
-          "pose": "flare_listen",
-          "x": 0.754,
-          "y": 0.4
-        }
-      },
-      "effect": "new_home",
-      "cue": "",
-      "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 63,
-      "beat": {
-        "actor": "hinata",
-        "kind": "nod",
-        "amount": 3,
-        "duration": 0.58,
-        "delay": 0.06
-      },
-      "music": "hope",
-      "mood": "hope",
-      "paper_location": "valley",
-      "paper_world": "home",
-      "puppet_entries": {},
-      "puppet_exits": {},
-      "speaker": "hinata",
-      "paper_turn": []
-    },
-    {
       "source_line": 67,
       "cut": "S30_C32",
       "actors": {
@@ -2410,7 +2375,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 64,
+      "line": 63,
       "beat": {
         "actor": "flare",
         "kind": "nod",
@@ -2445,7 +2410,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 65,
+      "line": 64,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -2493,7 +2458,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 66,
+      "line": 65,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2528,7 +2493,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 67,
+      "line": 66,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2576,7 +2541,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 68,
+      "line": 67,
       "beat": {
         "actor": "flare",
         "kind": "tilt",
@@ -2611,7 +2576,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 69,
+      "line": 68,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2641,7 +2606,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 70,
+      "line": 69,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -2694,7 +2659,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 71,
+      "line": 70,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2748,7 +2713,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 72,
+      "line": 71,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2783,7 +2748,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 73,
+      "line": 72,
       "beat": {
         "actor": "hinata",
         "kind": "nod",
@@ -2818,7 +2783,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 74,
+      "line": 73,
       "beat": {
         "actor": "hinata",
         "kind": "tilt",
@@ -2853,7 +2818,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 75,
+      "line": 74,
       "beat": {
         "actor": "maou",
         "kind": "nod",
@@ -2883,7 +2848,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 76,
+      "line": 75,
       "beat": {
         "actor": "kraken",
         "kind": "nod",
@@ -2931,7 +2896,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 77,
+      "line": 76,
       "beat": {
         "actor": "hinata",
         "kind": "retort",
@@ -2974,7 +2939,7 @@
       "effect": "new_home",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
-      "line": 78,
+      "line": 77,
       "beat": {
         "actor": "maou",
         "kind": "nod",
