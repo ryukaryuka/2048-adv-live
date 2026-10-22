@@ -11505,7 +11505,7 @@
         {
           "source_line": 6,
           "speaker": "bishop",
-          "text": "この国が、人と魔を分けてきた力そのものです。",
+          "text": "初代の王の冠です。人と魔をともに治めた王の冠を……分けるために作り替えたのです。",
           "cast": [],
           "cut": "S29_C05",
           "music": "mystery"
@@ -11513,7 +11513,7 @@
         {
           "source_line": 7,
           "speaker": "kraken",
-          "text": "ずいぶん小さいのに、大仕事してたのねえ。",
+          "text": "冠ひとつで、国じゅうを動かしてたのねえ。",
           "cast": [],
           "cut": "S29_C05",
           "music": "mystery"
@@ -11598,7 +11598,7 @@
         {
           "source_line": 16,
           "speaker": "hinata",
-          "text": "王冠に許可もらって引っ越すつもりはないっす。",
+          "text": "冠に許可もらって引っ越すつもりはないっす。",
           "cast": [
             "kraken",
             "hinata"
@@ -11671,9 +11671,19 @@
           "music": "mystery"
         },
         {
+          "source_line": -2201,
+          "speaker": "bishop",
+          "text": "聖冠よ……初代王の御姿にて、この者たちを退けたまえ。",
+          "cast": [
+            "bishop"
+          ],
+          "cut": "S29_C12",
+          "music": "mystery"
+        },
+        {
           "source_line": 0,
-          "speaker": "narrator",
-          "text": "――BOSS：聖冠",
+          "speaker": "flare",
+          "text": "冠が……王の姿に……！",
           "cast": [],
           "cut": "S29_E22",
           "music": "mystery"

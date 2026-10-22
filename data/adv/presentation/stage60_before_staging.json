@@ -716,13 +716,43 @@
       "mood": "unease"
     },
     {
+      "source_line": -2201,
+      "cut": "S29_C12",
+      "actors": {
+        "hinata": {
+          "pose": "hinata_composed_talk_reverse",
+          "x": 0.26,
+          "y": 0.47
+        },
+        "maou": {
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
+        }
+      },
+      "effect": "",
+      "cue": "",
+      "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
+      "line": 23,
+      "camera": {
+        "zoom": 1.09,
+        "pan": [
+          -0.043,
+          -0.01
+        ],
+        "blur": 3.5
+      },
+      "music": "mystery",
+      "mood": "unease"
+    },
+    {
       "source_line": 0,
       "actors": {},
       "cut": "S29_E22",
       "cue": "defense",
       "effect": "defense",
       "background": "res://art/ui/stages/areas_v1/06_crown_palace.png",
-      "line": 23,
+      "line": 24,
       "camera": {
         "zoom": 1.16,
         "pan": [
