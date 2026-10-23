@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "contract": "party2048-adv-live-v1",
- "revision": 1792689915,
+ "revision": 1792724439,
  "files": {
   "data/adv/chapter1_staging.json": {
    "sha256": "6c2505f69a8170c7181513de549651ec6f84b3d302bd72804cf4f6353449ef0d",
@@ -64,8 +64,8 @@
    "bytes": 19729
   },
   "data/adv/diorama_ch5_review/staging.json": {
-   "sha256": "82ac9f01a1aed01d4eed6107c756ab4b54c38a91a16267c59df7b23de952a4a1",
-   "bytes": 75755
+   "sha256": "9f8f605e3a87e96fce0c297064c8c27dbb43b02df7830534b7f4f946e5f240ac",
+   "bytes": 75983
   },
   "data/adv/diorama_ch6_review/scene.json": {
    "sha256": "5c92ffd5aa367e897aff74166db30fef20d6a76b8f99988f1905ff590cc2b320",

@@ -245,6 +245,16 @@
       "face_width": 0.15,
       "chroma": false,
       "face_scale": 0.94
+    },
+    "arachne_thinking": {
+      "image": "res://art/adv/clean_cel_20260930/arachne_thinking.png",
+      "anchor": [
+        0.542,
+        0.137
+      ],
+      "face_width": 0.15,
+      "chroma": false,
+      "face_scale": 0.94
     }
   },
   "frames": [
@@ -1990,7 +2000,7 @@
       "cut": "S20_C25",
       "actors": {
         "arachne": {
-          "pose": "arachne_solo_room_fresh",
+          "pose": "arachne_thinking",
           "x": 0.5,
           "y": 0.4
         }
