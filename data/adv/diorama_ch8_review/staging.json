@@ -1259,13 +1259,7 @@
     {
       "source_line": 39,
       "cut": "S30_C22",
-      "actors": {
-        "maou": {
-          "pose": "maou_reply_reverse",
-          "x": 0.754,
-          "y": 0.34
-        }
-      },
+      "actors": {},
       "effect": "relocate",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
@@ -1275,20 +1269,20 @@
       "paper_location": "valley",
       "paper_world": "relocate",
       "puppet_entries": {},
-      "puppet_exits": {},
+      "puppet_exits": {
+        "maou": {
+          "kind": "drift",
+          "side": 1,
+          "duration": 0.78
+        }
+      },
       "speaker": "flare",
       "paper_turn": []
     },
     {
       "source_line": 40,
       "cut": "S30_C22",
-      "actors": {
-        "maou": {
-          "pose": "maou_reply_reverse",
-          "x": 0.754,
-          "y": 0.34
-        }
-      },
+      "actors": {},
       "effect": "relocate",
       "cue": "",
       "background": "res://art/adv/diorama_finale_20261002/paper_town_valley_v1.png",
@@ -1315,13 +1309,7 @@
       "paper_location": "valley",
       "paper_world": "home",
       "puppet_entries": {},
-      "puppet_exits": {
-        "maou": {
-          "kind": "drift",
-          "side": 1,
-          "duration": 0.78
-        }
-      },
+      "puppet_exits": {},
       "speaker": "slime",
       "paper_turn": []
     },
