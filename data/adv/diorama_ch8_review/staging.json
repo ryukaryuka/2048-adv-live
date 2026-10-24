@@ -1225,9 +1225,9 @@
       "cut": "S30_C22",
       "actors": {
         "maou": {
-          "pose": "maou_finale_lift",
-          "x": 0.77,
-          "y": 0.69
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
         }
       },
       "effect": "relocate",
@@ -1261,9 +1261,9 @@
       "cut": "S30_C22",
       "actors": {
         "maou": {
-          "pose": "maou_finale_lift",
-          "x": 0.77,
-          "y": 0.69
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
         }
       },
       "effect": "relocate",
@@ -1284,9 +1284,9 @@
       "cut": "S30_C22",
       "actors": {
         "maou": {
-          "pose": "maou_finale_lift",
-          "x": 0.77,
-          "y": 0.69
+          "pose": "maou_reply_reverse",
+          "x": 0.754,
+          "y": 0.34
         }
       },
       "effect": "relocate",
